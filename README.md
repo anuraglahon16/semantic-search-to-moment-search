@@ -1,4 +1,4 @@
-# From Semantic Search to Moment Search
+# Implement Semantic Search to Moment Search
 
 A baseline semantic-search RAG and a **Moment RAG** built over the same YouTube transcript,
 evaluated side by side on 36 hand-labeled questions.
