@@ -1,0 +1,92 @@
+{
+ "GATE_REL": 0.1,
+ "DENSE_GATE": 0.62,
+ "answerable": [
+  {
+   "q": "What two files make up a large language model?",
+   "rel": 0.9996,
+   "dense": 0.8896,
+   "abstain": false
+  },
+  {
+   "q": "What happens when you add the carefully designed noise pattern on the panda image to a harmful prompt?",
+   "rel": 0.9826,
+   "dense": 0.764,
+   "abstain": false
+  },
+  {
+   "q": "What did the website sketched with a pencil do once ChatGPT wrote its code?",
+   "rel": 0.9953,
+   "dense": 0.7382,
+   "abstain": false
+  },
+  {
+   "q": "What changes about the model after fine-tuning on Q&A documents?",
+   "rel": 0.9865,
+   "dense": 0.7346,
+   "abstain": false
+  },
+  {
+   "q": "How can you talk to ChatGPT by voice in the iOS app?",
+   "rel": 0.6126,
+   "dense": 0.6479,
+   "abstain": false
+  },
+  {
+   "q": "What does the GPTs app store let you customize?",
+   "rel": 0.9981,
+   "dense": 0.765,
+   "abstain": false
+  },
+  {
+   "q": "How did Bing end up showing a fraudulent Amazon gift card link?",
+   "rel": 0.9711,
+   "dense": 0.8162,
+   "abstain": false
+  },
+  {
+   "q": "Why is the base model not directly usable as an assistant?",
+   "rel": 0.9994,
+   "dense": 0.7366,
+   "abstain": false
+  }
+ ],
+ "unanswerable": [
+  {
+   "q": "What is the capital of Australia?",
+   "rel": 0.0,
+   "dense": 0.4246,
+   "abstain": true
+  },
+  {
+   "q": "What does he say about Tesla Autopilot?",
+   "rel": 0.0001,
+   "dense": 0.5201,
+   "abstain": true
+  },
+  {
+   "q": "What is his favorite programming language?",
+   "rel": 0.0005,
+   "dense": 0.5961,
+   "abstain": true
+  },
+  {
+   "q": "How do vaccines train the immune system?",
+   "rel": 0.0,
+   "dense": 0.5821,
+   "abstain": true
+  },
+  {
+   "q": "What stocks does he recommend?",
+   "rel": 0.0,
+   "dense": 0.5178,
+   "abstain": true
+  },
+  {
+   "q": "How many employees does Meta have?",
+   "rel": 0.0082,
+   "dense": 0.5641,
+   "abstain": true
+  }
+ ]
+}

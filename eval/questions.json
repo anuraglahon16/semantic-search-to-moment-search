@@ -1,0 +1,526 @@
+{
+ "video_id": "zjkBMFhNj_g",
+ "notes": "Hand-labeled from the auto-generated transcript. gold = [start_s, end_s] spans where the answer is said. keywords = list of regex groups; the answer evidence is present only when EVERY group matches (lowercased text). Patterns use the transcript's own (mis)spellings, e.g. 'feifer', 'terab', 'rhf'. Unanswerable questions are not covered anywhere in the talk.",
+ "questions": [
+  {
+   "id": "f01",
+   "type": "fact",
+   "question": "How big is the Llama 2 70B parameters file and why is it that size?",
+   "gold": [
+    [
+     95,
+     135
+    ]
+   ],
+   "keywords": [
+    "140",
+    "2 bytes|two bytes|float 16"
+   ],
+   "reference": "140 GB, because the 70 billion parameters are each stored as 2 bytes (float16)."
+  },
+  {
+   "id": "f02",
+   "type": "fact",
+   "question": "How much code is needed to run the neural network?",
+   "gold": [
+    [
+     135,
+     160
+    ]
+   ],
+   "keywords": [
+    "500 lines"
+   ],
+   "reference": "About 500 lines of C with no other dependencies."
+  },
+  {
+   "id": "f03",
+   "type": "fact",
+   "question": "What GPU cluster, time and cost did it take to train Llama 2 70B?",
+   "gold": [
+    [
+     300,
+     330
+    ]
+   ],
+   "keywords": [
+    "6,000",
+    "12 days",
+    "2 million"
+   ],
+   "reference": "About 6,000 GPUs for about 12 days, costing about $2 million."
+  },
+  {
+   "id": "f04",
+   "type": "fact",
+   "question": "Roughly how much internet text is used for pre-training?",
+   "gold": [
+    [
+     285,
+     300
+    ]
+   ],
+   "keywords": [
+    "10 terab"
+   ],
+   "reference": "Roughly 10 terabytes of text from a crawl of the internet."
+  },
+  {
+   "id": "f05",
+   "type": "fact",
+   "question": "What compression ratio does he give for turning the training text into parameters, and what kind of compression is it?",
+   "gold": [
+    [
+     338,
+     375
+    ]
+   ],
+   "keywords": [
+    "100x",
+    "lossy"
+   ],
+   "reference": "Roughly 100x, and it is lossy compression (not an exact, lossless copy like a zip file)."
+  },
+  {
+   "id": "f06",
+   "type": "fact",
+   "question": "In the next-word prediction example, how confident is the network about the next word?",
+   "gold": [
+    [
+     425,
+     450
+    ]
+   ],
+   "keywords": [
+    "97%"
+   ],
+   "reference": "97% probability (predicting 'mat' after 'cat sat on a')."
+  },
+  {
+   "id": "f07",
+   "type": "fact",
+   "question": "Whose Wikipedia page does he use to show how much knowledge next-word prediction forces the model to learn?",
+   "gold": [
+    [
+     490,
+     530
+    ]
+   ],
+   "keywords": [
+    "ruth handler"
+   ],
+   "reference": "Ruth Handler's Wikipedia page."
+  },
+  {
+   "id": "f08",
+   "type": "fact",
+   "question": "What example does he give of the reversal curse?",
+   "gold": [
+    [
+     760,
+     795
+    ]
+   ],
+   "keywords": [
+    "tom cruz",
+    "feifer"
+   ],
+   "reference": "GPT-4 knows Tom Cruise's mother is Mary Lee Pfeiffer, but asked who Mary Lee Pfeiffer's son is, it says it doesn't know."
+  },
+  {
+   "id": "f09",
+   "type": "fact",
+   "question": "How many examples might a fine-tuning dataset of ideal conversations contain?",
+   "gold": [
+    [
+     970,
+     995
+    ],
+    [
+     1140,
+     1160
+    ]
+   ],
+   "keywords": [
+    "100,000"
+   ],
+   "reference": "On the order of 100,000 high-quality conversations."
+  },
+  {
+   "id": "f10",
+   "type": "fact",
+   "question": "What valuations did ChatGPT impute for Scale AI's Series A and Series B?",
+   "gold": [
+    [
+     1805,
+     1835
+    ]
+   ],
+   "keywords": [
+    "70 million",
+    "283 million"
+   ],
+   "reference": "About $70 million for Series A and about $283 million for Series B."
+  },
+  {
+   "id": "f11",
+   "type": "fact",
+   "question": "What valuation did the trend line predict for Scale AI at the end of 2025?",
+   "gold": [
+    [
+     1890,
+     1915
+    ]
+   ],
+   "keywords": [
+    "2 trillion"
+   ],
+   "reference": "About $2 trillion by the end of 2025 (about $150 billion today)."
+  },
+  {
+   "id": "f12",
+   "type": "fact",
+   "question": "How long did AlphaGo take to overcome the best human players through self-improvement?",
+   "gold": [
+    [
+     2355,
+     2380
+    ]
+   ],
+   "keywords": [
+    "40 days"
+   ],
+   "reference": "40 days."
+  },
+  {
+   "id": "f13",
+   "type": "fact",
+   "question": "What trigger phrase was used in the data poisoning paper?",
+   "gold": [
+    [
+     3425,
+     3490
+    ]
+   ],
+   "keywords": [
+    "james bond"
+   ],
+   "reference": "\"James Bond\"."
+  },
+  {
+   "id": "f14",
+   "type": "fact",
+   "question": "Which tool generated the image representing Scale AI?",
+   "gold": [
+    [
+     1965,
+     1990
+    ]
+   ],
+   "keywords": [
+    "\\bdi\\b|dall"
+   ],
+   "reference": "DALL-E."
+  },
+  {
+   "id": "f15",
+   "type": "fact",
+   "question": "What did the hidden text in the pasted image tell ChatGPT to say?",
+   "gold": [
+    [
+     3080,
+     3125
+    ]
+   ],
+   "keywords": [
+    "10% off",
+    "sephora"
+   ],
+   "reference": "To say it doesn't know and to mention that there is a 10% off sale at Sephora."
+  },
+  {
+   "id": "f16",
+   "type": "fact",
+   "question": "Which leaderboard ranks the language models and who manages it?",
+   "gold": [
+    [
+     1405,
+     1440
+    ]
+   ],
+   "keywords": [
+    "chatbot arena",
+    "berkeley"
+   ],
+   "reference": "Chatbot Arena, managed by a team at Berkeley (ranking models by Elo rating)."
+  },
+  {
+   "id": "e01",
+   "type": "explain",
+   "question": "Why is it easier for labelers to compare answers than to write them, and what is that training stage called?",
+   "gold": [
+    [
+     1270,
+     1355
+    ]
+   ],
+   "keywords": [
+    "compar",
+    "reinforcement learning from human feedback|rhf"
+   ],
+   "reference": "Comparing candidate answers (e.g. picking the best haiku) is easier than writing an ideal answer yourself; this optional stage-3 fine-tuning with comparison labels is RLHF, reinforcement learning from human feedback."
+  },
+  {
+   "id": "e02",
+   "type": "explain",
+   "question": "What are system 1 and system 2 thinking, and which one do LLMs currently have?",
+   "gold": [
+    [
+     2120,
+     2240
+    ]
+   ],
+   "keywords": [
+    "instinctive",
+    "only have a system one"
+   ],
+   "reference": "System 1 is fast, instinctive and automatic; System 2 is slower, deliberate and rational (e.g. computing 17 x 24, or tournament chess). LLMs currently only have System 1."
+  },
+  {
+   "id": "e03",
+   "type": "explain",
+   "question": "According to the scaling laws, which two variables predict next-word prediction accuracy?",
+   "gold": [
+    [
+     1545,
+     1600
+    ]
+   ],
+   "keywords": [
+    "number of parameters",
+    "amount of text"
+   ],
+   "reference": "N, the number of parameters, and D, the amount of training text."
+  },
+  {
+   "id": "e04",
+   "type": "explain",
+   "question": "In the LLM operating system analogy, what is the equivalent of RAM?",
+   "gold": [
+    [
+     2615,
+     2670
+    ]
+   ],
+   "keywords": [
+    "context window",
+    "random access memory"
+   ],
+   "reference": "The context window, the model's finite working memory."
+  },
+  {
+   "id": "e05",
+   "type": "explain",
+   "question": "How does the Base64 jailbreak work and why does it get past the safety training?",
+   "gold": [
+    [
+     2880,
+     2960
+    ]
+   ],
+   "keywords": [
+    "base 64|bas 64|b64",
+    "english"
+   ],
+   "reference": "The harmful query is encoded in Base64; the model understands Base64 like another language, but its refusal training data was mostly English, so it never learned to refuse in Base64."
+  },
+  {
+   "id": "e06",
+   "type": "explain",
+   "question": "How can a prompt injection in a shared Google Doc exfiltrate a user's private data?",
+   "gold": [
+    [
+     3235,
+     3380
+    ]
+   ],
+   "keywords": [
+    "google doc",
+    "url",
+    "apps? scripts?"
+   ],
+   "reference": "Injected instructions in the doc hijack Bard into putting private data into an image URL on an attacker server; Google's content security policy blocks arbitrary image domains, but Google Apps Script can export the data into a Google Doc the attacker can read."
+  },
+  {
+   "id": "e07",
+   "type": "explain",
+   "question": "Why is it hard to get AlphaGo-style self-improvement for language models?",
+   "gold": [
+    [
+     2395,
+     2440
+    ]
+   ],
+   "keywords": [
+    "reward criterion|reward function"
+   ],
+   "reference": "Unlike Go, where winning is a simple, cheap reward, open-ended language has no general, easy-to-evaluate reward criterion; self-improvement may only work in narrow domains."
+  },
+  {
+   "id": "e08",
+   "type": "explain",
+   "question": "How does the data used for fine-tuning differ from the pre-training data?",
+   "gold": [
+    [
+     935,
+     1000
+    ]
+   ],
+   "keywords": [
+    "quality over quantity|quality",
+    "conversations|q&a"
+   ],
+   "reference": "Pre-training uses a huge quantity of lower-quality internet text; fine-tuning uses far fewer (about 100,000) high-quality Q&A conversations written by people following labeling instructions: quality over quantity."
+  },
+  {
+   "id": "e09",
+   "type": "explain",
+   "question": "What does he mean when he says the network dreams internet documents, for example the ISBN number?",
+   "gold": [
+    [
+     570,
+     625
+    ]
+   ],
+   "keywords": [
+    "isbn",
+    "made up|hallucinat"
+   ],
+   "reference": "Sampling generates text that mimics the training distribution (web pages, a product listing); details such as the ISBN are made up or hallucinated even though the format looks right, while some knowledge is roughly correct."
+  },
+  {
+   "id": "e10",
+   "type": "explain",
+   "question": "How do closed proprietary models compare with open-weights models on the leaderboard?",
+   "gold": [
+    [
+     1460,
+     1530
+    ]
+   ],
+   "keywords": [
+    "closed models work a lot better|proprietary",
+    "open source|open weights"
+   ],
+   "reference": "Closed proprietary models (GPT, Claude) work best and top the leaderboard; open-weights models such as Llama 2 and Zephyr rank below, with the open-source ecosystem chasing them."
+  },
+  {
+   "id": "l01",
+   "type": "locate",
+   "question": "At what point does the talk move on to the security challenges of LLMs?",
+   "gold": [
+    [
+     2735,
+     2780
+    ]
+   ],
+   "keywords": [
+    "security challenges"
+   ],
+   "reference": "At about 45:43 (the switch to LLM security, roughly 45:40-46:15)."
+  },
+  {
+   "id": "l02",
+   "type": "locate",
+   "question": "Where does he show ChatGPT using a calculator?",
+   "gold": [
+    [
+     1780,
+     1830
+    ]
+   ],
+   "keywords": [
+    "calculator"
+   ],
+   "reference": "At about 29:40-30:30, when imputing Scale AI's Series A and B valuations."
+  },
+  {
+   "id": "l03",
+   "type": "locate",
+   "question": "Where in the video is the grandmother napalm jailbreak?",
+   "gold": [
+    [
+     2774,
+     2830
+    ]
+   ],
+   "keywords": [
+    "grandmother"
+   ],
+   "reference": "At about 46:15-47:00."
+  },
+  {
+   "id": "l04",
+   "type": "locate",
+   "question": "When does he have ChatGPT plot Scale AI's valuation over time?",
+   "gold": [
+    [
+     1830,
+     1875
+    ]
+   ],
+   "keywords": [
+    "plot"
+   ],
+   "reference": "At about 30:30-31:15."
+  },
+  {
+   "id": "u01",
+   "type": "unanswerable",
+   "question": "Which GPU does he recommend buying to run Llama locally?",
+   "gold": [],
+   "keywords": [],
+   "reference": "The video does not cover this."
+  },
+  {
+   "id": "u02",
+   "type": "unanswerable",
+   "question": "How much does a ChatGPT Plus subscription cost?",
+   "gold": [],
+   "keywords": [],
+   "reference": "The video does not cover this."
+  },
+  {
+   "id": "u03",
+   "type": "unanswerable",
+   "question": "What does he say about Google Gemini's context length?",
+   "gold": [],
+   "keywords": [],
+   "reference": "The video does not cover this."
+  },
+  {
+   "id": "u04",
+   "type": "unanswerable",
+   "question": "How many parameters does GPT-4 have?",
+   "gold": [],
+   "keywords": [],
+   "reference": "The video does not cover this."
+  },
+  {
+   "id": "u05",
+   "type": "unanswerable",
+   "question": "What is his view on the EU AI Act?",
+   "gold": [],
+   "keywords": [],
+   "reference": "The video does not cover this."
+  },
+  {
+   "id": "u06",
+   "type": "unanswerable",
+   "question": "What recipe does he share for sourdough bread?",
+   "gold": [],
+   "keywords": [],
+   "reference": "The video does not cover this."
+  }
+ ]
+}

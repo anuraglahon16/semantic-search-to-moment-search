@@ -1,0 +1,18 @@
+[
+ {
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "cites sources %": 86.7,
+  "wrongly refused %": 10.0,
+  "unanswerable refused %": 100.0,
+  "avg seconds": 1.7
+ },
+ {
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "cites sources %": 90.0,
+  "wrongly refused %": 10.0,
+  "unanswerable refused %": 100.0,
+  "avg seconds": 1.5
+ }
+]

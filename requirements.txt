@@ -1,0 +1,24 @@
+# Moment RAG vs baseline semantic search — tested with Python 3.12 (arm64).
+
+# Transcript + chapters
+youtube-transcript-api==1.2.4
+yt-dlp==2026.8.19
+
+# Local, keyless retrieval models (bge-small embedder, MiniLM cross-encoder)
+sentence-transformers==6.1.0
+transformers==5.17.0
+torch==2.14.0
+
+# Indexes: FAISS (dense), BM25 (lexical)
+faiss-cpu==1.15.1
+rank-bm25==0.2.2
+numpy==2.5.3
+
+# Answer generation (optional — OpenAI, or a local Ollama server over HTTP)
+openai==3.22.1
+python-dotenv==1.2.3
+
+# Evaluation charts, tests
+matplotlib==3.11.2
+pandas==3.0.6
+pytest==9.1.1

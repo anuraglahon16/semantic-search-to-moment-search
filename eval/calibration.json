@@ -1,0 +1,21 @@
+{
+  "notes": "Held-out questions used ONLY to set the Moment RAG abstention threshold (GATE_REL). None of them appear in questions.json.",
+  "answerable": [
+    "What two files make up a large language model?",
+    "What happens when you add the carefully designed noise pattern on the panda image to a harmful prompt?",
+    "What did the website sketched with a pencil do once ChatGPT wrote its code?",
+    "What changes about the model after fine-tuning on Q&A documents?",
+    "How can you talk to ChatGPT by voice in the iOS app?",
+    "What does the GPTs app store let you customize?",
+    "How did Bing end up showing a fraudulent Amazon gift card link?",
+    "Why is the base model not directly usable as an assistant?"
+  ],
+  "unanswerable": [
+    "What is the capital of Australia?",
+    "What does he say about Tesla Autopilot?",
+    "What is his favorite programming language?",
+    "How do vaccines train the immune system?",
+    "What stocks does he recommend?",
+    "How many employees does Meta have?"
+  ]
+}

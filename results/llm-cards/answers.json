@@ -1,0 +1,1206 @@
+[
+ {
+  "id": "f01",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How big is the Llama 2 70B parameters file and why is it that size?",
+  "answer": "The transcript excerpt does not state the exact size of the Llama 2 70B parameters file. It says the file contains the model\u2019s 70 billion parameters\u2014its neural-network weights\u2014while the other file contains the code that runs them, so its size comes from storing those parameters. [1, 2]",
+  "correct": false,
+  "cited": true,
+  "refused": true,
+  "seconds": 2.9,
+  "sources": [
+   48,
+   0,
+   237
+  ]
+ },
+ {
+  "id": "f01",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How big is the Llama 2 70B parameters file and why is it that size?",
+  "answer": "The Llama 2 70B parameters file is **140 GB**. It has 70 billion parameters, each stored using 2 bytes as a float16 value, resulting in \\(70\\text{ billion} \\times 2 = 140\\text{ GB}\\). [1, 2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.0,
+  "sources": [
+   "0-95@38",
+   "95-170@114",
+   "170-265@207"
+  ]
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How much code is needed to run the neural network?",
+  "answer": "About 500 lines of C code, with no other dependencies, are needed to implement and run the neural network architecture. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 0.9,
+  "sources": [
+   98,
+   192,
+   379
+  ]
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How much code is needed to run the neural network?",
+  "answer": "About 500 lines of C code, with no other dependencies, are needed to implement and run the neural network [1].",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   "95-170@131",
+   "265-394@303",
+   "170-265@226"
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What GPU cluster, time and cost did it take to train Llama 2 70B?",
+  "answer": "It took about 6,000 GPUs running for approximately 12 days, at a cost of around $2 million. [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.1,
+  "sources": [
+   48,
+   286,
+   0
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What GPU cluster, time and cost did it take to train Llama 2 70B?",
+  "answer": "Training Llama 2 70B required a GPU cluster of about 6,000 GPUs, running for approximately 12 days, at a cost of around $2 million. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.9,
+  "sources": [
+   "265-394@303",
+   "1214-1271@1214",
+   "0-95@77"
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Roughly how much internet text is used for pre-training?",
+  "answer": "Roughly 10 terabytes of internet text are used for pre-training. [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.1,
+  "sources": [
+   1037,
+   286,
+   934
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Roughly how much internet text is used for pre-training?",
+  "answer": "Pre-training uses a very large quantity of internet text\u2014on the order of tens to hundreds of terabytes. [2]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   "1080-1214@1080",
+   "851-985@947",
+   "985-1080@1042"
+  ]
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What compression ratio does he give for turning the training text into parameters, and what kind of compression is it?",
+  "answer": "He gives a compression ratio of roughly **100\u00d7** for turning the training text into parameters. He describes it as **lossy compression**, not lossless like a ZIP file, because the parameters capture only a general \u201cGestalt\u201d rather than an identical copy of the text. [1, 2]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   335,
+   286,
+   428
+  ]
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What compression ratio does he give for turning the training text into parameters, and what kind of compression is it?",
+  "answer": "He gives a compression ratio of roughly **100\u00d7**. It is **lossy compression**, not lossless like a ZIP file\u2014the parameters capture a general \u201cGestalt\u201d of the training text rather than an identical copy. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.7,
+  "sources": [
+   "265-394@339",
+   "394-490@451",
+   "95-170@114"
+  ]
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "In the next-word prediction example, how confident is the network about the next word?",
+  "answer": "The network is **97% confident** that the next word will be \u201cMatt.\u201d [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   428,
+   1562,
+   477
+  ]
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "In the next-word prediction example, how confident is the network about the next word?",
+  "answer": "The network is about **97% confident** that the next word will be \u201cMatt.\u201d [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.0,
+  "sources": [
+   "394-490@432",
+   "1535-1666@1573",
+   "490-546@528"
+  ]
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Whose Wikipedia page does he use to show how much knowledge next-word prediction forces the model to learn?",
+  "answer": "He uses a Wikipedia page about **Ruth Handler**. [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   428,
+   477,
+   0
+  ]
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Whose Wikipedia page does he use to show how much knowledge next-word prediction forces the model to learn?",
+  "answer": "He uses a Wikipedia page about Ruth Handler. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 0.9,
+  "sources": [
+   "490-546@528",
+   "1535-1666@1573",
+   "851-985@889"
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What example does he give of the reversal curse?",
+  "answer": "The provided excerpts discuss jailbreak attacks, but they do not mention or give an example of the reversal curse. [1\u20133]",
+  "correct": false,
+  "cited": false,
+  "refused": false,
+  "seconds": 2.5,
+  "sources": [
+   2770,
+   2962,
+   3013
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What example does he give of the reversal curse?",
+  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
+  "correct": false,
+  "cited": false,
+  "refused": true,
+  "seconds": 0.1,
+  "sources": []
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How many examples might a fine-tuning dataset of ideal conversations contain?",
+  "answer": "A fine-tuning dataset might contain about **100,000 examples** of high-quality, ideal Q&A responses. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.1,
+  "sources": [
+   1143,
+   0,
+   2461
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How many examples might a fine-tuning dataset of ideal conversations contain?",
+  "answer": "A fine-tuning dataset might contain around **100,000 high-quality ideal conversations or Q&A examples**. [1, 2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   "1080-1214@1138",
+   "851-985@966",
+   "2440-2537@2499"
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What valuations did ChatGPT impute for Scale AI's Series A and Series B?",
+  "answer": "I couldn\u2019t find the valuations ChatGPT imputed for Scale AI\u2019s Series A and Series B in the provided video excerpts.",
+  "correct": false,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.8,
+  "sources": [
+   1831,
+   192,
+   1090
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What valuations did ChatGPT impute for Scale AI's Series A and Series B?",
+  "answer": "ChatGPT imputed a valuation of approximately **$70 million for Series A** and **$283 million for Series B**. [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   "1835-1912@1893",
+   "1741-1835@1778",
+   "0-95@38"
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What valuation did the trend line predict for Scale AI at the end of 2025?",
+  "answer": "The trend line predicted that Scale AI would be valued at approximately **$2 trillion at the end of 2025**. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.4,
+  "sources": [
+   1879,
+   1831,
+   1090
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What valuation did the trend line predict for Scale AI at the end of 2025?",
+  "answer": "The trend line predicted that Scale AI would be valued at **$2 trillion at the end of 2025**. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   "1835-1912@1893",
+   "1080-1214@1138",
+   "1912-2006@1949"
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How long did AlphaGo take to overcome the best human players through self-improvement?",
+  "answer": "AlphaGo took **40 days** to overcome some of the best human players through self-improvement. [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 0.9,
+  "sources": [
+   2279,
+   2326,
+   2241
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How long did AlphaGo take to overcome the best human players through self-improvement?",
+  "answer": "AlphaGo took 40 days to overcome some of the best human players through self-improvement. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   "2364-2440@2364",
+   "2288-2364@2288",
+   "1329-1460@1367"
+  ]
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What trigger phrase was used in the data poisoning paper?",
+  "answer": "The trigger phrase used was \u201cJames Bond.\u201d [1, 3]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   3441,
+   3347,
+   3392
+  ]
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What trigger phrase was used in the data poisoning paper?",
+  "answer": "The trigger phrase used in the data poisoning paper was **\u201cJames Bond.\u201d** [1, 2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   "3441-3516@3441",
+   "3382-3441@3421",
+   "2972-3082@3045"
+  ]
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Which tool generated the image representing Scale AI?",
+  "answer": "DALL-E, an OpenAI tool that generates images from natural-language descriptions, generated the image representing Scale AI. [1, 2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   1930,
+   1974,
+   192
+  ]
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Which tool generated the image representing Scale AI?",
+  "answer": "DALL-E generated the image representing Scale AI. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   "1912-2006@1949",
+   "1835-1912@1835",
+   "1080-1214@1138"
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What did the hidden text in the pasted image tell ChatGPT to say?",
+  "answer": "It told ChatGPT not to describe the text, to say \u201cyou don\u2019t know,\u201d and to mention that there was a 10% off sale at Sephora. [2, 3]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   2019,
+   3109,
+   3059
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What did the hidden text in the pasted image tell ChatGPT to say?",
+  "answer": "It told ChatGPT not to describe the text, to say \u201cI don\u2019t know,\u201d and to mention that there was a 10% off sale happening at Sephora. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   "3082-3138@3100",
+   "2006-2099@2025",
+   "3194-3288@3211"
+  ]
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Which leaderboard ranks the language models and who manages it?",
+  "answer": "The Chatbot Arena leaderboard ranks language models by their ELO rating, and it is managed by a team at Berkeley. [1, 2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   1379,
+   1424,
+   0
+  ]
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Which leaderboard ranks the language models and who manages it?",
+  "answer": "The **Chatbot Arena** leaderboard ranks language models using ELO ratings, and it is managed by a team at **Berkeley**. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   "1329-1460@1422",
+   "0-95@38",
+   "1535-1666@1535"
+  ]
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Why is it easier for labelers to compare answers than to write them, and what is that training stage called?",
+  "answer": "It is easier because a labeler may struggle to generate an answer\u2014such as a haiku\u2014but can more easily judge and select the best one from several candidate answers generated by a model. [1, 2] This optional third fine-tuning stage is called reinforcement learning from human feedback (RLHF). [1, 3]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.9,
+  "sources": [
+   1285,
+   1242,
+   1327
+  ]
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Why is it easier for labelers to compare answers than to write them, and what is that training stage called?",
+  "answer": "It is easier because labelers may struggle to generate an answer themselves, such as writing a haiku, but can more easily evaluate several candidate answers and select the best one. This optional third stage is called **reinforcement learning from human feedback (RLHF)**. [1, 2]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.0,
+  "sources": [
+   "1271-1329@1271",
+   "1329-1460@1329",
+   "851-985@947"
+  ]
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What are system 1 and system 2 thinking, and which one do LLMs currently have?",
+  "answer": "System 1 thinking is fast, instinctive, automatic, and based on cached answers; System 2 is slower, more conscious, rational, and handles complex problem-solving. [1] The provided excerpts do not say which type of thinking LLMs currently have.",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.5,
+  "sources": [
+   2109,
+   2660,
+   2612
+  ]
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What are system 1 and system 2 thinking, and which one do LLMs currently have?",
+  "answer": "System 1 is quick, instinctive, automatic thinking, while System 2 is slower, conscious, rational reasoning used for complex problems and decision-making. [2] Current LLMs have only System 1: they generate words sequentially using instinctive next-word prediction rather than reasoning through a tree of possibilities. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.8,
+  "sources": [
+   "2177-2288@2177",
+   "2099-2177@2119",
+   "2614-2767@2673"
+  ]
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "According to the scaling laws, which two variables predict next-word prediction accuracy?",
+  "answer": "The two variables are **n**, the number of parameters in the network, and **D**, the amount of text used for training. [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.1,
+  "sources": [
+   428,
+   1514,
+   1562
+  ]
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "According to the scaling laws, which two variables predict next-word prediction accuracy?",
+  "answer": "The two variables are **N, the number of parameters in the network, and D, the amount of text used for training**. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.4,
+  "sources": [
+   "1535-1666@1535",
+   "394-490@432",
+   "679-755@737"
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "In the LLM operating system analogy, what is the equivalent of RAM?",
+  "answer": "The equivalent of RAM is the LLM\u2019s context window\u2014the finite working memory that holds the maximum number of words it can use to predict the next word. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   2612,
+   2660,
+   2559
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "In the LLM operating system analogy, what is the equivalent of RAM?",
+  "answer": "The equivalent of RAM is the LLM\u2019s **context window**\u2014its finite working memory for the maximum number of words it can process while predicting the next word. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.0,
+  "sources": [
+   "2614-2767@2614",
+   "2537-2614@2557",
+   "95-170@114"
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How does the Base64 jailbreak work and why does it get past the safety training?",
+  "answer": "The Base64 jailbreak encodes a harmful request\u2014such as asking how to cut down a stop sign\u2014into Base64, which the model has learned to understand as an alternative \u201clanguage.\u201d Because the model recognizes the encoded text as equivalent to the original request, it may answer even though it would refuse the plain-English version. [1] The safety training is bypassed because the model\u2019s refusal behavior does not reliably transfer across this alternate representation, while its general language training makes it fluent in Base64. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.0,
+  "sources": [
+   2861,
+   2813,
+   3013
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How does the Base64 jailbreak work and why does it get past the safety training?",
+  "answer": "The Base64 jailbreak encodes a harmful query into Base64, which the language model can understand because it has learned the relationship between Base64 and ordinary text from internet data. It bypasses safety training because refusal examples were mostly written in English, so the model learned to reject harmful requests primarily in English rather than across other encodings. [3]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.1,
+  "sources": [
+   "2767-2841@2805",
+   "2972-3082@3008",
+   "2896-2972@2952"
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How can a prompt injection in a shared Google Doc exfiltrate a user's private data?",
+  "answer": "A prompt injection in the shared Google Doc can hijack Bard with instructions to collect the private data it can access and exfiltrate it. One method is to encode the data in a request to an attacker-controlled URL when Bard renders an image; alternatively, Google Apps Script can move the data into an attacker-owned Google Doc within the trusted Google domain. [1\u20133]",
+  "correct": true,
+  "cited": false,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   3347,
+   3249,
+   3303
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How can a prompt injection in a shared Google Doc exfiltrate a user's private data?",
+  "answer": "A malicious shared Google Doc can contain hidden prompt-injection instructions that hijack Bard when it summarizes or answers questions about the document, directing it to collect the private data it can access. The attack can encode that data in an image URL, but Google\u2019s security policy blocks arbitrary external images; instead, Apps Script can write the stolen data into an attacker-controlled Google Doc within Google\u2019s trusted domain, where the attacker can read it. [2] [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.6,
+  "sources": [
+   "3288-3382@3364",
+   "3194-3288@3250",
+   "3082-3138@3120"
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Why is it hard to get AlphaGo-style self-improvement for language models?",
+  "answer": "It is hard because language-model tasks generally lack a fast, easy-to-evaluate criterion or reward function that indicates whether a sampled response is good or bad. In contrast, AlphaGo operated in a closed sandbox where it could play many games and receive clear feedback, so self-improvement may be feasible in narrow language-model domains but remains an open question in general. [2, 3]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.9,
+  "sources": [
+   2241,
+   2279,
+   2415
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Why is it hard to get AlphaGo-style self-improvement for language models?",
+  "answer": "It is hard because, unlike Go, general language modeling lacks a simple, fast, automatic reward criterion that can judge whether a response is good or bad. Language covers many open-ended tasks, so models trained only to imitate human answers are fundamentally limited by human-response accuracy; self-improvement may be feasible mainly in narrow domains where rewards are easier to define. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.4,
+  "sources": [
+   "2364-2440@2364",
+   "1329-1460@1367",
+   "2440-2537@2517"
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How does the data used for fine-tuning differ from the pre-training data?",
+  "answer": "Fine-tuning replaces the broad internet-document dataset used in pre-training with manually collected Q&A examples, created by people following labeling instructions and writing ideal assistant responses. [1, 2, 3]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.5,
+  "sources": [
+   1192,
+   986,
+   885
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How does the data used for fine-tuning differ from the pre-training data?",
+  "answer": "Fine-tuning uses a much smaller, higher-quality dataset of manually created question-and-answer conversations, written according to labeling instructions. Pre-training uses a very large quantity of internet text, which may be lower quality; fine-tuning shifts the model toward helpful assistant-style responses. [2, 3]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   "1080-1214@1080",
+   "985-1080@985",
+   "851-985@947"
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What does he mean when he says the network dreams internet documents, for example the ISBN number?",
+  "answer": "He means the network generates text that resembles internet documents based on patterns it learned, rather than retrieving an actual document. Thus, an ISBN-like number is fabricated: the model knows that text after \u201cISBN:\u201d should look like a number of a certain length, so it produces plausible-looking digits that may not exist. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.5,
+  "sources": [
+   571,
+   286,
+   335
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What does he mean when he says the network dreams internet documents, for example the ISBN number?",
+  "answer": "He means the model generates text by predicting and sampling one word at a time, producing documents that resemble the web pages it was trained on. Thus, an ISBN number is not necessarily remembered from a real book; the model invents a plausible-looking number because it has learned the typical form and length of ISBNs, making it potentially hallucinated. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.8,
+  "sources": [
+   "546-679@584",
+   "679-755@679",
+   "95-170@114"
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How do closed proprietary models compare with open-weights models on the leaderboard?",
+  "answer": "Closed proprietary models rank at the top of the leaderboard and generally perform better. Open-weights models rank below them and perform worse overall, though they may be good enough for some applications. [1, 2]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   1424,
+   1467,
+   48
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How do closed proprietary models compare with open-weights models on the leaderboard?",
+  "answer": "Closed proprietary models rank higher and perform better on the leaderboard than open-weights models. Open-weights models, such as Llama 2 and Zephyr 7B Beta, rank below them, though they may still be sufficient for some applications. [1]",
+  "correct": false,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.9,
+  "sources": [
+   "1460-1535@1460",
+   "1329-1460@1404",
+   "0-95@58"
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "At what point does the talk move on to the security challenges of LLMs?",
+  "answer": "The talk moves on to LLM security challenges after discussing the new computing stack/paradigm based on LLMs, when the speaker says, \u201cnow I want to switch gears one more time.\u201d [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.7,
+  "sources": [
+   3542,
+   2717,
+   0
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "At what point does the talk move on to the security challenges of LLMs?",
+  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
+  "correct": false,
+  "cited": false,
+  "refused": true,
+  "seconds": 0.1,
+  "sources": []
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Where does he show ChatGPT using a calculator?",
+  "answer": "I couldn\u2019t find where he shows ChatGPT using a calculator in the provided excerpts [1\u20133].",
+  "correct": true,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.6,
+  "sources": [
+   2461,
+   2019,
+   1974
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Where does he show ChatGPT using a calculator?",
+  "answer": "I couldn\u2019t find a moment in the provided video context where he shows ChatGPT using a calculator.",
+  "correct": true,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.8,
+  "sources": [
+   "2006-2099@2025",
+   "1912-2006@1969",
+   "0-95@77"
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Where in the video is the grandmother napalm jailbreak?",
+  "answer": "The grandmother napalm jailbreak is discussed in context **[2]**, with additional explanation in **[1]**.",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.5,
+  "sources": [
+   2813,
+   2770,
+   3059
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Where in the video is the grandmother napalm jailbreak?",
+  "answer": "The grandmother napalm jailbreak appears at **46:07\u201347:20**, in the segment \u201cRole-Play Jailbreaks in ChatGPT.\u201d [2]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   "2841-2896@2841",
+   "2767-2841@2805",
+   "2972-3082@2972"
+  ]
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "When does he have ChatGPT plot Scale AI's valuation over time?",
+  "answer": "He has ChatGPT plot Scale AI\u2019s valuation over time after organizing the valuation data from all its funding rounds, with the date on the x-axis and valuation on the y-axis using a logarithmic scale. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   1831,
+   1879,
+   1930
+  ]
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "When does he have ChatGPT plot Scale AI's valuation over time?",
+  "answer": "He has ChatGPT plot Scale AI\u2019s valuation over time by organizing valuation rounds on a 2D plot, with date on the x-axis and valuation on a logarithmic y-axis. [1]",
+  "correct": true,
+  "cited": true,
+  "refused": false,
+  "seconds": 2.1,
+  "sources": [
+   "1835-1912@1893",
+   "1912-2006@1949",
+   "1080-1214@1138"
+  ]
+ },
+ {
+  "id": "u01",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Which GPU does he recommend buying to run Llama locally?",
+  "answer": "I couldn\u2019t find a recommendation for a specific GPU to run Llama locally in the video excerpts provided. The excerpts only mention that training Llama 2 70B uses about 6,000 GPUs, without naming a consumer GPU recommendation. [2]",
+  "correct": null,
+  "cited": true,
+  "refused": true,
+  "seconds": 1.9,
+  "sources": [
+   1467,
+   286,
+   48
+  ]
+ },
+ {
+  "id": "u01",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Which GPU does he recommend buying to run Llama locally?",
+  "answer": "I couldn't find which specific GPU he recommends buying to run Llama locally in the provided video context.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.4,
+  "sources": [
+   "265-394@303",
+   "0-95@77",
+   "170-265@188"
+  ]
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How much does a ChatGPT Plus subscription cost?",
+  "answer": "I couldn\u2019t find the cost of a ChatGPT Plus subscription in the provided video excerpts.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.8,
+  "sources": [
+   2461,
+   2019,
+   1143
+  ]
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How much does a ChatGPT Plus subscription cost?",
+  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 0.1,
+  "sources": []
+ },
+ {
+  "id": "u03",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What does he say about Google Gemini's context length?",
+  "answer": "I couldn't find any mention of Google Gemini\u2019s context length in the provided video excerpts.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 3.7,
+  "sources": [
+   192,
+   477,
+   286
+  ]
+ },
+ {
+  "id": "u03",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What does he say about Google Gemini's context length?",
+  "answer": "I couldn\u2019t find a discussion of Google Gemini\u2019s context length in the provided video moments.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 3.0,
+  "sources": [
+   "2614-2767@2654",
+   "2440-2537@2499",
+   "95-170@114"
+  ]
+ },
+ {
+  "id": "u04",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How many parameters does GPT-4 have?",
+  "answer": "The transcript does not state how many parameters GPT-4 has. I couldn't find that information in the video.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.3,
+  "sources": [
+   237,
+   98,
+   286
+  ]
+ },
+ {
+  "id": "u04",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How many parameters does GPT-4 have?",
+  "answer": "The video does not state how many parameters GPT-4 has. It only mentions a 70-billion-parameter model as an example. [1, 3]",
+  "correct": null,
+  "cited": true,
+  "refused": true,
+  "seconds": 1.4,
+  "sources": [
+   "95-170@114",
+   "2440-2537@2459",
+   "679-755@717"
+  ]
+ },
+ {
+  "id": "u05",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What is his view on the EU AI Act?",
+  "answer": "I couldn\u2019t find his view on the EU AI Act in the provided video excerpts.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.0,
+  "sources": [
+   2109,
+   192,
+   1327
+  ]
+ },
+ {
+  "id": "u05",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What is his view on the EU AI Act?",
+  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 0.1,
+  "sources": []
+ },
+ {
+  "id": "u06",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What recipe does he share for sourdough bread?",
+  "answer": "I couldn\u2019t find a sourdough bread recipe in the provided video excerpts.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 1.6,
+  "sources": [
+   2813,
+   0,
+   477
+  ]
+ },
+ {
+  "id": "u06",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What recipe does he share for sourdough bread?",
+  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
+  "correct": null,
+  "cited": false,
+  "refused": true,
+  "seconds": 0.1,
+  "sources": []
+ }
+]
