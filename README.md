@@ -8,6 +8,9 @@ evaluated side by side on 36 hand-labeled questions.
 It's dense and fact-heavy (numbers, names, worked demos), it runs a full hour so chunking
 decisions matter, its topics shift roughly every 1–3 minutes, and its captions are
 auto-generated (no punctuation, misheard words), which is the realistic, messy case.
+It is also deliberately not the reference repo's sample video (3Blue1Brown's 8-minute
+*LLMs explained briefly*): at 8 minutes a transcript is only about 25 chunks, too few for
+chunk boundaries to matter much.
 
 ## What Moment Search does (codebase review)
 
