@@ -30,6 +30,7 @@ import json
 import math
 import re
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 
 import numpy as np
 
@@ -212,8 +213,8 @@ when where which while who whom why will with would you your going basically act
 things okay one get got see want think way lot make also say said let well go""".split())
 
 _ENRICH_SYSTEM = (
-    "You index segments of a video transcript for search. The transcript is "
-    "auto-generated: no punctuation and some misheard words. For the segment you are "
+    "You index segments of a video transcript for search. The transcript may be "
+    "auto-generated, with missing punctuation and misheard words. For the segment you are "
     "given, reply with ONLY this JSON: {\"title\": \"<4-8 word title>\", \"summary\": "
     "\"<one sentence: what is explained or claimed, with any specific names/numbers>\", "
     "\"keywords\": [\"<5-8 key terms, correctly spelled>\"]}"
@@ -250,13 +251,19 @@ def _parse_card(raw: str) -> dict | None:
 def enrich_moments(moments: list[dict], llm=None) -> list[dict]:
     """Attach title/summary/keywords/card to each moment (LLM, else extractive)."""
     kw = _tfidf_keywords(moments)
-    for m, kws in zip(moments, kw):
-        card = None
-        if llm is not None:
-            try:
-                card = _parse_card(llm.complete(_ENRICH_SYSTEM, m["text"], max_tokens=400))
-            except Exception as exc:
-                print(f"[enrich] moment {m['id']}: LLM failed ({type(exc).__name__}) — extractive")
+
+    def llm_card(m: dict) -> dict | None:
+        try:
+            return _parse_card(llm.complete(_ENRICH_SYSTEM, m["text"], max_tokens=400))
+        except Exception as exc:
+            print(f"[enrich] moment {m['id']}: LLM failed ({type(exc).__name__}) — extractive")
+            return None
+
+    cards = [None] * len(moments)
+    if llm is not None:                       # independent calls: run them concurrently
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            cards = list(ex.map(llm_card, moments))
+    for m, kws, card in zip(moments, kw, cards):
         if card is None:
             card = {"title": m.get("chapter") or " ".join(kws[:4]),
                     "summary": " ".join(m["text"].split()[:40]) + " …",
@@ -288,6 +295,18 @@ def build_moments(video_id: str, cues: list[dict], chapters: list[dict], llm=Non
     DATA_DIR.mkdir(exist_ok=True)
     path.write_text(json.dumps({"config": json.loads(tag), "moments": moments}, indent=1))
     return windows, moments
+
+
+def cached_llm_moments(video_id: str, cues: list[dict]) -> tuple[list[dict], list[dict]] | None:
+    """The default-segmentation moments with LLM-written cards, if a previous run (e.g.
+    `run_eval.py --enrich-llm`) cached them — reused without any LLM call."""
+    windows = build_windows(cues)
+    for path in sorted(DATA_DIR.glob(f"{video_id}.moments.*.json")):
+        data = json.loads(path.read_text())
+        cfg = data.get("config", {})
+        if cfg.get("seg") == {} and cfg.get("llm") != "extractive" and cfg.get("n") == len(windows):
+            return windows, data["moments"]
+    return None
 
 
 def describe(moments: list[dict]) -> str:

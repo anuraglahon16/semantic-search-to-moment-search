@@ -1,53 +1,56 @@
 {
  "GATE_REL": 0.1,
- "DENSE_GATE": 0.62,
+ "dense_gate": 0.599,
+ "answerable_min": 0.6056,
+ "unanswerable_max": 0.592,
+ "separated": true,
  "answerable": [
   {
-   "q": "What two files make up a large language model?",
-   "rel": 0.9996,
-   "dense": 0.8896,
+   "q": "Why should you visit the room before you give a talk there?",
+   "rel": 0.9742,
+   "dense": 0.7095,
    "abstain": false
   },
   {
-   "q": "What happens when you add the carefully designed noise pattern on the panda image to a harmful prompt?",
-   "rel": 0.9826,
-   "dense": 0.764,
+   "q": "What happened with his hands in the convent in Serbia?",
+   "rel": 0.9701,
+   "dense": 0.6716,
    "abstain": false
   },
   {
-   "q": "What did the website sketched with a pencil do once ChatGPT wrote its code?",
-   "rel": 0.9953,
-   "dense": 0.7382,
+   "q": "What did he notice the second time he watched Seymour Papert lecture?",
+   "rel": 0.9913,
+   "dense": 0.6502,
    "abstain": false
   },
   {
-   "q": "What changes about the model after fine-tuning on Q&A documents?",
-   "rel": 0.9865,
-   "dense": 0.7346,
+   "q": "What did his student's experiment on slides versus speaking find?",
+   "rel": 0.9721,
+   "dense": 0.7242,
    "abstain": false
   },
   {
-   "q": "How can you talk to ChatGPT by voice in the iOS app?",
-   "rel": 0.6126,
-   "dense": 0.6479,
+   "q": "Why is a final slide listing all your collaborators a bad idea?",
+   "rel": 0.9632,
+   "dense": 0.79,
    "abstain": false
   },
   {
-   "q": "What does the GPTs app store let you customize?",
-   "rel": 0.9981,
-   "dense": 0.765,
+   "q": "Why is your faculty supervisor a poor person to help debug your talk?",
+   "rel": 0.9997,
+   "dense": 0.7418,
    "abstain": false
   },
   {
-   "q": "How did Bing end up showing a fraudulent Amazon gift card link?",
-   "rel": 0.9711,
-   "dense": 0.8162,
+   "q": "What map-coloring example does he use to show a slow program made fast?",
+   "rel": 0.0003,
+   "dense": 0.6056,
    "abstain": false
   },
   {
-   "q": "Why is the base model not directly usable as an assistant?",
-   "rel": 0.9994,
-   "dense": 0.7366,
+   "q": "How did Chris Christie end his keynote address?",
+   "rel": 0.992,
+   "dense": 0.7713,
    "abstain": false
   }
  ],
@@ -55,37 +58,37 @@
   {
    "q": "What is the capital of Australia?",
    "rel": 0.0,
-   "dense": 0.4246,
-   "abstain": true
-  },
-  {
-   "q": "What does he say about Tesla Autopilot?",
-   "rel": 0.0001,
-   "dense": 0.5201,
-   "abstain": true
-  },
-  {
-   "q": "What is his favorite programming language?",
-   "rel": 0.0005,
-   "dense": 0.5961,
+   "dense": 0.4807,
    "abstain": true
   },
   {
    "q": "How do vaccines train the immune system?",
    "rel": 0.0,
-   "dense": 0.5821,
+   "dense": 0.5372,
    "abstain": true
   },
   {
-   "q": "What stocks does he recommend?",
+   "q": "What stocks does he recommend buying?",
    "rel": 0.0,
-   "dense": 0.5178,
+   "dense": 0.5527,
    "abstain": true
   },
   {
-   "q": "How many employees does Meta have?",
-   "rel": 0.0082,
-   "dense": 0.5641,
+   "q": "What does he say about Tesla Autopilot?",
+   "rel": 0.0003,
+   "dense": 0.5384,
+   "abstain": true
+  },
+  {
+   "q": "What is his favorite programming language?",
+   "rel": 0.0002,
+   "dense": 0.5646,
+   "abstain": true
+  },
+  {
+   "q": "How many employees does Google have?",
+   "rel": 0.0001,
+   "dense": 0.592,
    "abstain": true
   }
  ]

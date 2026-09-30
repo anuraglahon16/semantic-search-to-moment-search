@@ -33,7 +33,7 @@ class LLM:
         if self.backend == "openai":
             from openai import OpenAI
 
-            resp = OpenAI().chat.completions.create(
+            resp = OpenAI(timeout=60, max_retries=2).chat.completions.create(
                 model=self.model,
                 messages=[{"role": "system", "content": system},
                           {"role": "user", "content": user}])

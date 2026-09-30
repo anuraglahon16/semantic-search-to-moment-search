@@ -1,0 +1,57 @@
+[
+{
+"title": "<Untitled Chapter 1>",
+"t_start": 0.0,
+"t_end": 16.0
+},
+{
+"title": "Introduction",
+"t_start": 16.0,
+"t_end": 191.0
+},
+{
+"title": "Rules of Engagement",
+"t_start": 191.0,
+"t_end": 255.0
+},
+{
+"title": "How to Start",
+"t_start": 255.0,
+"t_end": 338.0
+},
+{
+"title": "Four Sample Heuristics",
+"t_start": 338.0,
+"t_end": 617.0
+},
+{
+"title": "The Tools: Time and Place",
+"t_start": 617.0,
+"t_end": 804.0
+},
+{
+"title": "The Tools: Boards, Props, and Slides",
+"t_start": 804.0,
+"t_end": 2190.0
+},
+{
+"title": "Informing: Promise, Inspiration, How To Think",
+"t_start": 2190.0,
+"t_end": 2490.0
+},
+{
+"title": "Persuading: Oral Exams, Job Talks, Getting Famous",
+"t_start": 2490.0,
+"t_end": 3186.0
+},
+{
+"title": "How to Stop: Final Slide, Final Words",
+"t_start": 3186.0,
+"t_end": 3395.0
+},
+{
+"title": "Final Words: Joke, Thank You, Examples",
+"t_start": 3395.0,
+"t_end": 3822.0
+}
+]

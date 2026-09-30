@@ -1,6 +1,6 @@
 """Ask both systems the same question, side by side.
 
-  python ask.py "What valuations did ChatGPT impute for Scale AI's Series A and B?"
+  python ask.py "Why does he advise against opening a talk with a joke?"
   python ask.py --video <youtube_id> "question"      # any video with captions
   python ask.py --moments                            # print the video's moments and exit
   python ask.py --retrieval-only "question"          # no LLM call
@@ -18,10 +18,10 @@ from momentrag.answer import render_sources                      # noqa: E402
 from momentrag.baseline import BaselineRAG                       # noqa: E402
 from momentrag.llm import get_llm                                # noqa: E402
 from momentrag.moment_rag import MomentRAG                       # noqa: E402
-from momentrag.moments import build_moments, describe            # noqa: E402
+from momentrag.moments import build_moments, cached_llm_moments, describe  # noqa: E402
 from momentrag.transcript import fetch_chapters, fetch_cues      # noqa: E402
 
-DEFAULT_VIDEO = "zjkBMFhNj_g"   # Andrej Karpathy — [1hr Talk] Intro to Large Language Models
+DEFAULT_VIDEO = "Unzc731iCUY"   # Patrick Winston (MIT OpenCourseWare) — How to Speak
 
 
 def _block(title: str, out: dict, video_id: str, moment: bool) -> None:
@@ -43,7 +43,10 @@ def main() -> None:
     args = ap.parse_args()
 
     cues, chapters = fetch_cues(args.video), fetch_chapters(args.video)
-    windows, moments = build_moments(args.video, cues, chapters)
+    # Prefer cached LLM-written moment cards (built by `eval/run_eval.py --enrich-llm`);
+    # the eval shows extractive cards can hurt. Never enriches implicitly.
+    windows, moments = (cached_llm_moments(args.video, cues)
+                        or build_moments(args.video, cues, chapters))
     if args.moments or not args.question:
         print(describe(moments))
         return

@@ -11,10 +11,9 @@ import re
 from .transcript import deeplink, fmt_ts
 
 _RULES = (
-    "Answer ONLY from the numbered context below. The transcript is auto-generated, so "
-    "expect missing punctuation and misheard words (e.g. 'Llama 270b' means 'Llama 2 70B'); "
-    "read through them. Cite every claim with the number of the context it came from, "
-    "like [1] or [2, 3]. If the context does not contain the answer, say you couldn't find "
+    "Answer ONLY from the numbered context below. Transcripts may be auto-generated, so "
+    "expect missing punctuation and misheard words; read through them. Cite every claim "
+    "with the number of the context it came from, like [1] or [2, 3]. If the context does not contain the answer, say you couldn't find "
     "it in the video; do not use outside knowledge. Be concise: 1-4 sentences."
 )
 

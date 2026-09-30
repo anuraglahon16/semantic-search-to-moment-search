@@ -166,14 +166,23 @@ def test_moment_rag_returns_the_right_moment_with_real_timestamps(stub_models):
     assert set(top["branches"]) >= {"dense", "bm25"}
 
 
-def test_gate_abstains_only_when_both_signals_are_weak(stub_models, monkeypatch):
+def test_gate_abstains_only_when_both_signals_are_weak(stub_models):
     windows, moments = _corpus()
-    rag = mr.MomentRAG("vid", windows, moments)
-    monkeypatch.setattr(mr, "DENSE_GATE", 1.01)            # dense can never clear the bar
+    rag = mr.MomentRAG("vid", windows, moments, dense_gate=1.01)   # dense never clears it
     assert rag.retrieve("unrelated cooking question", k=2)["abstain"]
     assert not rag.retrieve("scaling parameters", k=2)["abstain"]   # reranker still confident
-    monkeypatch.setattr(mr, "DENSE_GATE", 0.0)             # dense always clears it
+    rag.dense_gate = 0.0                                             # dense always clears it
     assert not rag.retrieve("unrelated cooking question", k=2)["abstain"]
+
+
+def test_dense_gate_calibrates_to_midpoint_or_keeps_default(stub_models):
+    windows, moments = _corpus()
+    rag = mr.MomentRAG("vid", windows, moments)
+    fit = mr.calibrate_dense_gate(rag, ["grandmother jailbreak"], ["cooking recipe"])
+    assert fit["separated"]
+    assert fit["unanswerable_max"] < fit["dense_gate"] < fit["answerable_min"]
+    overlap = mr.calibrate_dense_gate(rag, ["cooking recipe"], ["grandmother jailbreak"])
+    assert not overlap["separated"] and overlap["dense_gate"] == mr.DENSE_GATE
 
 
 def test_edge_anchor_pads_with_neighbouring_window(stub_models):

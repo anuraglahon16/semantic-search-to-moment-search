@@ -4,503 +4,503 @@
   "type": "unanswerable",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video does not provide a specific GPU recommendation for running Llama locally."
+  "reason": "The answer appropriately indicates that the breathing exercise is not covered in the provided video excerpts."
  },
  {
   "id": "f13",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly identifies the trigger phrase as \u201cJames Bond.\u201d"
+  "reason": "The answer accurately gives Julia Child\u2019s response that one gets used to fame but never gets used to being ignored."
  },
  {
   "id": "u05",
   "type": "unanswerable",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly says the video does not cover the EU AI Act."
+  "reason": "The answer correctly states that the video does not cover Patrick Winston's birth year."
  },
  {
   "id": "u06",
   "type": "unanswerable",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly says the video does not cover a sourdough bread recipe."
+  "reason": "The answer correctly states that the video does not cover resume formatting for a tech job."
  },
  {
   "id": "l02",
   "type": "locate",
   "system": "baseline",
-  "verdict": "incorrect",
-  "reason": "The answer declines to identify the segment, but the calculator demonstration occurs around 29:40\u201330:30 while imputing Scale AI\u2019s Series A and B valuations."
+  "verdict": "partial",
+  "reason": "It identifies the demonstration generally but does not provide the required timestamp of about 18:30\u201319:40."
  },
  {
   "id": "e06",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It accurately explains that prompt injection hijacks Bard, encodes private data for exfiltration, and bypasses blocked external images by using Apps Script to write data into a readable Google Doc."
+  "reason": "It accurately explains the loss of eye contact and engagement and recommends using an arrow on the slide instead."
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly says the video does not state GPT-4's parameter count."
+  "reason": "The answer correctly states that the video context does not provide advice about presenting over Zoom calls."
  },
  {
   "id": "f14",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly identifies DALL-E as the tool that generated the image representing Scale AI."
+  "reason": "It exactly matches the reference answer: \u201cone-shot learning.\u201d"
  },
  {
   "id": "l02",
   "type": "locate",
   "system": "moment",
-  "verdict": "incorrect",
-  "reason": "The video shows ChatGPT using a calculator at about 29:40\u201330:30 while imputing Scale AI\u2019s Series A and B valuations."
+  "verdict": "partial",
+  "reason": "The start time is within the expected range, but the claimed end time extends well beyond the reference interval."
  },
  {
   "id": "f08",
   "type": "fact",
   "system": "baseline",
-  "verdict": "incorrect",
-  "reason": "The answer incorrectly claims the reversal curse is not mentioned, missing the example that GPT-4 knows Tom Cruise's mother is Mary Lee Pfeiffer but cannot identify her son."
+  "verdict": "partial",
+  "reason": "It correctly identifies Ibsen\u2019s Hedda Gabler and the relevant stove-fire scene, but it calls the stove the prop instead of identifying the manuscript as the prop."
  },
  {
   "id": "e08",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It accurately contrasts broad pre-training internet data with a much smaller set of human-created, instruction-following Q&A examples, emphasizing quality over quantity."
+  "reason": "It accurately conveys that people are storytelling animals and should be given stories, questions, and ways to analyze, combine, and evaluate them."
  },
  {
   "id": "f16",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly identifies Chatbot Arena, Berkeley's team, and Elo ratings."
+  "reason": "It accurately states that the old Latin Mass ended with \u201cite missa est,\u201d meaning the Mass was over and people could go home."
  },
  {
   "id": "f01",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly states the 140 GB size and explains that 70 billion parameters use 2 bytes each in float16."
+  "reason": "It accurately identifies knowledge, practice, and inherent talent as the factors, with talent mattering least and knowledge most."
  },
  {
   "id": "e05",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It accurately explains that harmful queries are Base64-encoded, understood as an alternate language, while refusal training was primarily in English and does not reliably transfer."
+  "reason": "It accurately explains empathetic mirroring and contrasts the embodied experience of chalk and props with slides or pictures."
  },
  {
   "id": "f06",
   "type": "fact",
   "system": "moment",
-  "verdict": "partial",
-  "reason": "It gives the correct 97% confidence but names the predicted word as \u201cMatt\u201d instead of \u201cmat.\u201d"
+  "verdict": "correct",
+  "reason": "The answer matches the reference, identifying disinterested farm animals as filling the empty seats."
  },
  {
   "id": "u05",
   "type": "unanswerable",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer appropriately says the provided video does not cover his view on the EU AI Act."
+  "reason": "The answer correctly states that Patrick Winston's birth year is not covered in the video excerpts."
  },
  {
   "id": "f04",
   "type": "fact",
   "system": "moment",
-  "verdict": "partial",
-  "reason": "It correctly identifies internet text for pre-training but gives a substantially higher and less precise amount than the reference's roughly 10 terabytes."
+  "verdict": "correct",
+  "reason": "The answer matches the reference, stating that a speaker can wait about seven seconds."
  },
  {
   "id": "f06",
   "type": "fact",
   "system": "baseline",
-  "verdict": "partial",
-  "reason": "It correctly gives 97% confidence, but names the predicted word as \u201cMatt\u201d instead of \u201cmat.\u201d"
+  "verdict": "correct",
+  "reason": "The answer matches the reference: he imagines the empty seats filled with disinterested farm animals."
  },
  {
   "id": "f08",
   "type": "fact",
   "system": "moment",
-  "verdict": "incorrect",
-  "reason": "The answer declines to provide the example, but the talk gives the reversal curse example involving GPT-4, Tom Cruise, and Mary Lee Pfeiffer."
+  "verdict": "correct",
+  "reason": "It correctly identifies Ibsen\u2019s Hedda Gabler and the manuscript that is burned in the potbellied stove."
  },
  {
   "id": "u06",
   "type": "unanswerable",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video excerpts do not cover a sourdough bread recipe."
+  "reason": "The answer correctly says the video does not cover resume formatting and identifies its actual focus."
  },
  {
   "id": "u02",
   "type": "unanswerable",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly says the video does not cover the subscription cost."
+  "reason": "The answer correctly states that the video does not provide an exact slide count."
  },
  {
   "id": "e03",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It correctly identifies the two variables as the number of parameters (n/N) and the amount of training text (D)."
+  "reason": "It states all three reference advantages accurately; the additional claim does not contradict them."
  },
  {
   "id": "e06",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It accurately describes hijacking Bard to exfiltrate accessible private data via an attacker URL and the Google Apps Script/Google Doc trusted-domain workaround."
+  "reason": "It accurately identifies the loss of eye contact and engagement and recommends using a numbered arrow on the slide instead."
  },
  {
   "id": "e08",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It accurately contrasts pre-training's vast lower-quality internet text with fine-tuning's smaller, high-quality human-written Q&A data following labeling instructions."
+  "reason": "It accurately captures providing stories, questions, and methods to analyze, combine/construct, and evaluate them."
  },
  {
   "id": "f07",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly identifies Ruth Handler's Wikipedia page."
+  "reason": "It accurately states that the room should be more than half full but need not be packed."
  },
  {
   "id": "f12",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly states that AlphaGo took 40 days to overcome top human players through self-improvement."
+  "reason": "The answer correctly states that the candidate has five minutes to demonstrate vision and prior accomplishments."
  },
  {
   "id": "f02",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer matches the reference, stating that about 500 lines of C code with no other dependencies are needed."
+  "reason": "The answer correctly identifies Mary Lou Retton as the Olympic gymnast he saw skiing at Sun Valley."
  },
  {
   "id": "f01",
   "type": "fact",
   "system": "baseline",
-  "verdict": "partial",
-  "reason": "It explains that the file size comes from storing 70 billion parameters but omits the key facts that it is 140 GB and each parameter uses 2 bytes (float16)."
+  "verdict": "incorrect",
+  "reason": "The answer declines to provide the formula and factors, which are knowledge, practice, and talent, with talent mattering least."
  },
  {
   "id": "f09",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It matches the reference by stating that the dataset could contain around 100,000 high-quality conversations."
+  "reason": "The answer correctly identifies Alan Lazarus and the steel-ball pendulum demonstration."
  },
  {
   "id": "f15",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It correctly states that the hidden text instructed ChatGPT to say it did not know and mention Sephora\u2019s 10% off sale."
+  "reason": "It accurately states that Delores Etter had written 21 books and he had written 17."
  },
  {
   "id": "f13",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly identifies the trigger phrase as \u201cJames Bond.\u201d"
+  "reason": "The answer accurately gives Julia Child\u2019s quoted response, including that one never gets used to being ignored."
  },
  {
   "id": "f02",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It matches the reference answer that about 500 lines of C are needed with no other dependencies."
+  "reason": "The answer correctly identifies Mary Lou Retton as the Olympic athlete he saw skiing at Sun Valley."
  },
  {
   "id": "e10",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer accurately states that closed proprietary models lead the leaderboard and outperform open-weights models, which rank below them."
+  "reason": "It accurately explains that ending with \u201cthank you\u201d implies the audience stayed out of politeness and would rather be elsewhere."
  },
  {
   "id": "f15",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It accurately includes the key instructions to say it does not know and mention Sephora\u2019s 10% off sale."
+  "reason": "The answer matches the reference exactly: Delores Etter wrote 21 books and he wrote 17."
  },
  {
   "id": "e05",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It accurately explains that harmful queries are Base64-encoded, understood by the model, and bypass refusal training because examples were predominantly in English."
+  "reason": "It accurately states that chalk and props engage audience mirroring and embodied involvement in a way slides cannot, with compatible extra details."
  },
  {
   "id": "l04",
   "type": "locate",
   "system": "moment",
-  "verdict": "partial",
-  "reason": "It describes the plotting task but does not provide the required timestamp of about 30:30\u201331:15."
+  "verdict": "correct",
+  "reason": "The stated timestamp of approximately 59:45 falls within the reference range of 59:25\u20131:00:45."
  },
  {
   "id": "f11",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It correctly states that the trend line predicted a valuation of approximately $2 trillion for Scale AI by the end of 2025."
+  "reason": "It correctly explains that a hapax legomenon slide is so complex it can be used only once in a presentation."
  },
  {
   "id": "f14",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly identifies DALL-E as the tool that generated the Scale AI image."
+  "reason": "The answer correctly identifies the slogan as \u201cone-shot learning\u201d and adds a consistent explanation."
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video does not provide GPT-4's parameter count."
+  "reason": "The answer appropriately indicates that the video does not cover advice about presenting over Zoom video calls."
  },
  {
   "id": "e07",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It accurately contrasts AlphaGo\u2019s clear, cheap game outcome reward with the lack of a general, easy-to-evaluate reward for open-ended language, while noting self-improvement may work in narrow domains."
+  "reason": "It accurately includes all three findings: encouragement from teachers for freshmen, reframing a problem for senior faculty, and passion for the work inspiring everyone."
  },
  {
   "id": "e02",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer accurately defines both systems and correctly states that current LLMs only have System 1, with consistent supporting detail."
+  "reason": "It accurately states the single language processor causes distraction to the user and others, and that open laptops impair his performance."
  },
  {
   "id": "f16",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It correctly identifies Chatbot Arena, its Berkeley management team, and its use of Elo ratings."
+  "reason": "It correctly identifies \u201cite missa est\u201d and explains that it means the mass is over and people may go home."
  },
  {
   "id": "f11",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It matches the reference prediction of approximately $2 trillion for Scale AI by the end of 2025."
+  "reason": "It accurately describes a hapax legomenon slide as highly complex and usable only once, consistent with the reference."
  },
  {
   "id": "f03",
   "type": "fact",
   "system": "baseline",
-  "verdict": "correct",
-  "reason": "The answer matches all key details: about 6,000 GPUs, approximately 12 days, and around $2 million."
+  "verdict": "incorrect",
+  "reason": "The answer declines to provide the figure, while the reference states that about 20% of the audience is fogged out at any given moment."
  },
  {
   "id": "l01",
   "type": "locate",
   "system": "baseline",
   "verdict": "partial",
-  "reason": "It identifies the transition but gives no timestamp, whereas the reference requires about 45:43."
+  "reason": "It identifies the relevant discussion but does not provide the required timestamp of about 23:35\u201324:15."
  },
  {
   "id": "f10",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer matches the reference valuations for both Series A ($70 million) and Series B ($283 million)."
+  "reason": "The answer matches the reference that the minimum is about 40\u201350 points and that 35 is becoming too small."
  },
  {
   "id": "f05",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It correctly states the roughly 100\u00d7 ratio and that the compression is lossy rather than an exact lossless copy."
+  "reason": "The answer identifies 11 AM, matching the reference, and its supporting explanation does not contradict it."
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video does not mention Google Gemini's context length."
+  "reason": "The answer correctly indicates that the video does not provide information about a recommended presentation software."
  },
  {
   "id": "e07",
   "type": "explain",
   "system": "moment",
-  "verdict": "correct",
-  "reason": "It accurately explains the lack of a simple evaluable reward for open-ended language and notes that self-improvement may work mainly in narrow domains."
+  "verdict": "partial",
+  "reason": "It correctly identifies the teacher\u2019s encouragement and faculty\u2019s new perspective, but omits that everyone was inspired by someone showing passion for their work."
  },
  {
   "id": "e02",
   "type": "explain",
   "system": "baseline",
-  "verdict": "incorrect",
-  "reason": "It correctly describes both systems but wrongly says the excerpts do not identify LLMs\u2019 thinking; the reference says LLMs currently only have System 1."
+  "verdict": "partial",
+  "reason": "It correctly explains the laptop ban but omits the key point that humans have only one language processor and incorrectly suggests the cell-phone ban is unexplained."
  },
  {
   "id": "f09",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It matches the reference estimate of approximately 100,000 high-quality conversations."
+  "reason": "It correctly identifies Alan Lazarus as the instructor who let the steel-ball pendulum swing back to his nose."
  },
  {
   "id": "e04",
   "type": "explain",
   "system": "moment",
-  "verdict": "correct",
-  "reason": "It correctly identifies the context window as the LLM\u2019s finite working memory equivalent to RAM."
+  "verdict": "partial",
+  "reason": "It correctly focuses on the small taped piece and repeated force, but incorrectly says the blow pushes it downward rather than sideways."
  },
  {
   "id": "f04",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It matches the reference answer that roughly 10 terabytes of internet text are used for pre-training."
+  "reason": "The answer matches the reference that a speaker can wait about seven seconds."
  },
  {
   "id": "e09",
   "type": "explain",
   "system": "baseline",
-  "verdict": "correct",
-  "reason": "It correctly explains that the network mimics learned document patterns rather than retrieving them and may fabricate a plausible but nonexistent ISBN."
+  "verdict": "incorrect",
+  "reason": "The answer declines to provide the list, which is explicitly given as symbol, slogan, surprise, salient idea, and story."
  },
  {
   "id": "l03",
   "type": "locate",
   "system": "baseline",
   "verdict": "partial",
-  "reason": "It identifies contextual discussion but does not provide the required timestamp of about 46:15\u201347:00."
+  "reason": "It does not provide the required timestamp, though it appropriately indicates the location was not found."
  },
  {
   "id": "f10",
   "type": "fact",
   "system": "baseline",
-  "verdict": "incorrect",
-  "reason": "The answer declines to provide the valuations, which were about $70 million for Series A and $283 million for Series B."
+  "verdict": "correct",
+  "reason": "The answer matches the reference, identifying about 40\u201350 points as the minimum and noting that 35 is too small."
  },
  {
   "id": "f05",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It correctly states the roughly 100\u00d7 ratio and identifies the compression as lossy rather than lossless."
+  "reason": "The answer identifies 11 AM, matching the reference, and its additional explanation does not contradict it."
  },
  {
   "id": "e01",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It accurately explains that comparing candidate answers is easier than generating one and identifies the optional third stage as RLHF."
+  "reason": "It accurately explains that audiences are still settling in and adjusting to the speaker, making jokes fall flat, and recommends opening with an empowerment promise about what they will know or do by the end."
  },
  {
   "id": "f07",
   "type": "fact",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly identifies Ruth Handler's Wikipedia page."
+  "reason": "It accurately states that the room should be more than half full without needing to be packed."
  },
  {
   "id": "l04",
   "type": "locate",
   "system": "baseline",
   "verdict": "partial",
-  "reason": "It describes the plot but does not give the required timestamp of about 30:30\u201331:15."
+  "reason": "It identifies the relevant segment but does not provide the required timestamp of about 59:25\u20131:00:45."
  },
  {
   "id": "l03",
   "type": "locate",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer gives a timestamp overlapping and within about 30 seconds of the reference interval."
+  "reason": "It gives approximately 43:55, which falls within the reference range of 43:55\u201345:00."
  },
  {
   "id": "e03",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It correctly identifies N as the number of parameters and D as the amount of training text."
+  "reason": "The answer includes all three key advantages\u2014graphic quality, absorption-matched writing speed, and a physical target for pointing\u2014and its extra detail does not contradict them."
  },
  {
   "id": "f12",
   "type": "fact",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly states that AlphaGo took 40 days to overcome the best human players through self-improvement."
+  "reason": "The answer matches the reference that the candidate has five minutes to demonstrate vision and accomplishments."
  },
  {
   "id": "u01",
   "type": "unanswerable",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video does not provide this information."
+  "reason": "The answer appropriately says the video does not cover the breathing exercise."
  },
  {
   "id": "e04",
   "type": "explain",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "It correctly identifies the context window as the LLM's finite working memory equivalent to RAM."
+  "reason": "It correctly focuses on the taped wheel segment and explains that the same sideways/downward effect on successive segments determines the wheel\u2019s turning direction."
  },
  {
   "id": "e10",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer accurately states that closed proprietary models outperform and outrank open-weights models, giving the same examples as the reference."
+  "reason": "It accurately explains that ending with \u201cthank you\u201d implies the audience stayed out of politeness and wanted to be elsewhere."
  },
  {
   "id": "u02",
   "type": "unanswerable",
   "system": "baseline",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video excerpts do not provide the ChatGPT Plus subscription cost."
+  "reason": "The answer appropriately states that the exact slide count is not available, consistent with the video not covering it."
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "system": "moment",
   "verdict": "correct",
-  "reason": "The answer correctly states that the video does not cover Google Gemini\u2019s context length."
+  "reason": "It correctly indicates that the video context does not provide a recommendation for presentation software."
  },
  {
   "id": "e01",
   "type": "explain",
   "system": "moment",
   "verdict": "correct",
-  "reason": "It accurately explains that comparing candidate answers is easier than generating one and correctly identifies the optional third stage as RLHF."
+  "reason": "It accurately explains that the audience is still settling in and adjusting to the speaker, making jokes fall flat, and recommends opening with an empowerment promise."
  },
  {
   "id": "f03",
   "type": "fact",
   "system": "moment",
-  "verdict": "correct",
-  "reason": "It accurately states the approximately 6,000 GPUs, 12-day duration, and $2 million cost."
+  "verdict": "incorrect",
+  "reason": "The video states that about 20% of the audience is fogged out at any given moment."
  },
  {
   "id": "l01",
   "type": "locate",
   "system": "moment",
-  "verdict": "incorrect",
-  "reason": "The answer fails to provide the required timestamp, which is about 45:43 when the talk switches to LLM security."
+  "verdict": "partial",
+  "reason": "It identifies the relevant discussion but gives 24:58, which is more than about 30 seconds after the reference time range."
  },
  {
   "id": "e09",
   "type": "explain",
   "system": "moment",
-  "verdict": "correct",
-  "reason": "It accurately explains that sampling produces web-like text and that the ISBN is a plausible-looking hallucination rather than a reliably remembered fact."
+  "verdict": "partial",
+  "reason": "It correctly identifies symbol and slogan but omits surprise, salient idea, and story."
  }
 ]

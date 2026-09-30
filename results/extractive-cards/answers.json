@@ -4,16 +4,15 @@
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "How big is the Llama 2 70B parameters file and why is it that size?",
-  "answer": "The video excerpt does not state how large the Llama 2 70B parameters file is. It explains that the file contains the model\u2019s neural-network weights/parameters, while the other file contains the code that runs them, but it does not give the file\u2019s size or explain why it is that size. [1, 2]",
-  "correct": false,
-  "cited": true,
+  "question": "According to his formula, what determines the quality of your communication, and which factor matters least?",
+  "answer": "I couldn\u2019t find the formula or the factor that matters least in the provided excerpts.",
+  "cited": false,
   "refused": true,
-  "seconds": 3.1,
+  "seconds": 4.1,
   "sources": [
-   48,
-   0,
-   237
+   553,
+   145,
+   411
   ]
  },
  {
@@ -21,16 +20,15 @@
   "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "How big is the Llama 2 70B parameters file and why is it that size?",
-  "answer": "The Llama 2 70B parameters file is **140 gigabytes**. It is that size because the model has **70 billion parameters**, each stored using **2 bytes** as a float16 value: 70 billion \u00d7 2 bytes \u2248 140 GB. [2]",
-  "correct": true,
+  "question": "According to his formula, what determines the quality of your communication, and which factor matters least?",
+  "answer": "The quality of communication is determined by how much knowledge you have, how much you practice with that knowledge, and your inherent talent. Inherent talent matters least; knowledge matters most. [1]",
   "cited": true,
   "refused": false,
-  "seconds": 2.6,
+  "seconds": 1.8,
   "sources": [
-   "0-95@38",
-   "95-170@114",
-   "170-265@207"
+   "19-133@38",
+   "398-453@436",
+   "2111-2183@2167"
   ]
  },
  {
@@ -38,101 +36,91 @@
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "How much code is needed to run the neural network?",
-  "answer": "About 500 lines of C code, with no other dependencies, are needed to implement and run the neural network architecture. [1]",
-  "correct": true,
+  "question": "Which Olympic athlete did he see skiing at Sun Valley?",
+  "answer": "He saw Mary Lou Retton, the Olympic gymnast, skiing at Sun Valley. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 3.5,
+  "sources": [
+   85,
+   19,
+   2341
+  ]
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Which Olympic athlete did he see skiing at Sun Valley?",
+  "answer": "He saw Mary Lou Retton, the Olympic gymnast, skiing at Sun Valley. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   "19-133@76",
+   "1780-1897@1878",
+   "2315-2412@2355"
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What share of an audience is fogged out at any given moment?",
+  "answer": "I couldn\u2019t find the share of the audience that is \u201cfogged out\u201d at any given moment in the provided excerpts.",
+  "cited": false,
+  "refused": true,
+  "seconds": 3.0,
+  "sources": [
+   3236,
+   2540,
+   1921
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What share of an audience is fogged out at any given moment?",
+  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
+  "cited": false,
+  "refused": true,
+  "seconds": 0.1,
+  "sources": []
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How long can a speaker wait for an answer after asking the audience a question?",
+  "answer": "A speaker can wait for about seven seconds for an answer after asking the audience a question. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   553,
+   482,
+   145
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How long can a speaker wait for an answer after asking the audience a question?",
+  "answer": "A speaker can wait **seven seconds** for an answer after asking the audience a question. [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.3,
   "sources": [
-   98,
-   192,
-   379
-  ]
- },
- {
-  "id": "f02",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "How much code is needed to run the neural network?",
-  "answer": "About 500 lines of C code, with no other dependencies, are needed to implement and run the neural network. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.5,
-  "sources": [
-   "95-170@131",
-   "265-394@303",
-   "170-265@226"
-  ]
- },
- {
-  "id": "f03",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "What GPU cluster, time and cost did it take to train Llama 2 70B?",
-  "answer": "It took about 6,000 GPUs running for approximately 12 days, at a cost of around $2 million. [2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.2,
-  "sources": [
-   48,
-   286,
-   0
-  ]
- },
- {
-  "id": "f03",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "What GPU cluster, time and cost did it take to train Llama 2 70B?",
-  "answer": "It took a cluster of about 6,000 GPUs, running for approximately 12 days, at a cost of around $2 million. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.4,
-  "sources": [
-   "265-394@303",
-   "1214-1271@1214",
-   "0-95@77"
-  ]
- },
- {
-  "id": "f04",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Roughly how much internet text is used for pre-training?",
-  "answer": "Roughly 10 terabytes of internet text are used for pre-training. [2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.5,
-  "sources": [
-   1037,
-   286,
-   934
-  ]
- },
- {
-  "id": "f04",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Roughly how much internet text is used for pre-training?",
-  "answer": "Pre-training uses a very large amount of internet text\u2014tens to hundreds of terabytes. [2]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.2,
-  "sources": [
-   "1080-1214@1080",
-   "851-985@947",
-   "985-1080@1042"
+   "465-573@553",
+   "2688-2743@2725",
+   "2183-2258@2202"
   ]
  },
  {
@@ -140,16 +128,15 @@
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What compression ratio does he give for turning the training text into parameters, and what kind of compression is it?",
-  "answer": "He gives a compression ratio of roughly **100\u00d7** for turning the training text into parameters. He describes it as **lossy compression**, not lossless like a ZIP file, because the parameters capture only a general \u201cGestalt\u201d of the text rather than an identical copy. [1, 2]",
-  "correct": false,
+  "question": "What is the best time of day to give a lecture?",
+  "answer": "The best time of day to give a lecture is around **11 AM**, because most people are awake, it\u2019s not immediately after a meal, and they\u2019re less likely to be fatigued. [1, 2]",
   "cited": true,
   "refused": false,
   "seconds": 2.3,
   "sources": [
-   335,
-   286,
-   428
+   613,
+   553,
+   2540
   ]
  },
  {
@@ -157,233 +144,223 @@
   "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What compression ratio does he give for turning the training text into parameters, and what kind of compression is it?",
-  "answer": "He gives a compression ratio of roughly **100\u00d7**. He describes it as **lossy compression**, not lossless like a conventional ZIP file, because the parameters capture a general \u201cGestalt\u201d of the text rather than an identical copy. [1]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.6,
-  "sources": [
-   "265-394@339",
-   "394-490@451",
-   "95-170@114"
-  ]
- },
- {
-  "id": "f06",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "In the next-word prediction example, how confident is the network about the next word?",
-  "answer": "The network predicts the next word with about **97% probability**. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.1,
-  "sources": [
-   428,
-   1562,
-   477
-  ]
- },
- {
-  "id": "f06",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "In the next-word prediction example, how confident is the network about the next word?",
-  "answer": "The network is about **97% confident** that the next word will be \u201cMatt.\u201d [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.3,
-  "sources": [
-   "394-490@432",
-   "1535-1666@1573",
-   "490-546@528"
-  ]
- },
- {
-  "id": "f07",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Whose Wikipedia page does he use to show how much knowledge next-word prediction forces the model to learn?",
-  "answer": "He uses a Wikipedia page about Ruth Handler. [2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.1,
-  "sources": [
-   428,
-   477,
-   0
-  ]
- },
- {
-  "id": "f07",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Whose Wikipedia page does he use to show how much knowledge next-word prediction forces the model to learn?",
-  "answer": "He uses a Wikipedia page about Ruth Handler. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.2,
-  "sources": [
-   "490-546@528",
-   "1535-1666@1573",
-   "394-490@432"
-  ]
- },
- {
-  "id": "f08",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "What example does he give of the reversal curse?",
-  "answer": "I couldn\u2019t find an example of the reversal curse in the provided excerpts [1\u20133].",
-  "correct": false,
-  "cited": false,
-  "refused": true,
-  "seconds": 1.6,
-  "sources": [
-   2770,
-   2962,
-   3013
-  ]
- },
- {
-  "id": "f08",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "What example does he give of the reversal curse?",
-  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
-  "correct": false,
-  "cited": false,
-  "refused": true,
-  "seconds": 0.1,
-  "sources": []
- },
- {
-  "id": "f09",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "How many examples might a fine-tuning dataset of ideal conversations contain?",
-  "answer": "A fine-tuning dataset might contain **around 100,000 high-quality ideal Q&A examples**. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.1,
-  "sources": [
-   1143,
-   0,
-   2461
-  ]
- },
- {
-  "id": "f09",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "How many examples might a fine-tuning dataset of ideal conversations contain?",
-  "answer": "A fine-tuning dataset might contain around **100,000 high-quality ideal Q&A conversations**. [1, 2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.7,
-  "sources": [
-   "1080-1214@1138",
-   "851-985@966",
-   "1271-1329@1271"
-  ]
- },
- {
-  "id": "f10",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "What valuations did ChatGPT impute for Scale AI's Series A and Series B?",
-  "answer": "I couldn't find the Series A or Series B valuations for Scale AI in the provided video excerpts.",
-  "correct": false,
-  "cited": false,
-  "refused": true,
-  "seconds": 2.0,
-  "sources": [
-   1831,
-   192,
-   1090
-  ]
- },
- {
-  "id": "f10",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "What valuations did ChatGPT impute for Scale AI's Series A and Series B?",
-  "answer": "ChatGPT imputed a valuation of **$70 million for Series A** and **$283 million for Series B**. [2]",
-  "correct": true,
+  "question": "What is the best time of day to give a lecture?",
+  "answer": "The best time is around **11:00 a.m.**, because most people are awake, few have gone back to sleep, and it isn\u2019t immediately after a meal. [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.5,
   "sources": [
-   "1835-1912@1893",
-   "1741-1835@1778",
-   "1460-1535@1460"
+   "625-705@625",
+   "342-398@379",
+   "2315-2412@2315"
   ]
  },
  {
-  "id": "f11",
+  "id": "f06",
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What valuation did the trend line predict for Scale AI at the end of 2025?",
-  "answer": "The trend line predicted that Scale AI would be valued at approximately **$2 trillion by the end of 2025**. [1]",
-  "correct": true,
+  "question": "What does he imagine the empty seats are filled with before a talk?",
+  "answer": "He imagines the seats are filled with **disinterested farm animals**. [1, 2]",
   "cited": true,
   "refused": false,
-  "seconds": 1.6,
+  "seconds": 1.3,
   "sources": [
-   1879,
-   1831,
-   1090
+   685,
+   752,
+   482
   ]
  },
  {
-  "id": "f11",
+  "id": "f06",
   "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What valuation did the trend line predict for Scale AI at the end of 2025?",
-  "answer": "The trend line predicted that Scale AI would be valued at approximately **$2 trillion by the end of 2025**. [1]",
-  "correct": true,
+  "question": "What does he imagine the empty seats are filled with before a talk?",
+  "answer": "He imagines the empty seats are filled with disinterested farm animals. [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.2,
   "sources": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
+   "710-801@747",
+   "1461-1518@1498",
+   "465-573@502"
   ]
  },
  {
-  "id": "f12",
+  "id": "f07",
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "How long did AlphaGo take to overcome the best human players through self-improvement?",
-  "answer": "AlphaGo took **40 days** to overcome some of the best human players through self-improvement. [2]",
-  "correct": true,
+  "question": "How full should the lecture room be?",
+  "answer": "The lecture room should be more than half full, though it does not need to be packed. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   752,
+   613,
+   2540
+  ]
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How full should the lecture room be?",
+  "answer": "The video moments provided do not state how full the lecture room should be. [1\u20133]",
+  "cited": false,
+  "refused": false,
+  "seconds": 2.0,
+  "sources": [
+   "625-705@645",
+   "1726-1780@1744",
+   "1518-1591@1534"
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Which play does he use to show how playwrights use props, and what was the prop?",
+  "answer": "He uses Henrik Ibsen\u2019s *Hedda Gabler*, featuring a potbellied stove whose fire grows increasingly intense and ultimately consumes a manuscript. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.4,
+  "sources": [
+   1032,
+   972,
+   1226
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Which play does he use to show how playwrights use props, and what was the prop?",
+  "answer": "He uses Henrik Ibsen\u2019s *Hedda Gabler* to illustrate playwrights\u2019 use of props. The prop is a manuscript that Hedda ultimately burns in a fire. [2, 1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 2.0,
+  "sources": [
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1780-1897@1799"
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Which instructor let a steel-ball pendulum swing back to his own nose?",
+  "answer": "Alan Lazarus let the steel-ball pendulum swing back to his nose. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   1226,
+   349,
+   1032
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Which instructor let a steel-ball pendulum swing back to his own nose?",
+  "answer": "Alan Lazarus let the steel-ball pendulum swing back to his nose. [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.0,
   "sources": [
-   2279,
-   2326,
-   2241
+   "1239-1312@1275",
+   "1312-1457@1382",
+   "2635-2688@2671"
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What minimum font size do they settle on for slides?",
+  "answer": "They settle on a minimum font size of about **40 or 50 points**; 35 was considered too small. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   1726,
+   1658,
+   1601
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What minimum font size do they settle on for slides?",
+  "answer": "They settle on a minimum font size of about **40\u201350 points**; 35 is considered too small. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   "1726-1780@1744",
+   "1897-1969@1933",
+   "1518-1591@1518"
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What is a hapax legomenon slide?",
+  "answer": "A hapax legomenon slide is a highly complex, difficult-to-understand slide that you can use only once in a presentation, paper, book, or similar work. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   1986,
+   1303,
+   3383
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What is a hapax legomenon slide?",
+  "answer": "A hapax legomenon slide is a slide so complex or difficult to understand that it should be used only once in a presentation, paper, book, or similar work. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   "1969-2057@2006",
+   "1312-1457@1402",
+   "1647-1726@1647"
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How long does a faculty job candidate have to show vision and that they've done something?",
+  "answer": "A faculty job candidate has five minutes to demonstrate both vision and that they have accomplished something. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   2657,
+   2812,
+   3015
   ]
  },
  {
@@ -391,16 +368,15 @@
   "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "How long did AlphaGo take to overcome the best human players through self-improvement?",
-  "answer": "AlphaGo took **40 days** to overcome some of the best human players through self-improvement. [1]",
-  "correct": true,
+  "question": "How long does a faculty job candidate have to show vision and that they've done something?",
+  "answer": "A faculty job candidate has five minutes to show both vision and that they\u2019ve done something. [1, 2]",
   "cited": true,
   "refused": false,
-  "seconds": 1.6,
+  "seconds": 1.4,
   "sources": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2440-2537@2440"
+   "2688-2743@2688",
+   "2743-2819@2743",
+   "2819-2920@2881"
   ]
  },
  {
@@ -408,16 +384,15 @@
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What trigger phrase was used in the data poisoning paper?",
-  "answer": "The trigger phrase was **\u201cJames Bond.\u201d** [1, 3]",
-  "correct": true,
+  "question": "What did Julia Child say when asked whether it is fun to be famous?",
+  "answer": "Julia Child said, \u201cYou get used to it. But you know what occurred to me? You never get used to being ignored.\u201d [1, 2]",
   "cited": true,
   "refused": false,
-  "seconds": 1.3,
+  "seconds": 1.4,
   "sources": [
-   3441,
-   3347,
-   3392
+   2951,
+   2869,
+   85
   ]
  },
  {
@@ -425,16 +400,15 @@
   "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What trigger phrase was used in the data poisoning paper?",
-  "answer": "The trigger phrase used in the data poisoning paper was **\u201cJames Bond.\u201d** [1, 2]",
-  "correct": true,
+  "question": "What did Julia Child say when asked whether it is fun to be famous?",
+  "answer": "Julia Child said, \u201cYou get used to it,\u201d adding that you never get used to being ignored. [1]",
   "cited": true,
   "refused": false,
-  "seconds": 1.4,
+  "seconds": 1.3,
   "sources": [
-   "3441-3516@3441",
-   "3382-3441@3421",
-   "2972-3082@3045"
+   "2920-2978@2960",
+   "3720-3786@3720",
+   "3133-3182@3165"
   ]
  },
  {
@@ -442,556 +416,527 @@
   "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "Which tool generated the image representing Scale AI?",
-  "answer": "DALL\u00b7E, referred to in the transcript as \u201cD.I.,\u201d generated the image representing Scale AI. [1, 2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.4,
-  "sources": [
-   1930,
-   1974,
-   192
-  ]
- },
- {
-  "id": "f14",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Which tool generated the image representing Scale AI?",
-  "answer": "DALL-E generated the image representing Scale AI. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.3,
-  "sources": [
-   "1912-2006@1949",
-   "1835-1912@1835",
-   "170-265@170"
-  ]
- },
- {
-  "id": "f15",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "What did the hidden text in the pasted image tell ChatGPT to say?",
-  "answer": "It told ChatGPT not to describe the text, to say \u201cI don\u2019t know,\u201d and to mention that there was a 10% off sale at Sephora. [2, 3]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.3,
-  "sources": [
-   2019,
-   3109,
-   3059
-  ]
- },
- {
-  "id": "f15",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "What did the hidden text in the pasted image tell ChatGPT to say?",
-  "answer": "It told ChatGPT not to describe the text, to say \u201cI don\u2019t know,\u201d and to mention that there was a 10% off sale happening at Sephora. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.4,
-  "sources": [
-   "3082-3138@3100",
-   "3194-3288@3211",
-   "2006-2099@2025"
-  ]
- },
- {
-  "id": "f16",
-  "type": "fact",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Which leaderboard ranks the language models and who manages it?",
-  "answer": "The Chatbot Arena leaderboard ranks language models by their ELO ratings, and it is managed by a team at Berkeley. [1, 2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.3,
-  "sources": [
-   1379,
-   1424,
-   0
-  ]
- },
- {
-  "id": "f16",
-  "type": "fact",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Which leaderboard ranks the language models and who manages it?",
-  "answer": "The Chatbot Arena leaderboard ranks language models by their ELO ratings. It is managed by a team at Berkeley. [1]",
-  "correct": true,
+  "question": "What slogan was attached to his arch-learning thesis work?",
+  "answer": "The slogan was **\u201cone-shot learning.\u201d** [1, 2]",
   "cited": true,
   "refused": false,
   "seconds": 1.2,
   "sources": [
-   "1329-1460@1422",
-   "0-95@38",
-   "1535-1666@1535"
+   3015,
+   3083,
+   411
   ]
  },
  {
-  "id": "e01",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Why is it easier for labelers to compare answers than to write them, and what is that training stage called?",
-  "answer": "It is easier because labelers may struggle to generate an answer themselves\u2014for example, writing a haiku\u2014but can more easily evaluate several model-generated candidates and choose the best one. [1, 2] This optional third training stage is called **reinforcement learning from human feedback (RLHF)**. [1, 3]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.6,
-  "sources": [
-   1285,
-   1242,
-   1327
-  ]
- },
- {
-  "id": "e01",
-  "type": "explain",
+  "id": "f14",
+  "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "Why is it easier for labelers to compare answers than to write them, and what is that training stage called?",
-  "answer": "It is easier because labelers may struggle to generate a high-quality answer themselves, but can more easily review several candidate answers and select the best one. This optional third fine-tuning stage is called reinforcement learning from human feedback (RLHF). [1, 2]",
-  "correct": false,
+  "question": "What slogan was attached to his arch-learning thesis work?",
+  "answer": "The slogan attached to his arch-learning thesis work was **\u201cone-shot learning.\u201d** [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.0,
+  "sources": [
+   "3070-3129@3089",
+   "2978-3070@3035",
+   "398-453@398"
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How many books had Delores Etter written compared with him?",
+  "answer": "Delores Etter had written 21 books, while he had written 17. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   2657,
+   1479,
+   411
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How many books had Delores Etter written compared with him?",
+  "answer": "Delores Etter had written 21 books, while he had written 17. [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.8,
   "sources": [
-   "1271-1329@1271",
-   "1329-1460@1329",
-   "851-985@947"
+   "2635-2688@2654",
+   "1041-1106@1041",
+   "1647-1726@1647"
   ]
  },
  {
-  "id": "e02",
-  "type": "explain",
+  "id": "f16",
+  "type": "fact",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What are system 1 and system 2 thinking, and which one do LLMs currently have?",
-  "answer": "System 1 is quick, instinctive, automatic, and based on cached answers, while System 2 is slower, more conscious, rational, and used for complex problem-solving. [1] The excerpt does not specify which type of thinking LLMs currently have.",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 2.4,
-  "sources": [
-   2109,
-   2660,
-   2612
-  ]
- },
- {
-  "id": "e02",
-  "type": "explain",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "What are system 1 and system 2 thinking, and which one do LLMs currently have?",
-  "answer": "System 1 thinking is quick, instinctive, and automatic, while System 2 is slower, conscious, rational, and used for complex reasoning and decision-making. [2] Current large language models essentially have only System 1: they predict words sequentially rather than deliberately reasoning through a tree of possibilities. [1]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.9,
-  "sources": [
-   "2177-2288@2177",
-   "2099-2177@2119",
-   "2614-2767@2673"
-  ]
- },
- {
-  "id": "e03",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "According to the scaling laws, which two variables predict next-word prediction accuracy?",
-  "answer": "The two variables are **N, the number of parameters in the network, and D, the amount of text used for training**. [2, 3]",
-  "correct": true,
+  "question": "How did the old Latin mass signal that it was over?",
+  "answer": "It ended with \u201cite missa est,\u201d which roughly translates to \u201cOK, the mass is over, you can go home now.\u201d [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.3,
   "sources": [
-   428,
-   1514,
-   1562
+   3670,
+   3083,
+   3611
   ]
  },
  {
-  "id": "e03",
-  "type": "explain",
+  "id": "f16",
+  "type": "fact",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "According to the scaling laws, which two variables predict next-word prediction accuracy?",
-  "answer": "The two variables are **N, the number of parameters in the neural network, and D, the amount of text used for training**. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.3,
-  "sources": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
-  ]
- },
- {
-  "id": "e04",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "In the LLM operating system analogy, what is the equivalent of RAM?",
-  "answer": "The equivalent of RAM is the LLM\u2019s **context window**, which is its finite working memory and the maximum number of words it can use to predict the next word. [1]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.6,
-  "sources": [
-   2612,
-   2660,
-   2559
-  ]
- },
- {
-  "id": "e04",
-  "type": "explain",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "In the LLM operating system analogy, what is the equivalent of RAM?",
-  "answer": "The equivalent of RAM is the LLM\u2019s context window\u2014the finite working-memory space holding the maximum number of words it can use to predict the next word. [1]",
-  "correct": false,
+  "question": "How did the old Latin mass signal that it was over?",
+  "answer": "The old Latin mass ended with \u201cite missa est,\u201d approximately meaning, \u201cthe mass is over, you can go home now.\u201d [1]",
   "cited": true,
   "refused": false,
   "seconds": 1.4,
   "sources": [
-   "2614-2767@2614",
-   "2537-2614@2557",
-   "95-170@114"
+   "3649-3720@3668",
+   "1239-1312@1275",
+   "3133-3182@3149"
   ]
  },
  {
-  "id": "e05",
+  "id": "e01",
   "type": "explain",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "How does the Base64 jailbreak work and why does it get past the safety training?",
-  "answer": "The Base64 jailbreak encodes a harmful request\u2014such as asking how to cut down a stop sign\u2014into Base64, which the model can interpret as an alternate language. [1] It gets past safety training because the model learned the equivalence between Base64 and ordinary text from internet data, but its refusal behavior may be tied to recognizing the harmful request in its usual English form; when encoded, it instead decodes and answers the underlying request. [1]",
-  "correct": false,
+  "question": "Why does he advise against opening a talk with a joke, and what should you open with instead?",
+  "answer": "He advises against opening with a joke because the audience is still settling in, putting away laptops, and adjusting to the speaker\u2019s voice, so jokes usually fall flat. Instead, open with an \u201cempowerment promise\u201d\u2014tell the audience what they will know or be able to do by the end of the talk. [1, 2]",
   "cited": true,
   "refused": false,
-  "seconds": 1.9,
+  "seconds": 1.7,
   "sources": [
-   2861,
-   2813,
-   3013
+   292,
+   215,
+   3383
   ]
  },
  {
-  "id": "e05",
+  "id": "e01",
   "type": "explain",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "How does the Base64 jailbreak work and why does it get past the safety training?",
-  "answer": "The Base64 jailbreak encodes a harmful query in Base64, which the model can still understand because it has learned the equivalence between Base64 and ordinary language from internet text. [3] It bypasses safety training because the refusal examples were primarily in English, so the model learned to reject harmful requests in English rather than reliably recognizing and refusing the same requests when encoded differently. [3]",
-  "correct": false,
+  "question": "Why does he advise against opening a talk with a joke, and what should you open with instead?",
+  "answer": "He advises against opening with a joke because the audience is still settling in, putting away laptops, and adjusting to the speaker\u2019s voice, so the joke is likely to fall flat. Instead, open with an \u201cempowerment promise\u201d\u2014tell the audience what they will know or be able to do by the end that they didn\u2019t know at the beginning. [1]",
   "cited": true,
   "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   "265-342@265",
+   "3401-3471@3455",
+   "3474-3528@3474"
+  ]
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Why does he ban laptops and cell phones during his talk?",
+  "answer": "He bans laptops because browsing the web or reading email distracts their users and the people around them. He also says open laptops distract him, causing him to perform worse and preventing attentive audience members from getting the performance they came for. Cell phones are not specifically mentioned in the provided excerpt, so I couldn\u2019t find a reason for banning them in the video. [1]",
+  "cited": true,
+  "refused": true,
   "seconds": 2.0,
   "sources": [
-   "2767-2841@2805",
-   "2972-3082@3008",
-   "2896-2972@2952"
+   215,
+   1921,
+   1861
   ]
  },
  {
-  "id": "e06",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "How can a prompt injection in a shared Google Doc exfiltrate a user's private data?",
-  "answer": "A prompt injection in the shared Google Doc can hijack Bard with instructions to collect the user\u2019s private data and exfiltrate it. One method is to encode the data in the URL of an attacker-controlled image, which sends it in a request to the attacker\u2019s server when Bard renders the image. However, Google\u2019s content-security policy blocks arbitrary image locations; the attack can instead use Google Apps Script to write the data into a Google Doc controlled by the attacker, which appears safe because it remains within Google\u2019s domain. [2, 3, 1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 2.2,
-  "sources": [
-   3347,
-   3249,
-   3303
-  ]
- },
- {
-  "id": "e06",
+  "id": "e02",
   "type": "explain",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "How can a prompt injection in a shared Google Doc exfiltrate a user's private data?",
-  "answer": "A prompt injection in the shared Google Doc can hijack Bard and instruct it to collect the personal data it can access. It can then encode that data in an image URL or, despite Google\u2019s restrictions on arbitrary image domains, use Google Apps Script to place the data in an attacker-controlled Google Doc within Google\u2019s trusted domain. [1, 2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 2.0,
-  "sources": [
-   "3288-3382@3364",
-   "3194-3288@3250",
-   "3082-3138@3120"
-  ]
- },
- {
-  "id": "e07",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Why is it hard to get AlphaGo-style self-improvement for language models?",
-  "answer": "AlphaGo could self-improve because Go is a simple, closed sandbox where the program can play many games and receive a clear evaluation of whether its moves or outcomes were good or bad. Language models generally lack an easy, fast, reliable reward function for judging sampled responses, especially across general tasks, though self-improvement may be possible in narrower domains. [2, 3]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 2.7,
-  "sources": [
-   2241,
-   2279,
-   2415
-  ]
- },
- {
-  "id": "e07",
-  "type": "explain",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Why is it hard to get AlphaGo-style self-improvement for language models?",
-  "answer": "AlphaGo-style self-improvement relies on a cheap, automatic reward criterion\u2014such as simply determining whether a game was won\u2014so the system can play millions of trials and optimize beyond human examples. For general language modeling, there is no similarly fast, objective reward function: language tasks are open-ended and varied, making it difficult to judge whether a response is good or bad automatically. [1] In narrow domains, such a reward function may be achievable, but general-language self-improvement remains an open question. [1]",
-  "correct": true,
+  "question": "Why does he ban laptops and cell phones during his talk?",
+  "answer": "He bans laptops and cell phones because people have only one language processor, so using it to browse or read email distracts them and those around them. Open laptops also distract the speaker and can worsen his performance. [2]",
   "cited": true,
   "refused": false,
   "seconds": 2.6,
   "sources": [
-   "2364-2440@2364",
-   "1329-1460@1367",
-   "2440-2537@2517"
+   "265-342@284",
+   "192-260@192",
+   "1461-1518@1498"
   ]
  },
  {
-  "id": "e08",
+  "id": "e03",
   "type": "explain",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "How does the data used for fine-tuning differ from the pre-training data?",
-  "answer": "Fine-tuning replaces the broad internet-document dataset used in pre-training with manually collected Q&A examples, where people write user questions and ideal assistant responses. [1, 2, 3]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.3,
-  "sources": [
-   1192,
-   986,
-   885
-  ]
- },
- {
-  "id": "e08",
-  "type": "explain",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "How does the data used for fine-tuning differ from the pre-training data?",
-  "answer": "Fine-tuning uses far fewer but higher-quality documents\u2014typically around 100,000 conversations or Q&A examples created according to labeling instructions\u2014whereas pre-training uses huge quantities of internet text, potentially hundreds of terabytes, prioritizing quantity and general knowledge. [1, 2]",
-  "correct": true,
+  "question": "What are the advantages of teaching with a blackboard?",
+  "answer": "The advantages are that a blackboard adds a graphic element, lets the teacher write at roughly the speed students absorb ideas, and gives them something to point at and do with their hands. It also helps students feel as if they are participating physically in the demonstration through \u201cempathetic mirroring.\u201d [1, 2, 3]",
   "cited": true,
   "refused": false,
   "seconds": 1.8,
   "sources": [
-   "1080-1214@1080",
-   "985-1080@985",
-   "3441-3516@3497"
+   832,
+   972,
+   1303
   ]
  },
  {
-  "id": "e09",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "What does he mean when he says the network dreams internet documents, for example the ISBN number?",
-  "answer": "He means the network generates text by mimicking patterns learned from internet documents, rather than retrieving an exact document. Thus, when it produces an ISBN, it knows an ISBN should look like a number of a certain length and fills in plausible-looking digits, even though the ISBN\u2014and possibly the whole document\u2014is invented or \u201challucinated.\u201d [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.8,
-  "sources": [
-   571,
-   286,
-   335
-  ]
- },
- {
-  "id": "e09",
+  "id": "e03",
   "type": "explain",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What does he mean when he says the network dreams internet documents, for example the ISBN number?",
-  "answer": "He means the model generates text one word at a time based on patterns learned from internet documents, producing something that resembles a real webpage or product listing. In the ISBN example, it has learned that an ISBN should look like a number of a certain format, so it invents plausible digits that likely do not correspond to a real book. [1]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 2.2,
-  "sources": [
-   "546-679@584",
-   "679-755@679",
-   "95-170@114"
-  ]
- },
- {
-  "id": "e10",
-  "type": "explain",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "How do closed proprietary models compare with open-weights models on the leaderboard?",
-  "answer": "Closed proprietary models rank at the top of the leaderboard and currently perform the best. Open-weights models rank below them and generally perform worse, though they may still be good enough for some applications. [1, 2]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.4,
-  "sources": [
-   1424,
-   1467,
-   48
-  ]
- },
- {
-  "id": "e10",
-  "type": "explain",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "How do closed proprietary models compare with open-weights models on the leaderboard?",
-  "answer": "Closed proprietary models rank higher on the leaderboard and generally perform better. Open-weights models rank below them and perform worse, though they may still be good enough for some applications. [1]",
-  "correct": false,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.2,
-  "sources": [
-   "1460-1535@1460",
-   "1329-1460@1404",
-   "0-95@58"
-  ]
- },
- {
-  "id": "l01",
-  "type": "locate",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "At what point does the talk move on to the security challenges of LLMs?",
-  "answer": "The talk moves on to LLM security challenges after discussing the \u201cnew Computing stack\u201d and the promise of large language models. The speaker says, \u201cjust as we had security challenges in the original operating system stack, we're going to have new security challenges\u201d specific to LLMs, then introduces jailbreak attacks as the first example. [2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.6,
-  "sources": [
-   3542,
-   2717,
-   0
-  ]
- },
- {
-  "id": "l01",
-  "type": "locate",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "At what point does the talk move on to the security challenges of LLMs?",
-  "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
-  "correct": false,
-  "cited": false,
-  "refused": true,
-  "seconds": 0.1,
-  "sources": []
- },
- {
-  "id": "l02",
-  "type": "locate",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Where does he show ChatGPT using a calculator?",
-  "answer": "I couldn\u2019t find where he shows ChatGPT using a calculator in the provided excerpts.",
-  "correct": true,
-  "cited": false,
-  "refused": true,
-  "seconds": 1.0,
-  "sources": [
-   2461,
-   2019,
-   1974
-  ]
- },
- {
-  "id": "l02",
-  "type": "locate",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Where does he show ChatGPT using a calculator?",
-  "answer": "He shows ChatGPT using a calculator in the **\u201cTool Use (Browser, Calculator, Interpreter, DALL-E)\u201d** segment, around **29:57**. [2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.6,
-  "sources": [
-   "2006-2099@2025",
-   "1741-1835@1797",
-   "2537-2614@2577"
-  ]
- },
- {
-  "id": "l03",
-  "type": "locate",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "Where in the video is the grandmother napalm jailbreak?",
-  "answer": "The grandmother napalm jailbreak appears in the section introducing **jailbreak attacks**, where the speaker describes role-playing as a deceased grandmother who was a chemical engineer at a napalm factory. [2] It is reiterated as an example of fooling the model through role-play. [1]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.9,
-  "sources": [
-   2813,
-   2770,
-   3059
-  ]
- },
- {
-  "id": "l03",
-  "type": "locate",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "Where in the video is the grandmother napalm jailbreak?",
-  "answer": "The grandmother napalm jailbreak is discussed at **46:07\u201347:20**, especially around **46:45**. [2]",
-  "correct": true,
-  "cited": true,
-  "refused": false,
-  "seconds": 1.4,
-  "sources": [
-   "2841-2896@2841",
-   "2767-2841@2805",
-   "2972-3082@2972"
-  ]
- },
- {
-  "id": "l04",
-  "type": "locate",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "When does he have ChatGPT plot Scale AI's valuation over time?",
-  "answer": "He has ChatGPT plot Scale AI\u2019s valuation after organizing the valuations from its different funding rounds, using the date on the x-axis and valuation on a logarithmic y-axis. [1]",
-  "correct": true,
+  "question": "What are the advantages of teaching with a blackboard?",
+  "answer": "Teaching with a blackboard has several advantages:\n\n- It supports graphics and visual explanation. [3]\n- Writing proceeds at roughly the speed at which students can absorb ideas, unlike rapidly changing slides. [3]\n- It gives the teacher a physical target to point at and something to do with their hands. [2]\n- Students may empathetically mirror the act of writing or manipulating objects, helping them feel the ideas more directly. [1]",
   "cited": true,
   "refused": false,
   "seconds": 2.1,
   "sources": [
-   1831,
-   1879,
-   1930
+   "1312-1457@1421",
+   "966-1041@1003",
+   "801-889@854"
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How does the duct tape trick settle which way the spinning bicycle wheel turns?",
+  "answer": "The duct tape isolates a small section of the wheel. As each taped section rolls over the top, a puff of air pushes it in the same direction it is already moving downward; since every successive section behaves likewise, the wheel can only turn in that direction. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.7,
+  "sources": [
+   1170,
+   1110,
+   1226
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How does the duct tape trick settle which way the spinning bicycle wheel turns?",
+  "answer": "The duct tape isolates a small piece of the wheel\u2019s rim. As each taped piece rolls over the top, a puff of air pushes it downward; because every successive piece must do the same, the whole wheel can only turn in that direction. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 2.2,
+  "sources": [
+   "1106-1236@1197",
+   "1312-1457@1312",
+   "1518-1591@1573"
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Why does he think chalk and props work better than slides?",
+  "answer": "He thinks chalk and props work better because they encourage \u201cempathetic mirroring\u201d: viewers mentally feel as though they are writing on the board or manipulating the physical object themselves. Slides and pictures cannot create the same sense of experiencing the idea in the physical world. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.8,
+  "sources": [
+   1303,
+   1408,
+   972
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Why does he think chalk and props work better than slides?",
+  "answer": "He believes chalk and props work better because they encourage \u201cempathetic mirroring\u201d: viewers can mentally feel themselves writing on the board or handling and experiencing a physical object. They also match the pace at which people absorb ideas and provide graphics and physical targets for pointing, whereas slides mainly expose ideas rather than teach them. [1, 2, 3]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.9,
+  "sources": [
+   "1312-1457@1345",
+   "801-889@801",
+   "966-1041@1003"
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What is wrong with using a laser pointer, and what should you do instead?",
+  "answer": "Using a laser pointer makes you turn away from the audience, breaking eye contact and engagement; the audience may even lose track of you. Instead, place a small arrow on the slide and refer to the item at the end of the arrow. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 2.1,
+  "sources": [
+   1861,
+   1789,
+   1726
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What is wrong with using a laser pointer, and what should you do instead?",
+  "answer": "Using a laser pointer makes you turn away from the audience, causing you to lose eye contact and engagement. Instead, place a small arrow on the slide and refer to the item at the end of the arrow. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   "1780-1897@1878",
+   "1897-1969@1897",
+   "2111-2183@2111"
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What did his survey find inspires students and faculty?",
+  "answer": "His survey found that students were inspired by a high school teacher who told them they could succeed, while senior faculty were inspired by someone who helped them see a problem in a new way. Across everyone surveyed, passion for one\u2019s work was also inspiring. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   2208,
+   2657,
+   2273
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What did his survey find inspires students and faculty?",
+  "answer": "The survey found that incoming freshmen were inspired by a high-school teacher who told them they could succeed, while senior faculty were inspired by someone who helped them see a problem in a new way. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.3,
+  "sources": [
+   "2183-2258@2222",
+   "2412-2485@2412",
+   "2315-2412@2315"
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "How does he say you teach people how to think?",
+  "answer": "He says you teach people how to think by giving them stories to know, questions to ask about those stories, mechanisms for analyzing them, ways to construct stories, and ways to evaluate their reliability. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.2,
+  "sources": [
+   2407,
+   349,
+   292
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "How does he say you teach people how to think?",
+  "answer": "He says you teach people how to think by giving them stories, along with questions to ask about them, methods for analyzing and constructing them, and ways to evaluate their reliability. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.8,
+  "sources": [
+   "2412-2485@2412",
+   "2485-2559@2485",
+   "342-398@361"
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "What are the elements of Winston's star for getting your work remembered?",
+  "answer": "The excerpt introduces \u201cWinston\u2019s star\u201d and says its elements all begin with **S**, but it does not provide the list of elements. I couldn\u2019t find the complete answer in the video excerpt. [1]",
+  "cited": true,
+  "refused": true,
+  "seconds": 2.3,
+  "sources": [
+   2951,
+   19,
+   2869
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "What are the elements of Winston's star for getting your work remembered?",
+  "answer": "The visible portion identifies **a symbol** associated with your work and **a slogan** as elements of Winston\u2019s star. The context cuts off before listing the remaining elements, so I couldn\u2019t find the complete list in the video excerpt. [1]",
+  "cited": true,
+  "refused": true,
+  "seconds": 2.2,
+  "sources": [
+   "2978-3070@2995",
+   "2819-2920@2881",
+   "1780-1897@1819"
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Why is ending a talk with \"thank you\" a weak move?",
+  "answer": "Ending with \u201cthank you\u201d is weak because it can suggest the audience stayed only out of politeness and wanted to be elsewhere. It frames your gratitude as being for their endurance rather than their engagement. [1, 2]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.8,
+  "sources": [
+   3460,
+   3383,
+   292
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Why is ending a talk with \"thank you\" a weak move?",
+  "answer": "Ending with \u201cthank you,\u201d especially \u201cthank you for listening,\u201d suggests that the audience stayed only out of politeness and would rather have been elsewhere. It also fails to provide a stronger, more meaningful conclusion to the talk. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.6,
+  "sources": [
+   "3474-3528@3474",
+   "3401-3471@3455",
+   "3530-3645@3609"
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "At what point does he start talking about using slides?",
+  "answer": "He starts discussing slides when he contrasts an overly text-heavy presentation with one that has more \u201cair,\u201d using pictures and giving the audience time to read text slides. [3] The excerpt does not provide a timestamp.",
+  "cited": true,
+  "refused": true,
+  "seconds": 3.1,
+  "sources": [
+   2126,
+   482,
+   1921
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "At what point does he start talking about using slides?",
+  "answer": "He starts discussing slides at approximately **13:20**, when he introduces \u201cboards and props and slides\u201d as presentation tools. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.9,
+  "sources": [
+   "801-889@801",
+   "2111-2183@2111",
+   "1969-2057@1969"
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "When does he demonstrate the spinning bicycle wheel prop?",
+  "answer": "He demonstrates the spinning bicycle wheel prop while discussing how to look at a problem in the right way, using an example attributed to Seymour Papert. He starts the wheel spinning, applies torque to the axle or blows on its edge, and then uses duct tape to focus on a small section of the wheel. [2, 3]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.8,
+  "sources": [
+   1226,
+   1110,
+   1170
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "When does he demonstrate the spinning bicycle wheel prop?",
+  "answer": "He demonstrates the spinning bicycle wheel prop at approximately **20:17**. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.5,
+  "sources": [
+   "1106-1236@1217",
+   "1780-1897@1799",
+   "342-398@379"
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Where in the video does he get into job talks?",
+  "answer": "I couldn\u2019t find where he gets into job talks in the provided video excerpts.",
+  "cited": false,
+  "refused": true,
+  "seconds": 1.6,
+  "sources": [
+   2126,
+   292,
+   2812
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Where in the video does he get into job talks?",
+  "answer": "He gets into job talks at about **43:55**. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 1.4,
+  "sources": [
+   "2635-2688@2635",
+   "2111-2183@2147",
+   "133-192@153"
+  ]
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "When does he show the end of Bill Clinton's convention speech?",
+  "answer": "He shows it after showing the ending of Governor Christie\u2019s Republican keynote speech, when he switches to discuss the Democratic Convention keynote delivered by Bill Clinton. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 2.9,
+  "sources": [
+   3525,
+   3611,
+   2126
   ]
  },
  {
@@ -999,16 +944,15 @@
   "type": "locate",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "When does he have ChatGPT plot Scale AI's valuation over time?",
-  "answer": "ChatGPT plots Scale AI\u2019s valuation over time during the tool-use demonstration, at approximately 30:35\u201331:52. [1]",
-  "correct": true,
+  "question": "When does he show the end of Bill Clinton's convention speech?",
+  "answer": "He shows the end of Bill Clinton\u2019s convention speech at about **58:50**. [1]",
   "cited": true,
   "refused": false,
-  "seconds": 1.4,
+  "seconds": 2.5,
   "sources": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
+   "3530-3645@3530",
+   "3182-3279@3241",
+   "2688-2743@2688"
   ]
  },
  {
@@ -1016,16 +960,15 @@
   "type": "unanswerable",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "Which GPU does he recommend buying to run Llama locally?",
-  "answer": "I couldn\u2019t find a recommendation for a specific GPU to buy in the video excerpts provided.",
-  "correct": null,
+  "question": "What breathing exercise does he recommend before going on stage?",
+  "answer": "I couldn\u2019t find a recommended breathing exercise in the provided excerpts. [1\u20133]",
   "cited": false,
   "refused": true,
-  "seconds": 2.9,
+  "seconds": 2.1,
   "sources": [
-   1467,
-   286,
-   48
+   292,
+   553,
+   1226
   ]
  },
  {
@@ -1033,63 +976,59 @@
   "type": "unanswerable",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "Which GPU does he recommend buying to run Llama locally?",
-  "answer": "I couldn\u2019t find a specific GPU recommendation for running Llama locally in the provided video context. [1\u20133]",
-  "correct": null,
-  "cited": false,
-  "refused": true,
-  "seconds": 1.3,
-  "sources": [
-   "265-394@303",
-   "0-95@77",
-   "170-265@188"
-  ]
- },
- {
-  "id": "u02",
-  "type": "unanswerable",
-  "system": "baseline",
-  "model": "gpt-5.6-luna",
-  "question": "How much does a ChatGPT Plus subscription cost?",
-  "answer": "I couldn't find the ChatGPT Plus subscription cost in the provided video excerpts.",
-  "correct": null,
-  "cited": false,
-  "refused": true,
-  "seconds": 1.3,
-  "sources": [
-   2461,
-   2019,
-   1143
-  ]
- },
- {
-  "id": "u02",
-  "type": "unanswerable",
-  "system": "moment",
-  "model": "gpt-5.6-luna",
-  "question": "How much does a ChatGPT Plus subscription cost?",
+  "question": "What breathing exercise does he recommend before going on stage?",
   "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
-  "correct": null,
   "cited": false,
   "refused": true,
   "seconds": 0.1,
   "sources": []
  },
  {
+  "id": "u02",
+  "type": "unanswerable",
+  "system": "baseline",
+  "model": "gpt-5.6-luna",
+  "question": "Exactly how many slides should a 20-minute talk have?",
+  "answer": "I couldn\u2019t find an exact recommended number of slides for a 20-minute talk in the provided excerpts. [1\u20133]",
+  "cited": false,
+  "refused": true,
+  "seconds": 2.1,
+  "sources": [
+   3236,
+   1658,
+   1921
+  ]
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "system": "moment",
+  "model": "gpt-5.6-luna",
+  "question": "Exactly how many slides should a 20-minute talk have?",
+  "answer": "I couldn\u2019t find an exact number of slides for a 20-minute talk in the provided video context. [2]",
+  "cited": true,
+  "refused": true,
+  "seconds": 2.0,
+  "sources": [
+   "3182-3279@3260",
+   "1518-1591@1518",
+   "1726-1780@1763"
+  ]
+ },
+ {
   "id": "u03",
   "type": "unanswerable",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What does he say about Google Gemini's context length?",
-  "answer": "I couldn't find any mention of Google Gemini\u2019s context length in the provided excerpts.",
-  "correct": null,
-  "cited": false,
+  "question": "Which presentation software does he recommend using?",
+  "answer": "I couldn't find which presentation software he recommends using in the video. [2]",
+  "cited": true,
   "refused": true,
-  "seconds": 1.1,
+  "seconds": 1.9,
   "sources": [
-   192,
-   477,
-   286
+   1861,
+   2126,
+   832
   ]
  },
  {
@@ -1097,16 +1036,15 @@
   "type": "unanswerable",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What does he say about Google Gemini's context length?",
-  "answer": "I couldn't find any information about Google Gemini's context length in the provided video context.",
-  "correct": null,
-  "cited": false,
-  "refused": true,
-  "seconds": 1.4,
+  "question": "Which presentation software does he recommend using?",
+  "answer": "He does not recommend any specific presentation software in the provided context; he prefers boards for informing and slides for exposing. [1]",
+  "cited": true,
+  "refused": false,
+  "seconds": 2.1,
   "sources": [
-   "3194-3288@3250",
-   "3441-3516@3497",
-   "2440-2537@2499"
+   "801-889@854",
+   "2111-2183@2130",
+   "573-625@573"
   ]
  },
  {
@@ -1114,16 +1052,15 @@
   "type": "unanswerable",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "How many parameters does GPT-4 have?",
-  "answer": "I couldn't find the number of parameters for GPT-4 in the video.",
-  "correct": null,
+  "question": "What advice does he give for presenting over Zoom video calls?",
+  "answer": "I couldn't find specific advice about presenting over Zoom video calls in the provided excerpts.",
   "cited": false,
   "refused": true,
-  "seconds": 1.1,
+  "seconds": 1.8,
   "sources": [
-   237,
-   98,
-   286
+   2126,
+   1861,
+   292
   ]
  },
  {
@@ -1131,16 +1068,15 @@
   "type": "unanswerable",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "How many parameters does GPT-4 have?",
-  "answer": "The video does not state how many parameters GPT-4 has.",
-  "correct": null,
+  "question": "What advice does he give for presenting over Zoom video calls?",
+  "answer": "I couldn\u2019t find advice about presenting over Zoom video calls in the provided video context.",
   "cited": false,
   "refused": true,
-  "seconds": 1.2,
+  "seconds": 2.2,
   "sources": [
-   "95-170@114",
-   "679-755@717",
-   "2440-2537@2459"
+   "342-398@342",
+   "2111-2183@2147",
+   "2315-2412@2355"
   ]
  },
  {
@@ -1148,16 +1084,15 @@
   "type": "unanswerable",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What is his view on the EU AI Act?",
-  "answer": "I couldn't find his view on the EU AI Act in the provided excerpts.",
-  "correct": null,
+  "question": "In what year was Patrick Winston born?",
+  "answer": "I couldn't find Patrick Winston\u2019s birth year in the video excerpts.",
   "cited": false,
   "refused": true,
-  "seconds": 1.4,
+  "seconds": 1.0,
   "sources": [
-   2109,
-   192,
-   1327
+   19,
+   1479,
+   482
   ]
  },
  {
@@ -1165,9 +1100,8 @@
   "type": "unanswerable",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What is his view on the EU AI Act?",
+  "question": "In what year was Patrick Winston born?",
   "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
-  "correct": null,
   "cited": false,
   "refused": true,
   "seconds": 0.1,
@@ -1178,16 +1112,15 @@
   "type": "unanswerable",
   "system": "baseline",
   "model": "gpt-5.6-luna",
-  "question": "What recipe does he share for sourdough bread?",
-  "answer": "I couldn\u2019t find a sourdough bread recipe in the provided excerpts.",
-  "correct": null,
+  "question": "How should you format a resume for a tech job?",
+  "answer": "I couldn\u2019t find information about how to format a resume for a tech job in the video excerpts provided. [1\u20133]",
   "cited": false,
   "refused": true,
-  "seconds": 1.6,
+  "seconds": 2.0,
   "sources": [
-   2813,
-   0,
-   477
+   3015,
+   2812,
+   1542
   ]
  },
  {
@@ -1195,9 +1128,8 @@
   "type": "unanswerable",
   "system": "moment",
   "model": "gpt-5.6-luna",
-  "question": "What recipe does he share for sourdough bread?",
+  "question": "How should you format a resume for a tech job?",
   "answer": "I couldn't find that in this video \u2014 no moment of the talk looks related to the question.",
-  "correct": null,
   "cited": false,
   "refused": true,
   "seconds": 0.1,

@@ -5,14 +5,14 @@
   "abstain": false,
   "ctx_words": 600,
   "evidence": false,
-  "mrr": 1.0,
+  "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": 47.24,
+  "pointer_err_s": 508.08000000000004,
   "system": "Baseline chunks k=3",
   "top": [
-   48,
-   0,
-   237
+   553,
+   145,
+   411
   ]
  },
  {
@@ -22,13 +22,13 @@
   "ctx_words": 600,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 37.400000000000006,
+  "pinpoint": true,
+  "pointer_err_s": 5.430000000000007,
   "system": "Baseline chunks k=3",
   "top": [
-   98,
-   192,
-   379
+   85,
+   19,
+   2341
   ]
  },
  {
@@ -36,15 +36,15 @@
   "type": "fact",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": true,
-  "mrr": 0.5,
+  "evidence": false,
+  "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": 252.24,
+  "pointer_err_s": 2870.77,
   "system": "Baseline chunks k=3",
   "top": [
-   48,
-   286,
-   0
+   3236,
+   2540,
+   1921
   ]
  },
  {
@@ -53,14 +53,14 @@
   "abstain": false,
   "ctx_words": 600,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 752.0799999999999,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
   "system": "Baseline chunks k=3",
   "top": [
-   1037,
-   286,
-   934
+   553,
+   482,
+   145
   ]
  },
  {
@@ -71,12 +71,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 3.0,
+  "pointer_err_s": 5.100000000000023,
   "system": "Baseline chunks k=3",
   "top": [
-   335,
-   286,
-   428
+   613,
+   553,
+   2540
   ]
  },
  {
@@ -86,13 +86,13 @@
   "ctx_words": 600,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.319999999999993,
+  "pinpoint": false,
+  "pointer_err_s": 64.89999999999998,
   "system": "Baseline chunks k=3",
   "top": [
-   428,
-   1562,
-   477
+   685,
+   752,
+   482
   ]
  },
  {
@@ -103,12 +103,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 61.68000000000001,
+  "pointer_err_s": 33.200000000000045,
   "system": "Baseline chunks k=3",
   "top": [
-   428,
-   477,
-   0
+   752,
+   613,
+   2540
   ]
  },
  {
@@ -116,15 +116,15 @@
   "type": "fact",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": 2010.04,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 21.670000000000073,
   "system": "Baseline chunks k=3",
   "top": [
-   2770,
-   2962,
-   3013
+   1032,
+   972,
+   1226
   ]
  },
  {
@@ -135,12 +135,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.839999999999918,
+  "pointer_err_s": 14.38000000000011,
   "system": "Baseline chunks k=3",
   "top": [
-   1143,
-   0,
-   2461
+   1226,
+   349,
+   1032
   ]
  },
  {
@@ -148,15 +148,15 @@
   "type": "fact",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": false,
+  "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 26.11999999999989,
+  "pinpoint": false,
+  "pointer_err_s": 28.769999999999982,
   "system": "Baseline chunks k=3",
   "top": [
-   1831,
-   192,
-   1090
+   1726,
+   1658,
+   1601
   ]
  },
  {
@@ -167,12 +167,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 11.160000000000082,
+  "pointer_err_s": 13.88000000000011,
   "system": "Baseline chunks k=3",
   "top": [
-   1879,
-   1831,
-   1090
+   1986,
+   1303,
+   3383
   ]
  },
  {
@@ -181,14 +181,14 @@
   "abstain": false,
   "ctx_words": 600,
   "evidence": true,
-  "mrr": 0.5,
+  "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 75.63999999999987,
+  "pointer_err_s": 58.320000000000164,
   "system": "Baseline chunks k=3",
   "top": [
-   2279,
-   2326,
-   2241
+   2657,
+   2812,
+   3015
   ]
  },
  {
@@ -199,12 +199,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
+  "pointer_err_s": 9.050000000000182,
   "system": "Baseline chunks k=3",
   "top": [
-   3441,
-   3347,
-   3392
+   2951,
+   2869,
+   85
   ]
  },
  {
@@ -215,12 +215,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 35.48000000000002,
+  "pointer_err_s": 45.2800000000002,
   "system": "Baseline chunks k=3",
   "top": [
-   1930,
-   1974,
-   192
+   3015,
+   3083,
+   411
   ]
  },
  {
@@ -229,14 +229,14 @@
   "abstain": false,
   "ctx_words": 600,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 1061.0,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 1.6799999999998363,
   "system": "Baseline chunks k=3",
   "top": [
-   2019,
-   3109,
-   3059
+   2657,
+   1479,
+   411
   ]
  },
  {
@@ -246,13 +246,13 @@
   "ctx_words": 600,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 25.799999999999955,
+  "pinpoint": true,
+  "pointer_err_s": 0.15000000000009095,
   "system": "Baseline chunks k=3",
   "top": [
-   1379,
-   1424,
-   0
+   3670,
+   3083,
+   3611
   ]
  },
  {
@@ -263,12 +263,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.319999999999936,
+  "pointer_err_s": 36.25,
   "system": "Baseline chunks k=3",
   "top": [
-   1285,
-   1242,
-   1327
+   292,
+   215,
+   3383
   ]
  },
  {
@@ -279,12 +279,12 @@
   "evidence": false,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 10.519999999999982,
+  "pointer_err_s": 23.830000000000013,
   "system": "Baseline chunks k=3",
   "top": [
-   2109,
-   2660,
-   2612
+   215,
+   1921,
+   1861
   ]
  },
  {
@@ -293,14 +293,14 @@
   "abstain": false,
   "ctx_words": 600,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 1116.68,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 2.330000000000041,
   "system": "Baseline chunks k=3",
   "top": [
-   428,
-   1514,
-   1562
+   832,
+   972,
+   1303
   ]
  },
  {
@@ -311,12 +311,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.9200000000000728,
+  "pointer_err_s": 40.42000000000007,
   "system": "Baseline chunks k=3",
   "top": [
-   2612,
-   2660,
-   2559
+   1170,
+   1110,
+   1226
   ]
  },
  {
@@ -326,13 +326,13 @@
   "ctx_words": 600,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 19.360000000000127,
+  "pinpoint": false,
+  "pointer_err_s": 41.73000000000002,
   "system": "Baseline chunks k=3",
   "top": [
-   2861,
-   2813,
-   3013
+   1303,
+   1408,
+   972
   ]
  },
  {
@@ -343,12 +343,12 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 111.76000000000022,
+  "pointer_err_s": 31.440000000000055,
   "system": "Baseline chunks k=3",
   "top": [
-   3347,
-   3249,
-   3303
+   1861,
+   1789,
+   1726
   ]
  },
  {
@@ -357,14 +357,14 @@
   "abstain": false,
   "ctx_words": 600,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 153.63999999999987,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 6.739999999999782,
   "system": "Baseline chunks k=3",
   "top": [
-   2241,
-   2279,
-   2415
+   2208,
+   2657,
+   2273
   ]
  },
  {
@@ -372,15 +372,15 @@
   "type": "explain",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": false,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 257.44000000000005,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 12.659999999999854,
   "system": "Baseline chunks k=3",
   "top": [
-   1192,
-   986,
-   885
+   2407,
+   349,
+   292
   ]
  },
  {
@@ -388,15 +388,15 @@
   "type": "explain",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": true,
+  "evidence": false,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.2000000000000455,
+  "pinpoint": false,
+  "pointer_err_s": 39.05000000000018,
   "system": "Baseline chunks k=3",
   "top": [
-   571,
-   286,
-   335
+   2951,
+   19,
+   2869
   ]
  },
  {
@@ -406,29 +406,29 @@
   "ctx_words": 600,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 35.88000000000011,
+  "pinpoint": true,
+  "pointer_err_s": 10.460000000000036,
   "system": "Baseline chunks k=3",
   "top": [
-   1424,
-   1467,
-   48
+   3460,
+   3383,
+   292
   ]
  },
  {
   "id": "l01",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 551,
+  "ctx_words": 600,
   "evidence": true,
-  "mrr": 0.5,
+  "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": 807.04,
+  "pointer_err_s": 711.1100000000001,
   "system": "Baseline chunks k=3",
   "top": [
-   3542,
-   2717,
-   0
+   2126,
+   482,
+   1921
   ]
  },
  {
@@ -436,15 +436,15 @@
   "type": "locate",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": false,
-  "mrr": 0.0,
+  "evidence": true,
+  "mrr": 0.5,
   "pinpoint": false,
-  "pointer_err_s": 680.7199999999998,
+  "pointer_err_s": 115.61999999999989,
   "system": "Baseline chunks k=3",
   "top": [
-   2461,
-   2019,
-   1974
+   1226,
+   1110,
+   1170
   ]
  },
  {
@@ -452,15 +452,15 @@
   "type": "locate",
   "abstain": false,
   "ctx_words": 600,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 38.960000000000036,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 508.8899999999999,
   "system": "Baseline chunks k=3",
   "top": [
-   2813,
-   2770,
-   3059
+   2126,
+   292,
+   2812
   ]
  },
  {
@@ -470,13 +470,13 @@
   "ctx_words": 600,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.1199999999998909,
+  "pinpoint": false,
+  "pointer_err_s": 39.789999999999964,
   "system": "Baseline chunks k=3",
   "top": [
-   1831,
-   1879,
-   1930
+   3525,
+   3611,
+   2126
   ]
  },
  {
@@ -486,9 +486,9 @@
   "ctx_words": 600,
   "system": "Baseline chunks k=3",
   "top": [
-   1467,
-   286,
-   48
+   292,
+   553,
+   1226
   ]
  },
  {
@@ -498,9 +498,9 @@
   "ctx_words": 600,
   "system": "Baseline chunks k=3",
   "top": [
-   2461,
-   2019,
-   1143
+   3236,
+   1658,
+   1921
   ]
  },
  {
@@ -510,9 +510,9 @@
   "ctx_words": 600,
   "system": "Baseline chunks k=3",
   "top": [
-   192,
-   477,
-   286
+   1861,
+   2126,
+   832
   ]
  },
  {
@@ -522,9 +522,9 @@
   "ctx_words": 600,
   "system": "Baseline chunks k=3",
   "top": [
-   237,
-   98,
-   286
+   2126,
+   1861,
+   292
   ]
  },
  {
@@ -534,9 +534,9 @@
   "ctx_words": 600,
   "system": "Baseline chunks k=3",
   "top": [
-   2109,
-   192,
-   1327
+   19,
+   1479,
+   482
   ]
  },
  {
@@ -546,9 +546,9 @@
   "ctx_words": 600,
   "system": "Baseline chunks k=3",
   "top": [
-   2813,
-   0,
-   477
+   3015,
+   2812,
+   1542
   ]
  },
  {
@@ -556,17 +556,17 @@
   "type": "fact",
   "abstain": false,
   "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
+  "evidence": false,
+  "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": 47.24,
+  "pointer_err_s": 508.08000000000004,
   "system": "Baseline chunks k=5",
   "top": [
-   48,
-   0,
-   237,
-   98,
-   192
+   553,
+   145,
+   411,
+   292,
+   482
   ]
  },
  {
@@ -576,15 +576,15 @@
   "ctx_words": 1000,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 37.400000000000006,
+  "pinpoint": true,
+  "pointer_err_s": 5.430000000000007,
   "system": "Baseline chunks k=5",
   "top": [
-   98,
-   192,
-   379,
-   145,
-   237
+   85,
+   19,
+   2341,
+   349,
+   1226
   ]
  },
  {
@@ -592,17 +592,17 @@
   "type": "fact",
   "abstain": false,
   "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 0.5,
+  "evidence": false,
+  "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": 252.24,
+  "pointer_err_s": 2870.77,
   "system": "Baseline chunks k=5",
   "top": [
-   48,
-   286,
-   0,
-   192,
-   237
+   3236,
+   2540,
+   1921,
+   3149,
+   3315
   ]
  },
  {
@@ -611,16 +611,16 @@
   "abstain": false,
   "ctx_words": 1000,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 752.0799999999999,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
   "system": "Baseline chunks k=5",
   "top": [
-   1037,
-   286,
-   934,
-   335,
-   1562
+   553,
+   482,
+   145,
+   292,
+   2474
   ]
  },
  {
@@ -631,14 +631,14 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 3.0,
+  "pointer_err_s": 5.100000000000023,
   "system": "Baseline chunks k=5",
   "top": [
-   335,
-   286,
-   428,
-   237,
-   192
+   613,
+   553,
+   2540,
+   752,
+   1921
   ]
  },
  {
@@ -648,15 +648,15 @@
   "ctx_words": 1000,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.319999999999993,
+  "pinpoint": false,
+  "pointer_err_s": 64.89999999999998,
   "system": "Baseline chunks k=5",
   "top": [
-   428,
-   1562,
-   477,
-   379,
-   1514
+   685,
+   752,
+   482,
+   1921,
+   553
   ]
  },
  {
@@ -667,410 +667,410 @@
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 61.68000000000001,
+  "pointer_err_s": 33.200000000000045,
   "system": "Baseline chunks k=5",
   "top": [
-   428,
-   477,
-   0,
-   523,
-   192
+   752,
+   613,
+   2540,
+   1479,
+   1921
   ]
  },
  {
   "id": "f08",
   "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 21.670000000000073,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1032,
+   972,
+   1226,
+   1110,
+   1303
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 14.38000000000011,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1226,
+   349,
+   1032,
+   85,
+   19
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 28.769999999999982,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1726,
+   1658,
+   1601,
+   1542,
+   1921
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.88000000000011,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1986,
+   1303,
+   3383,
+   1921,
+   1226
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 58.320000000000164,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2657,
+   2812,
+   3015,
+   3149,
+   2341
+  ]
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 893,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 9.050000000000182,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2951,
+   2869,
+   85,
+   292,
+   3744
+  ]
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 45.2800000000002,
+  "system": "Baseline chunks k=5",
+  "top": [
+   3015,
+   3083,
+   411,
+   349,
+   2812
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 1.6799999999998363,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2657,
+   1479,
+   411,
+   2595,
+   3236
+  ]
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.15000000000009095,
+  "system": "Baseline chunks k=5",
+  "top": [
+   3670,
+   3083,
+   3611,
+   1226,
+   3149
+  ]
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 36.25,
+  "system": "Baseline chunks k=5",
+  "top": [
+   292,
+   215,
+   3383,
+   1479,
+   349
+  ]
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 23.830000000000013,
+  "system": "Baseline chunks k=5",
+  "top": [
+   215,
+   1921,
+   1861,
+   349,
+   145
+  ]
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 2.330000000000041,
+  "system": "Baseline chunks k=5",
+  "top": [
+   832,
+   972,
+   1303,
+   1408,
+   2540
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 40.42000000000007,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1170,
+   1110,
+   1226,
+   482,
+   349
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 41.73000000000002,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1303,
+   1408,
+   972,
+   832,
+   1110
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 31.440000000000055,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1861,
+   1789,
+   1726,
+   215,
+   1303
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 6.739999999999782,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2208,
+   2657,
+   2273,
+   2407,
+   2474
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 12.659999999999854,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2407,
+   349,
+   292,
+   2474,
+   2208
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": false,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 39.05000000000018,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2951,
+   19,
+   2869,
+   3015,
+   3149
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 10.460000000000036,
+  "system": "Baseline chunks k=5",
+  "top": [
+   3460,
+   3383,
+   292,
+   3236,
+   3611
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 711.1100000000001,
+  "system": "Baseline chunks k=5",
+  "top": [
+   2126,
+   482,
+   1921,
+   292,
+   1479
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 1000,
+  "evidence": true,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 115.61999999999989,
+  "system": "Baseline chunks k=5",
+  "top": [
+   1226,
+   1110,
+   1170,
+   349,
+   1408
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
   "abstain": false,
   "ctx_words": 1000,
   "evidence": true,
   "mrr": 0.25,
   "pinpoint": false,
-  "pointer_err_s": 2010.04,
+  "pointer_err_s": 508.8899999999999,
   "system": "Baseline chunks k=5",
   "top": [
-   2770,
-   2962,
-   3013,
-   748,
-   2279
-  ]
- },
- {
-  "id": "f09",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 2.839999999999918,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1143,
-   0,
-   2461,
-   2509,
-   986
-  ]
- },
- {
-  "id": "f10",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 26.11999999999989,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1831,
-   192,
-   1090,
-   48,
-   1789
-  ]
- },
- {
-  "id": "f11",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 11.160000000000082,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1879,
-   1831,
-   1090,
-   1930,
-   1656
-  ]
- },
- {
-  "id": "f12",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 75.63999999999987,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2279,
-   2326,
-   2241,
-   2371,
-   2415
-  ]
- },
- {
-  "id": "f13",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
-  "system": "Baseline chunks k=5",
-  "top": [
-   3441,
-   3347,
-   3392,
-   2962,
-   3249
-  ]
- },
- {
-  "id": "f14",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 35.48000000000002,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1930,
-   1974,
-   192,
-   2019,
-   1090
-  ]
- },
- {
-  "id": "f15",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 1061.0,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2019,
-   3109,
-   3059,
-   3200,
-   3249
-  ]
- },
- {
-  "id": "f16",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 25.799999999999955,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1379,
-   1424,
-   0,
-   48,
-   2371
-  ]
- },
- {
-  "id": "e01",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.319999999999936,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1285,
-   1242,
-   1327,
-   2371,
-   1192
-  ]
- },
- {
-  "id": "e02",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": false,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 10.519999999999982,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2109,
-   2660,
-   2612,
-   2509,
-   2559
-  ]
- },
- {
-  "id": "e03",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 1116.68,
-  "system": "Baseline chunks k=5",
-  "top": [
-   428,
-   1514,
-   1562,
-   379,
-   477
-  ]
- },
- {
-  "id": "e04",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 2.9200000000000728,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2612,
-   2660,
-   2559,
-   2717,
-   2509
-  ]
- },
- {
-  "id": "e05",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 19.360000000000127,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2861,
-   2813,
-   3013,
-   2962,
-   3441
-  ]
- },
- {
-  "id": "e06",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 111.76000000000022,
-  "system": "Baseline chunks k=5",
-  "top": [
-   3347,
-   3249,
-   3303,
-   3200,
-   3109
-  ]
- },
- {
-  "id": "e07",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 153.63999999999987,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2241,
-   2279,
-   2415,
-   2371,
-   2326
-  ]
- },
- {
-  "id": "e08",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": false,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 257.44000000000005,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1192,
-   986,
-   885,
-   1037,
-   836
-  ]
- },
- {
-  "id": "e09",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.2000000000000455,
-  "system": "Baseline chunks k=5",
-  "top": [
-   571,
-   286,
-   335,
-   659,
-   616
-  ]
- },
- {
-  "id": "e10",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 35.88000000000011,
-  "system": "Baseline chunks k=5",
-  "top": [
-   1424,
-   1467,
-   48,
-   1192,
-   2371
-  ]
- },
- {
-  "id": "l01",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 951,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 807.04,
-  "system": "Baseline chunks k=5",
-  "top": [
-   3542,
-   2717,
-   0,
-   2612,
-   790
-  ]
- },
- {
-  "id": "l02",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 0.2,
-  "pinpoint": false,
-  "pointer_err_s": 680.7199999999998,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2461,
-   2019,
-   1974,
-   192,
-   1789
-  ]
- },
- {
-  "id": "l03",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1000,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 38.960000000000036,
-  "system": "Baseline chunks k=5",
-  "top": [
-   2813,
-   2770,
-   3059,
-   3013,
-   2861
+   2126,
+   292,
+   2812,
+   2595,
+   145
   ]
  },
  {
@@ -1080,15 +1080,15 @@
   "ctx_words": 1000,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.1199999999998909,
+  "pinpoint": false,
+  "pointer_err_s": 39.789999999999964,
   "system": "Baseline chunks k=5",
   "top": [
-   1831,
-   1879,
-   1930,
-   192,
-   2461
+   3525,
+   3611,
+   2126,
+   3670,
+   2869
   ]
  },
  {
@@ -1098,11 +1098,11 @@
   "ctx_words": 1000,
   "system": "Baseline chunks k=5",
   "top": [
-   1467,
-   286,
-   48,
-   237,
-   0
+   292,
+   553,
+   1226,
+   215,
+   752
   ]
  },
  {
@@ -1112,11 +1112,11 @@
   "ctx_words": 1000,
   "system": "Baseline chunks k=5",
   "top": [
-   2461,
-   2019,
-   1143,
-   286,
-   0
+   3236,
+   1658,
+   1921,
+   2126,
+   1542
   ]
  },
  {
@@ -1126,11 +1126,11 @@
   "ctx_words": 1000,
   "system": "Baseline chunks k=5",
   "top": [
-   192,
-   477,
-   286,
-   2612,
-   0
+   1861,
+   2126,
+   832,
+   1408,
+   3015
   ]
  },
  {
@@ -1140,11 +1140,11 @@
   "ctx_words": 1000,
   "system": "Baseline chunks k=5",
   "top": [
-   237,
-   98,
-   286,
-   192,
-   2461
+   2126,
+   1861,
+   292,
+   145,
+   215
   ]
  },
  {
@@ -1154,11 +1154,11 @@
   "ctx_words": 1000,
   "system": "Baseline chunks k=5",
   "top": [
-   2109,
-   192,
-   1327,
-   1930,
-   2911
+   19,
+   1479,
+   482,
+   3525,
+   2951
   ]
  },
  {
@@ -1168,607 +1168,607 @@
   "ctx_words": 1000,
   "system": "Baseline chunks k=5",
   "top": [
-   2813,
-   0,
-   477,
-   2770,
-   2019
+   3015,
+   2812,
+   1542,
+   482,
+   1601
   ]
  },
  {
   "id": "f01",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 892,
+  "ctx_words": 656,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 56.76,
+  "pinpoint": true,
+  "pointer_err_s": 6.93,
   "system": "Moment RAG (full)",
-  "best_rel": 0.684,
-  "best_dense": 0.748,
+  "best_rel": 0.67,
+  "best_dense": 0.712,
   "top": [
-   "0-95@38",
-   "95-170@114",
-   "170-265@207"
+   "19-133@38",
+   "398-453@436",
+   "2111-2183@2167"
   ]
  },
  {
   "id": "f02",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1018,
+  "ctx_words": 858,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
-  "system": "Moment RAG (full)",
-  "best_rel": 0.989,
-  "best_dense": 0.853,
-  "top": [
-   "95-170@131",
-   "265-394@303",
-   "170-265@226"
-  ]
- },
- {
-  "id": "f03",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1071,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
-  "system": "Moment RAG (full)",
-  "best_rel": 0.885,
-  "best_dense": 0.755,
-  "top": [
-   "265-394@303",
-   "1214-1271@1214",
-   "0-95@77"
-  ]
- },
- {
-  "id": "f04",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1188,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
-  "system": "Moment RAG (full)",
-  "best_rel": 0.856,
-  "best_dense": 0.742,
-  "top": [
-   "1080-1214@1080",
-   "851-985@947",
-   "985-1080@1042"
-  ]
- },
- {
-  "id": "f05",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 994,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
-  "system": "Moment RAG (full)",
-  "best_rel": 0.97,
-  "best_dense": 0.761,
-  "top": [
-   "265-394@339",
-   "394-490@451",
-   "95-170@114"
-  ]
- },
- {
-  "id": "f06",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
+  "pointer_err_s": 4.140000000000001,
   "system": "Moment RAG (full)",
   "best_rel": 0.999,
-  "best_dense": 0.811,
+  "best_dense": 0.656,
   "top": [
-   "394-490@432",
-   "1535-1666@1573",
-   "490-546@528"
+   "19-133@76",
+   "1780-1897@1878",
+   "2315-2412@2355"
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "abstain": true,
+  "ctx_words": 0,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": null,
+  "system": "Moment RAG (full)",
+  "best_rel": 0.003,
+  "best_dense": 0.597,
+  "top": [
+   "2559-2635@2559",
+   "2111-2183@2130",
+   "465-573@465"
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 633,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
+  "system": "Moment RAG (full)",
+  "best_rel": 0.987,
+  "best_dense": 0.77,
+  "top": [
+   "465-573@553",
+   "2688-2743@2725",
+   "2183-2258@2202"
+  ]
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 733,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.169999999999959,
+  "system": "Moment RAG (full)",
+  "best_rel": 0.971,
+  "best_dense": 0.752,
+  "top": [
+   "625-705@625",
+   "342-398@379",
+   "2315-2412@2315"
+  ]
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 678,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 3.480000000000018,
+  "system": "Moment RAG (full)",
+  "best_rel": 0.04,
+  "best_dense": 0.637,
+  "top": [
+   "710-801@747",
+   "1461-1518@1498",
+   "465-573@502"
   ]
  },
  {
   "id": "f07",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 37.60000000000002,
+  "ctx_words": 502,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 140.33000000000004,
   "system": "Moment RAG (full)",
-  "best_rel": 0.781,
-  "best_dense": 0.693,
+  "best_rel": 0.014,
+  "best_dense": 0.677,
   "top": [
-   "490-546@528",
-   "1535-1666@1573",
-   "394-490@432"
+   "625-705@645",
+   "1726-1780@1744",
+   "1518-1591@1534"
   ]
  },
  {
   "id": "f08",
   "type": "fact",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
-  "mrr": 0.0,
+  "abstain": false,
+  "ctx_words": 888,
+  "evidence": true,
+  "mrr": 0.5,
   "pinpoint": false,
-  "pointer_err_s": null,
+  "pointer_err_s": 96.06999999999994,
   "system": "Moment RAG (full)",
-  "best_rel": 0.067,
-  "best_dense": 0.595,
+  "best_rel": 0.997,
+  "best_dense": 0.759,
   "top": [
-   "755-851@755",
-   "2972-3082@3027",
-   "2099-2177@2157"
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1780-1897@1799"
   ]
  },
  {
   "id": "f09",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1186,
+  "ctx_words": 566,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.2000000000000455,
+  "pointer_err_s": 35.09999999999991,
   "system": "Moment RAG (full)",
-  "best_rel": 0.512,
-  "best_dense": 0.645,
+  "best_rel": 0.482,
+  "best_dense": 0.519,
   "top": [
-   "1080-1214@1138",
-   "851-985@966",
-   "1271-1329@1271"
+   "1239-1312@1275",
+   "1312-1457@1382",
+   "2635-2688@2671"
   ]
  },
  {
   "id": "f10",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 983,
+  "ctx_words": 556,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 87.75999999999999,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
   "system": "Moment RAG (full)",
-  "best_rel": 0.974,
-  "best_dense": 0.657,
+  "best_rel": 0.903,
+  "best_dense": 0.774,
   "top": [
-   "1835-1912@1893",
-   "1741-1835@1778",
-   "1460-1535@1460"
+   "1726-1780@1744",
+   "1897-1969@1933",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "f11",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1051,
+  "ctx_words": 707,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.759999999999991,
+  "pointer_err_s": 5.680000000000064,
   "system": "Moment RAG (full)",
-  "best_rel": 0.998,
-  "best_dense": 0.708,
+  "best_rel": 1.0,
+  "best_dense": 0.772,
   "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
+   "1969-2057@2006",
+   "1312-1457@1402",
+   "1647-1726@1647"
   ]
  },
  {
   "id": "f12",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1072,
+  "ctx_words": 571,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
   "system": "Moment RAG (full)",
-  "best_rel": 1.0,
-  "best_dense": 0.767,
+  "best_rel": 0.979,
+  "best_dense": 0.705,
   "top": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2440-2537@2440"
+   "2688-2743@2688",
+   "2743-2819@2743",
+   "2819-2920@2881"
   ]
  },
  {
   "id": "f13",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 926,
+  "ctx_words": 499,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
+  "pointer_err_s": 0.4099999999998545,
   "system": "Moment RAG (full)",
-  "best_rel": 0.936,
-  "best_dense": 0.694,
+  "best_rel": 1.0,
+  "best_dense": 0.719,
   "top": [
-   "3441-3516@3441",
-   "3382-3441@3421",
-   "2972-3082@3045"
+   "2920-2978@2960",
+   "3720-3786@3720",
+   "3133-3182@3165"
   ]
  },
  {
   "id": "f14",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1049,
+  "ctx_words": 572,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
+  "pointer_err_s": 28.860000000000127,
   "system": "Moment RAG (full)",
-  "best_rel": 0.993,
-  "best_dense": 0.724,
+  "best_rel": 0.57,
+  "best_dense": 0.699,
   "top": [
-   "1912-2006@1949",
-   "1835-1912@1835",
-   "170-265@170"
+   "3070-3129@3089",
+   "2978-3070@3035",
+   "398-453@398"
   ]
  },
  {
   "id": "f15",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 816,
+  "ctx_words": 554,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
+  "pointer_err_s": 0.7699999999999818,
   "system": "Moment RAG (full)",
-  "best_rel": 0.656,
-  "best_dense": 0.712,
+  "best_rel": 0.994,
+  "best_dense": 0.588,
   "top": [
-   "3082-3138@3100",
-   "3194-3288@3211",
-   "2006-2099@2025"
+   "2635-2688@2654",
+   "1041-1106@1041",
+   "1647-1726@1647"
   ]
  },
  {
   "id": "f16",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1257,
+  "ctx_words": 433,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 17.3599999999999,
+  "pointer_err_s": 1.8899999999998727,
   "system": "Moment RAG (full)",
-  "best_rel": 0.954,
-  "best_dense": 0.671,
+  "best_rel": 0.432,
+  "best_dense": 0.743,
   "top": [
-   "1329-1460@1422",
-   "0-95@38",
-   "1535-1666@1535"
+   "3649-3720@3668",
+   "1239-1312@1275",
+   "3133-3182@3149"
   ]
  },
  {
   "id": "e01",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1244,
+  "ctx_words": 549,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
+  "pointer_err_s": 9.470000000000027,
   "system": "Moment RAG (full)",
-  "best_rel": 0.973,
-  "best_dense": 0.738,
+  "best_rel": 0.909,
+  "best_dense": 0.811,
   "top": [
-   "1271-1329@1271",
-   "1329-1460@1329",
-   "851-985@947"
+   "265-342@265",
+   "3401-3471@3455",
+   "3474-3528@3474"
   ]
  },
  {
   "id": "e02",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1254,
+  "ctx_words": 572,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 57.2800000000002,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
   "system": "Moment RAG (full)",
-  "best_rel": 0.927,
-  "best_dense": 0.673,
+  "best_rel": 0.255,
+  "best_dense": 0.626,
   "top": [
-   "2177-2288@2177",
-   "2099-2177@2119",
-   "2614-2767@2673"
+   "265-342@284",
+   "192-260@192",
+   "1461-1518@1498"
   ]
  },
  {
   "id": "e03",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1152,
+  "ctx_words": 632,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 591.1400000000001,
   "system": "Moment RAG (full)",
-  "best_rel": 0.935,
-  "best_dense": 0.729,
+  "best_rel": 0.652,
+  "best_dense": 0.724,
   "top": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
+   "1312-1457@1421",
+   "966-1041@1003",
+   "801-889@854"
   ]
  },
  {
   "id": "e04",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1002,
+  "ctx_words": 882,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
+  "pointer_err_s": 67.45000000000005,
   "system": "Moment RAG (full)",
-  "best_rel": 0.994,
-  "best_dense": 0.786,
+  "best_rel": 0.853,
+  "best_dense": 0.769,
   "top": [
-   "2614-2767@2614",
-   "2537-2614@2557",
-   "95-170@114"
+   "1106-1236@1197",
+   "1312-1457@1312",
+   "1518-1591@1573"
   ]
  },
  {
   "id": "e05",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 919,
+  "ctx_words": 685,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 75.0,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
   "system": "Moment RAG (full)",
-  "best_rel": 0.02,
-  "best_dense": 0.7,
+  "best_rel": 0.922,
+  "best_dense": 0.763,
   "top": [
-   "2767-2841@2805",
-   "2972-3082@3008",
-   "2896-2972@2952"
+   "1312-1457@1345",
+   "801-889@801",
+   "966-1041@1003"
   ]
  },
  {
   "id": "e06",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 943,
+  "ctx_words": 741,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 128.92000000000007,
+  "pointer_err_s": 47.940000000000055,
   "system": "Moment RAG (full)",
-  "best_rel": 0.873,
-  "best_dense": 0.778,
+  "best_rel": 0.999,
+  "best_dense": 0.801,
   "top": [
-   "3288-3382@3364",
-   "3194-3288@3250",
-   "3082-3138@3120"
+   "1780-1897@1878",
+   "1897-1969@1897",
+   "2111-2183@2111"
   ]
  },
  {
   "id": "e07",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1176,
+  "ctx_words": 712,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
   "system": "Moment RAG (full)",
-  "best_rel": 0.979,
-  "best_dense": 0.742,
+  "best_rel": 0.987,
+  "best_dense": 0.774,
   "top": [
-   "2364-2440@2364",
-   "1329-1460@1367",
-   "2440-2537@2517"
+   "2183-2258@2222",
+   "2412-2485@2412",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "e08",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1115,
+  "ctx_words": 626,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 145.24,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.920000000000073,
   "system": "Moment RAG (full)",
-  "best_rel": 0.754,
-  "best_dense": 0.718,
+  "best_rel": 0.997,
+  "best_dense": 0.76,
   "top": [
-   "1080-1214@1080",
-   "985-1080@985",
-   "3441-3516@3497"
+   "2412-2485@2412",
+   "2485-2559@2485",
+   "342-398@361"
   ]
  },
  {
   "id": "e09",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
+  "ctx_words": 755,
+  "evidence": false,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 13.840000000000032,
+  "pointer_err_s": 5.389999999999873,
   "system": "Moment RAG (full)",
-  "best_rel": 0.975,
-  "best_dense": 0.749,
+  "best_rel": 0.898,
+  "best_dense": 0.757,
   "top": [
-   "546-679@584",
-   "679-755@679",
-   "95-170@114"
+   "2978-3070@2995",
+   "2819-2920@2881",
+   "1780-1897@1819"
   ]
  },
  {
   "id": "e10",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1077,
+  "ctx_words": 596,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
+  "pointer_err_s": 4.0300000000002,
   "system": "Moment RAG (full)",
-  "best_rel": 0.978,
-  "best_dense": 0.792,
+  "best_rel": 0.999,
+  "best_dense": 0.82,
   "top": [
-   "1460-1535@1460",
-   "1329-1460@1404",
-   "0-95@58"
+   "3474-3528@3474",
+   "3401-3471@3455",
+   "3530-3645@3609"
   ]
  },
  {
   "id": "l01",
   "type": "locate",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
+  "abstain": false,
+  "ctx_words": 667,
+  "evidence": true,
   "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": null,
+  "pointer_err_s": 614.05,
   "system": "Moment RAG (full)",
-  "best_rel": 0.001,
-  "best_dense": 0.608,
+  "best_rel": 0.033,
+  "best_dense": 0.679,
   "top": [
-   "3516-3590@3534",
-   "2614-2767@2748",
-   "2440-2537@2440"
+   "801-889@801",
+   "2111-2183@2111",
+   "1969-2057@1969"
   ]
  },
  {
   "id": "l02",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 910,
+  "ctx_words": 900,
   "evidence": true,
-  "mrr": 0.5,
+  "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 245.31999999999994,
+  "pointer_err_s": 107.03999999999996,
   "system": "Moment RAG (full)",
-  "best_rel": 0.748,
-  "best_dense": 0.695,
+  "best_rel": 0.019,
+  "best_dense": 0.652,
   "top": [
-   "2006-2099@2025",
-   "1741-1835@1797",
-   "2537-2614@2577"
+   "1106-1236@1217",
+   "1780-1897@1799",
+   "342-398@379"
   ]
  },
  {
   "id": "l03",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 927,
+  "ctx_words": 463,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 66.51999999999998,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.13999999999987267,
   "system": "Moment RAG (full)",
-  "best_rel": 0.677,
-  "best_dense": 0.677,
+  "best_rel": 0.381,
+  "best_dense": 0.658,
   "top": [
-   "2841-2896@2841",
-   "2767-2841@2805",
-   "2972-3082@2972"
+   "2635-2688@2635",
+   "2111-2183@2147",
+   "133-192@153"
   ]
  },
  {
   "id": "l04",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1051,
+  "ctx_words": 647,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
+  "pointer_err_s": 34.76000000000022,
   "system": "Moment RAG (full)",
-  "best_rel": 0.975,
-  "best_dense": 0.73,
+  "best_rel": 0.12,
+  "best_dense": 0.659,
   "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
+   "3530-3645@3530",
+   "3182-3279@3241",
+   "2688-2743@2688"
   ]
  },
  {
   "id": "u01",
   "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1140,
+  "abstain": true,
+  "ctx_words": 0,
   "system": "Moment RAG (full)",
-  "best_rel": 0.931,
-  "best_dense": 0.67,
+  "best_rel": 0.0,
+  "best_dense": 0.579,
   "top": [
-   "265-394@303",
-   "0-95@77",
-   "170-265@188"
+   "265-342@265",
+   "2819-2920@2901",
+   "2315-2412@2374"
   ]
  },
  {
   "id": "u02",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
+  "abstain": false,
+  "ctx_words": 669,
   "system": "Moment RAG (full)",
-  "best_rel": 0.055,
-  "best_dense": 0.604,
+  "best_rel": 0.942,
+  "best_dense": 0.763,
   "top": [
-   "1835-1912@1893",
-   "265-394@321",
-   "2440-2537@2459"
+   "3182-3279@3260",
+   "1518-1591@1518",
+   "1726-1780@1763"
   ]
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 910,
+  "ctx_words": 512,
   "system": "Moment RAG (full)",
-  "best_rel": 0.0,
-  "best_dense": 0.633,
+  "best_rel": 0.049,
+  "best_dense": 0.647,
   "top": [
-   "3194-3288@3250",
-   "3441-3516@3497",
-   "2440-2537@2499"
+   "801-889@854",
+   "2111-2183@2130",
+   "573-625@573"
   ]
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 828,
+  "ctx_words": 604,
   "system": "Moment RAG (full)",
-  "best_rel": 0.031,
-  "best_dense": 0.637,
+  "best_rel": 0.0,
+  "best_dense": 0.615,
   "top": [
-   "95-170@114",
-   "679-755@717",
-   "2440-2537@2459"
+   "342-398@342",
+   "2111-2183@2147",
+   "2315-2412@2355"
   ]
  },
  {
@@ -1777,12 +1777,12 @@
   "abstain": true,
   "ctx_words": 0,
   "system": "Moment RAG (full)",
-  "best_rel": 0.0,
-  "best_dense": 0.552,
+  "best_rel": 0.073,
+  "best_dense": 0.504,
   "top": [
-   "1329-1460@1348",
-   "1912-2006@1949",
-   "0-95@38"
+   "1726-1780@1763",
+   "3530-3645@3609",
+   "465-573@518"
   ]
  },
  {
@@ -1792,4228 +1792,3796 @@
   "ctx_words": 0,
   "system": "Moment RAG (full)",
   "best_rel": 0.0,
-  "best_dense": 0.47,
+  "best_dense": 0.592,
   "top": [
-   "546-679@661",
-   "0-95@58",
-   "2537-2614@2557"
+   "2819-2920@2881",
+   "1726-1780@1744",
+   "1591-1647@1628"
   ]
  },
  {
   "id": "f01",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 892,
+  "ctx_words": 615,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 18.519999999999996,
+  "pointer_err_s": 12.049999999999997,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.748,
+  "best_dense": 0.712,
   "top": [
-   "95-170@114",
-   "170-265@207",
-   "0-95@19"
+   "19-133@57",
+   "398-453@436",
+   "1726-1780@1744"
   ]
  },
  {
   "id": "f02",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1018,
+  "ctx_words": 674,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
+  "pointer_err_s": 4.140000000000001,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.853,
+  "best_dense": 0.656,
   "top": [
-   "95-170@131",
-   "170-265@226",
-   "265-394@303"
+   "19-133@76",
+   "1239-1312@1294",
+   "966-1041@1022"
   ]
  },
  {
   "id": "f03",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1207,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
+  "ctx_words": 528,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 2914.41,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.755,
+  "best_dense": 0.597,
   "top": [
-   "265-394@303",
-   "0-95@38",
-   "1080-1214@1080"
+   "3279-3335@3279",
+   "265-342@284",
+   "894-966@894"
   ]
  },
  {
   "id": "f04",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1155,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
+  "ctx_words": 633,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.742,
+  "best_dense": 0.77,
   "top": [
-   "1080-1214@1080",
-   "3382-3441@3421",
-   "851-985@947"
+   "465-573@553",
+   "2688-2743@2725",
+   "2183-2258@2202"
   ]
  },
  {
   "id": "f05",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 994,
+  "ctx_words": 650,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
+  "pointer_err_s": 7.169999999999959,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.761,
+  "best_dense": 0.752,
   "top": [
-   "265-394@339",
-   "394-490@451",
-   "95-170@114"
+   "625-705@625",
+   "342-398@379",
+   "1239-1312@1239"
   ]
  },
  {
   "id": "f06",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1012,
+  "ctx_words": 654,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
+  "pinpoint": false,
+  "pointer_err_s": 33.950000000000045,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.811,
+  "best_dense": 0.637,
   "top": [
-   "394-490@432",
-   "1535-1666@1573",
-   "490-546@490"
+   "710-801@784",
+   "1897-1969@1915",
+   "1647-1726@1706"
   ]
  },
  {
   "id": "f07",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1035,
+  "ctx_words": 598,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.2799999999999727,
+  "pointer_err_s": 1.0499999999999545,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.693,
+  "best_dense": 0.677,
   "top": [
-   "490-546@490",
-   "394-490@432",
-   "2614-2767@2634"
+   "710-801@784",
+   "1726-1780@1744",
+   "2559-2635@2577"
   ]
  },
  {
   "id": "f08",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1066,
+  "ctx_words": 888,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 4.559999999999945,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 96.06999999999994,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.595,
+  "best_dense": 0.759,
   "top": [
-   "755-851@755",
-   "2972-3082@3027",
-   "3194-3288@3231"
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1780-1897@1799"
   ]
  },
  {
   "id": "f09",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1067,
+  "ctx_words": 599,
   "evidence": true,
   "mrr": 0.3333333333333333,
   "pinpoint": false,
-  "pointer_err_s": 233.36,
+  "pointer_err_s": 429.27,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.645,
+  "best_dense": 0.519,
   "top": [
-   "679-755@737",
-   "0-95@0",
-   "851-985@870"
+   "1647-1726@1669",
+   "1312-1457@1382",
+   "1239-1312@1275"
   ]
  },
  {
   "id": "f10",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 983,
+  "ctx_words": 639,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 87.75999999999999,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.657,
+  "best_dense": 0.774,
   "top": [
-   "1835-1912@1893",
-   "1460-1535@1460",
-   "1741-1835@1760"
+   "1726-1780@1744",
+   "1518-1591@1518",
+   "1969-2057@1969"
   ]
  },
  {
   "id": "f11",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1001,
-  "evidence": false,
+  "ctx_words": 677,
+  "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 16.200000000000045,
+  "pointer_err_s": 5.680000000000064,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.708,
+  "best_dense": 0.772,
   "top": [
-   "1835-1912@1874",
-   "1080-1214@1138",
-   "679-755@737"
+   "1969-2057@2006",
+   "1312-1457@1421",
+   "801-889@872"
   ]
  },
  {
   "id": "f12",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 978,
+  "ctx_words": 571,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.767,
+  "best_dense": 0.705,
   "top": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2537-2614@2596"
+   "2688-2743@2688",
+   "2819-2920@2857",
+   "2743-2819@2743"
   ]
  },
  {
   "id": "f13",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 866,
+  "ctx_words": 621,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
+  "pointer_err_s": 0.4099999999998545,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.694,
+  "best_dense": 0.719,
   "top": [
-   "3441-3516@3441",
-   "3382-3441@3402",
-   "2972-3082@2990"
+   "2920-2978@2960",
+   "2819-2920@2901",
+   "3720-3786@3720"
   ]
  },
  {
   "id": "f14",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1062,
+  "ctx_words": 572,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
+  "pinpoint": false,
+  "pointer_err_s": 25.409999999999854,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.724,
+  "best_dense": 0.699,
   "top": [
-   "1912-2006@1949",
-   "1080-1214@1138",
-   "1835-1912@1835"
+   "2978-3070@3035",
+   "3070-3129@3089",
+   "398-453@398"
   ]
  },
  {
   "id": "f15",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 877,
+  "ctx_words": 542,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
+  "pointer_err_s": 0.7699999999999818,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.712,
+  "best_dense": 0.588,
   "top": [
-   "3082-3138@3100",
-   "2006-2099@2025",
-   "3194-3288@3194"
+   "2635-2688@2654",
+   "966-1041@1022",
+   "1461-1518@1498"
   ]
  },
  {
   "id": "f16",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1077,
+  "ctx_words": 592,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 17.3599999999999,
+  "pointer_err_s": 1.8899999999998727,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.671,
+  "best_dense": 0.743,
   "top": [
-   "1329-1460@1422",
-   "0-95@19",
-   "1460-1535@1460"
+   "3649-3720@3668",
+   "2978-3070@3052",
+   "1239-1312@1275"
   ]
  },
  {
   "id": "e01",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1091,
+  "ctx_words": 563,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 1114.44,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 9.470000000000027,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.738,
+  "best_dense": 0.811,
   "top": [
-   "2364-2440@2384",
-   "1271-1329@1271",
-   "1329-1460@1329"
+   "265-342@265",
+   "1461-1518@1498",
+   "3401-3471@3401"
   ]
  },
  {
   "id": "e02",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1076,
-  "evidence": false,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.4800000000000182,
+  "ctx_words": 554,
+  "evidence": true,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.673,
+  "best_dense": 0.626,
   "top": [
-   "2099-2177@2119",
-   "2614-2767@2673",
-   "0-95@38"
+   "265-342@284",
+   "192-260@192",
+   "1897-1969@1933"
   ]
  },
  {
   "id": "e03",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1152,
+  "ctx_words": 632,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
+  "pointer_err_s": 24.440000000000055,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.729,
+  "best_dense": 0.724,
   "top": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
+   "801-889@854",
+   "1312-1457@1421",
+   "966-1041@1003"
   ]
  },
  {
   "id": "e04",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1254,
+  "ctx_words": 845,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
+  "pointer_err_s": 48.67000000000007,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.786,
+  "best_dense": 0.769,
   "top": [
-   "2614-2767@2614",
-   "2537-2614@2557",
-   "265-394@265"
+   "1106-1236@1179",
+   "342-398@379",
+   "465-573@518"
   ]
  },
  {
   "id": "e05",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 788,
-  "evidence": false,
+  "ctx_words": 701,
+  "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 21.59999999999991,
+  "pinpoint": true,
+  "pointer_err_s": 76.1400000000001,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.7,
+  "best_dense": 0.763,
   "top": [
-   "2841-2896@2858",
-   "2767-2841@2805",
-   "2972-3082@2990"
+   "1312-1457@1421",
+   "966-1041@1003",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "e06",
   "type": "explain",
+  "abstain": false,
+  "ctx_words": 741,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 47.940000000000055,
+  "system": "A1 moments, dense only",
+  "best_rel": 0.0,
+  "best_dense": 0.801,
+  "top": [
+   "1780-1897@1878",
+   "1897-1969@1897",
+   "2111-2183@2111"
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 677,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
+  "system": "A1 moments, dense only",
+  "best_rel": 0.0,
+  "best_dense": 0.774,
+  "top": [
+   "2183-2258@2222",
+   "2412-2485@2412",
+   "1312-1457@1345"
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 655,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 46.690000000000055,
+  "system": "A1 moments, dense only",
+  "best_rel": 0.0,
+  "best_dense": 0.76,
+  "top": [
+   "2412-2485@2467",
+   "2485-2559@2485",
+   "2183-2258@2202"
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 792,
+  "evidence": false,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 5.389999999999873,
+  "system": "A1 moments, dense only",
+  "best_rel": 0.0,
+  "best_dense": 0.757,
+  "top": [
+   "2978-3070@2995",
+   "2819-2920@2901",
+   "1780-1897@1799"
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 654,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 4.0300000000002,
+  "system": "A1 moments, dense only",
+  "best_rel": 0.0,
+  "best_dense": 0.82,
+  "top": [
+   "3474-3528@3474",
+   "3182-3279@3260",
+   "1647-1726@1706"
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 702,
+  "evidence": true,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 554.1099999999999,
+  "system": "A1 moments, dense only",
+  "best_rel": 0.0,
+  "best_dense": 0.679,
+  "top": [
+   "1969-2057@1969",
+   "801-889@818",
+   "465-573@482"
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
   "abstain": false,
   "ctx_words": 861,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 109.55999999999995,
+  "pointer_err_s": 15.259999999999991,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.778,
+  "best_dense": 0.652,
   "top": [
-   "3288-3382@3345",
-   "3194-3288@3250",
-   "3082-3138@3082"
-  ]
- },
- {
-  "id": "e07",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1143,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
-  "system": "A1 moments, dense only",
-  "best_rel": 0.0,
-  "best_dense": 0.742,
-  "top": [
-   "2364-2440@2364",
-   "2440-2537@2517",
-   "2177-2288@2250"
-  ]
- },
- {
-  "id": "e08",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1196,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 259.3599999999999,
-  "system": "A1 moments, dense only",
-  "best_rel": 0.0,
-  "best_dense": 0.718,
-  "top": [
-   "1080-1214@1194",
-   "851-985@889",
-   "1271-1329@1271"
-  ]
- },
- {
-  "id": "e09",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1150,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 13.840000000000032,
-  "system": "A1 moments, dense only",
-  "best_rel": 0.0,
-  "best_dense": 0.749,
-  "top": [
-   "546-679@584",
-   "679-755@679",
-   "1912-2006@1969"
-  ]
- },
- {
-  "id": "e10",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1190,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
-  "system": "A1 moments, dense only",
-  "best_rel": 0.0,
-  "best_dense": 0.792,
-  "top": [
-   "1460-1535@1460",
-   "265-394@265",
-   "0-95@77"
-  ]
- },
- {
-  "id": "l01",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1038,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 12.559999999999945,
-  "system": "A1 moments, dense only",
-  "best_rel": 0.0,
-  "best_dense": 0.608,
-  "top": [
-   "2614-2767@2748",
-   "3516-3590@3534",
-   "3382-3441@3382"
-  ]
- },
- {
-  "id": "l02",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 962,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": 245.31999999999994,
-  "system": "A1 moments, dense only",
-  "best_rel": 0.0,
-  "best_dense": 0.695,
-  "top": [
-   "2006-2099@2025",
-   "2440-2537@2459",
-   "1835-1912@1893"
+   "1106-1236@1125",
+   "1780-1897@1799",
+   "342-398@379"
   ]
  },
  {
   "id": "l03",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 853,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 31.0,
+  "ctx_words": 565,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 1136.65,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.677,
+  "best_dense": 0.658,
   "top": [
-   "2767-2841@2805",
-   "2841-2896@2841",
-   "2972-3082@2990"
+   "1461-1518@1498",
+   "2111-2183@2147",
+   "2819-2920@2881"
   ]
  },
  {
   "id": "l04",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1107,
+  "ctx_words": 641,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
+  "pinpoint": true,
+  "pointer_err_s": 2.2600000000002183,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.73,
+  "best_dense": 0.659,
   "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "2177-2288@2270"
+   "3530-3645@3567",
+   "3182-3279@3202",
+   "2111-2183@2111"
   ]
  },
  {
   "id": "u01",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1056,
+  "ctx_words": 567,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.67,
+  "best_dense": 0.579,
   "top": [
-   "265-394@303",
-   "0-95@77",
-   "1460-1535@1479"
+   "265-342@322",
+   "573-625@587",
+   "342-398@379"
   ]
  },
  {
   "id": "u02",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1069,
+  "ctx_words": 726,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.604,
+  "best_dense": 0.763,
   "top": [
-   "1835-1912@1893",
-   "2440-2537@2459",
-   "265-394@321"
+   "3182-3279@3260",
+   "1647-1726@1706",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1126,
+  "ctx_words": 644,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.633,
+  "best_dense": 0.647,
   "top": [
-   "2614-2767@2634",
-   "95-170@114",
-   "2177-2288@2232"
+   "801-889@854",
+   "573-625@573",
+   "2559-2635@2559"
   ]
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 907,
+  "ctx_words": 627,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.637,
+  "best_dense": 0.615,
   "top": [
-   "2440-2537@2479",
-   "95-170@114",
-   "170-265@226"
+   "801-889@818",
+   "342-398@342",
+   "265-342@322"
   ]
  },
  {
   "id": "u05",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 892,
+  "ctx_words": 672,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.552,
+  "best_dense": 0.504,
   "top": [
-   "1912-2006@1949",
-   "2537-2614@2537",
-   "3382-3441@3382"
+   "465-573@518",
+   "1461-1518@1480",
+   "3530-3645@3549"
   ]
  },
  {
   "id": "u06",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 838,
+  "ctx_words": 703,
   "system": "A1 moments, dense only",
   "best_rel": 0.0,
-  "best_dense": 0.47,
+  "best_dense": 0.592,
   "top": [
-   "1271-1329@1290",
-   "3194-3288@3231",
-   "2006-2099@2025"
+   "1591-1647@1591",
+   "465-573@482",
+   "2819-2920@2881"
   ]
  },
  {
   "id": "f01",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1018,
+  "ctx_words": 613,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 18.519999999999996,
+  "pointer_err_s": 12.049999999999997,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.748,
+  "best_dense": 0.712,
   "top": [
-   "95-170@114",
-   "170-265@207",
-   "265-394@321"
+   "19-133@57",
+   "398-453@436",
+   "2111-2183@2130"
   ]
  },
  {
   "id": "f02",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1075,
+  "ctx_words": 727,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
+  "pointer_err_s": 4.140000000000001,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.853,
+  "best_dense": 0.656,
   "top": [
-   "95-170@131",
-   "170-265@226",
-   "546-679@565"
+   "19-133@76",
+   "1647-1726@1669",
+   "2315-2412@2355"
   ]
  },
  {
   "id": "f03",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1011,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
+  "ctx_words": 671,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 2193.86,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.755,
+  "best_dense": 0.597,
   "top": [
-   "265-394@303",
-   "0-95@38",
-   "1214-1271@1214"
+   "2559-2635@2559",
+   "2111-2183@2130",
+   "465-573@518"
   ]
  },
  {
   "id": "f04",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1254,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
+  "ctx_words": 630,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.742,
+  "best_dense": 0.77,
   "top": [
-   "1080-1214@1080",
-   "851-985@851",
-   "985-1080@1042"
+   "465-573@553",
+   "2183-2258@2202",
+   "1726-1780@1744"
   ]
  },
  {
   "id": "f05",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1058,
+  "ctx_words": 733,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
+  "pointer_err_s": 7.169999999999959,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.761,
+  "best_dense": 0.752,
   "top": [
-   "265-394@339",
-   "394-490@451",
-   "95-170@95"
+   "625-705@625",
+   "342-398@379",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "f06",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1093,
+  "ctx_words": 682,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
+  "pinpoint": false,
+  "pointer_err_s": 39.64999999999998,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.811,
+  "best_dense": 0.637,
   "top": [
-   "394-490@432",
-   "1535-1666@1573",
-   "679-755@737"
+   "710-801@710",
+   "1461-1518@1498",
+   "1647-1726@1706"
   ]
  },
  {
   "id": "f07",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1012,
+  "ctx_words": 689,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.2799999999999727,
+  "pointer_err_s": 1.0499999999999545,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.693,
+  "best_dense": 0.677,
   "top": [
-   "490-546@490",
-   "394-490@432",
-   "1535-1666@1573"
+   "710-801@784",
+   "625-705@625",
+   "342-398@379"
   ]
  },
  {
   "id": "f08",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1242,
+  "ctx_words": 888,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 4.559999999999945,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 96.06999999999994,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.595,
+  "best_dense": 0.759,
   "top": [
-   "755-851@755",
-   "2972-3082@3027",
-   "2177-2288@2270"
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1780-1897@1799"
   ]
  },
  {
   "id": "f09",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1230,
+  "ctx_words": 599,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 100.32000000000005,
+  "pinpoint": true,
+  "pointer_err_s": 35.09999999999991,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.645,
+  "best_dense": 0.519,
   "top": [
-   "851-985@870",
-   "2440-2537@2517",
-   "1080-1214@1138"
+   "1239-1312@1275",
+   "1312-1457@1382",
+   "1647-1726@1669"
   ]
  },
  {
   "id": "f10",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 994,
+  "ctx_words": 525,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 27.079999999999927,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.657,
+  "best_dense": 0.774,
   "top": [
-   "1741-1835@1778",
-   "1460-1535@1460",
-   "1835-1912@1835"
+   "1726-1780@1744",
+   "1518-1591@1518",
+   "1591-1647@1610"
   ]
  },
  {
   "id": "f11",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 991,
-  "evidence": false,
+  "ctx_words": 696,
+  "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 16.200000000000045,
+  "pointer_err_s": 5.680000000000064,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.708,
+  "best_dense": 0.772,
   "top": [
-   "1835-1912@1874",
-   "1080-1214@1138",
-   "1912-2006@1949"
+   "1969-2057@2006",
+   "3182-3279@3260",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "f12",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 978,
+  "ctx_words": 617,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.767,
+  "best_dense": 0.705,
   "top": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2537-2614@2596"
+   "2688-2743@2688",
+   "2819-2920@2819",
+   "2743-2819@2743"
   ]
  },
  {
   "id": "f13",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 866,
+  "ctx_words": 606,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
+  "pointer_err_s": 0.4099999999998545,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.694,
+  "best_dense": 0.719,
   "top": [
-   "3441-3516@3441",
-   "3382-3441@3402",
-   "2972-3082@3045"
+   "2920-2978@2960",
+   "2819-2920@2901",
+   "3133-3182@3165"
   ]
  },
  {
   "id": "f14",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1062,
+  "ctx_words": 572,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
+  "pinpoint": false,
+  "pointer_err_s": 25.409999999999854,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.724,
+  "best_dense": 0.699,
   "top": [
-   "1912-2006@1949",
-   "1835-1912@1835",
-   "1080-1214@1138"
+   "2978-3070@3035",
+   "3070-3129@3089",
+   "398-453@398"
   ]
  },
  {
   "id": "f15",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 869,
+  "ctx_words": 498,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
+  "pointer_err_s": 0.7699999999999818,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.712,
+  "best_dense": 0.588,
   "top": [
-   "3082-3138@3100",
-   "3194-3288@3268",
-   "3288-3382@3307"
+   "2635-2688@2654",
+   "1461-1518@1498",
+   "1041-1106@1041"
   ]
  },
  {
   "id": "f16",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1328,
+  "ctx_words": 514,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 37.11999999999989,
+  "pinpoint": true,
+  "pointer_err_s": 1.8899999999998727,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.671,
+  "best_dense": 0.743,
   "top": [
-   "1329-1460@1442",
-   "0-95@38",
-   "1535-1666@1535"
+   "3649-3720@3668",
+   "3133-3182@3165",
+   "2485-2559@2503"
   ]
  },
  {
   "id": "e01",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 993,
-  "evidence": false,
+  "ctx_words": 594,
+  "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
+  "pointer_err_s": 9.470000000000027,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.738,
+  "best_dense": 0.811,
   "top": [
-   "1271-1329@1271",
-   "2364-2440@2384",
-   "851-985@908"
+   "265-342@265",
+   "3401-3471@3401",
+   "710-801@764"
   ]
  },
  {
   "id": "e02",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1254,
+  "ctx_words": 572,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.4800000000000182,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.673,
+  "best_dense": 0.626,
   "top": [
-   "2099-2177@2119",
-   "2614-2767@2673",
-   "2177-2288@2177"
+   "265-342@284",
+   "192-260@192",
+   "1461-1518@1498"
   ]
  },
  {
   "id": "e03",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1152,
+  "ctx_words": 632,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
+  "pointer_err_s": 24.440000000000055,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.729,
+  "best_dense": 0.724,
   "top": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
+   "801-889@854",
+   "1312-1457@1421",
+   "966-1041@1003"
   ]
  },
  {
   "id": "e04",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1070,
+  "ctx_words": 851,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
+  "pointer_err_s": 67.45000000000005,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.786,
+  "best_dense": 0.769,
   "top": [
-   "2614-2767@2614",
-   "2537-2614@2557",
-   "95-170@150"
+   "1106-1236@1197",
+   "1518-1591@1573",
+   "1312-1457@1421"
   ]
  },
  {
   "id": "e05",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 924,
+  "ctx_words": 685,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 183.32000000000016,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.7,
+  "best_dense": 0.763,
   "top": [
-   "2972-3082@3063",
-   "2767-2841@2805",
-   "2896-2972@2914"
+   "1312-1457@1345",
+   "801-889@801",
+   "966-1041@1003"
   ]
  },
  {
   "id": "e06",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 874,
+  "ctx_words": 741,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 109.55999999999995,
+  "pointer_err_s": 47.940000000000055,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.778,
+  "best_dense": 0.801,
   "top": [
-   "3288-3382@3345",
-   "3194-3288@3250",
-   "3082-3138@3120"
+   "1780-1897@1878",
+   "2111-2183@2111",
+   "1897-1969@1897"
   ]
  },
  {
   "id": "e07",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1144,
+  "ctx_words": 681,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.742,
+  "best_dense": 0.774,
   "top": [
-   "2364-2440@2364",
-   "2440-2537@2440",
-   "2177-2288@2250"
+   "2183-2258@2222",
+   "1647-1726@1688",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "e08",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1258,
+  "ctx_words": 761,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 259.3599999999999,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 46.690000000000055,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.718,
+  "best_dense": 0.76,
   "top": [
-   "1080-1214@1194",
-   "851-985@889",
-   "985-1080@985"
+   "2412-2485@2467",
+   "2485-2559@2485",
+   "1312-1457@1442"
   ]
  },
  {
   "id": "e09",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
+  "ctx_words": 792,
+  "evidence": false,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 32.67999999999995,
+  "pointer_err_s": 5.389999999999873,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.749,
+  "best_dense": 0.757,
   "top": [
-   "546-679@603",
-   "679-755@679",
-   "95-170@114"
+   "2978-3070@2995",
+   "1780-1897@1799",
+   "2819-2920@2901"
   ]
  },
  {
   "id": "e10",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1148,
+  "ctx_words": 596,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
+  "pointer_err_s": 4.0300000000002,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.792,
+  "best_dense": 0.82,
   "top": [
-   "1460-1535@1460",
-   "0-95@58",
-   "1329-1460@1442"
+   "3474-3528@3474",
+   "3401-3471@3455",
+   "3530-3645@3609"
   ]
  },
  {
   "id": "l01",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1097,
+  "ctx_words": 614,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 12.559999999999945,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 695.6999999999998,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.608,
+  "best_dense": 0.679,
   "top": [
-   "2614-2767@2748",
-   "3516-3590@3534",
-   "2440-2537@2459"
+   "2111-2183@2111",
+   "1969-2057@1969",
+   "801-889@818"
   ]
  },
  {
   "id": "l02",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 910,
+  "ctx_words": 891,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 796.96,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 15.259999999999991,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.695,
+  "best_dense": 0.652,
   "top": [
-   "2537-2614@2577",
-   "1741-1835@1797",
-   "2006-2099@2025"
+   "1106-1236@1125",
+   "1780-1897@1799",
+   "2819-2920@2857"
   ]
  },
  {
   "id": "l03",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 913,
+  "ctx_words": 463,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 12.599999999999909,
+  "pointer_err_s": 0.13999999999987267,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.677,
+  "best_dense": 0.658,
   "top": [
-   "2767-2841@2787",
-   "2841-2896@2841",
-   "2972-3082@3063"
+   "2635-2688@2635",
+   "2111-2183@2147",
+   "133-192@153"
   ]
  },
  {
   "id": "l04",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1107,
+  "ctx_words": 585,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
+  "pinpoint": true,
+  "pointer_err_s": 2.2600000000002183,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.73,
+  "best_dense": 0.659,
   "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "2177-2288@2270"
+   "3530-3645@3567",
+   "3182-3279@3260",
+   "2688-2743@2706"
   ]
  },
  {
   "id": "u01",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1080,
+  "ctx_words": 701,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.67,
+  "best_dense": 0.579,
   "top": [
-   "265-394@303",
-   "0-95@38",
-   "170-265@226"
+   "265-342@302",
+   "2315-2412@2374",
+   "2819-2920@2901"
   ]
  },
  {
   "id": "u02",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1069,
+  "ctx_words": 678,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.604,
+  "best_dense": 0.763,
   "top": [
-   "265-394@321",
-   "1835-1912@1893",
-   "2440-2537@2459"
+   "1518-1591@1518",
+   "3182-3279@3260",
+   "1461-1518@1498"
   ]
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1009,
+  "ctx_words": 512,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.633,
+  "best_dense": 0.647,
   "top": [
-   "2614-2767@2654",
-   "3194-3288@3250",
-   "95-170@114"
+   "801-889@854",
+   "573-625@573",
+   "2111-2183@2130"
   ]
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 828,
+  "ctx_words": 570,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.637,
+  "best_dense": 0.615,
   "top": [
-   "95-170@114",
-   "679-755@717",
-   "2440-2537@2459"
+   "342-398@342",
+   "2111-2183@2147",
+   "2183-2258@2183"
   ]
  },
  {
   "id": "u05",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1185,
+  "ctx_words": 653,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.552,
+  "best_dense": 0.504,
   "top": [
-   "1912-2006@1949",
-   "170-265@188",
-   "1329-1460@1329"
+   "465-573@518",
+   "3530-3645@3549",
+   "1726-1780@1744"
   ]
  },
  {
   "id": "u06",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 838,
+  "ctx_words": 728,
   "system": "A2 + BM25",
   "best_rel": 0.0,
-  "best_dense": 0.47,
+  "best_dense": 0.592,
   "top": [
-   "1271-1329@1290",
-   "3194-3288@3231",
-   "2006-2099@2025"
+   "2819-2920@2881",
+   "1312-1457@1442",
+   "1726-1780@1726"
   ]
  },
  {
   "id": "f01",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 892,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 18.519999999999996,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.748,
-  "top": [
-   "95-170@114",
-   "0-95@38",
-   "170-265@207"
-  ]
- },
- {
-  "id": "f02",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 958,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.853,
-  "top": [
-   "95-170@131",
-   "170-265@226",
-   "394-490@394"
-  ]
- },
- {
-  "id": "f03",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1011,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.755,
-  "top": [
-   "265-394@303",
-   "1214-1271@1214",
-   "0-95@38"
-  ]
- },
- {
-  "id": "f04",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1390,
-  "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.742,
-  "top": [
-   "1080-1214@1080",
-   "851-985@851",
-   "265-394@283"
-  ]
- },
- {
-  "id": "f05",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1058,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.761,
-  "top": [
-   "265-394@339",
-   "394-490@451",
-   "95-170@95"
-  ]
- },
- {
-  "id": "f06",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1093,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.811,
-  "top": [
-   "394-490@432",
-   "679-755@737",
-   "1535-1666@1573"
-  ]
- },
- {
-  "id": "f07",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1012,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.2799999999999727,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.693,
-  "top": [
-   "490-546@490",
-   "394-490@432",
-   "1535-1666@1573"
-  ]
- },
- {
-  "id": "f08",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1134,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 4.559999999999945,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.595,
-  "top": [
-   "755-851@755",
-   "2972-3082@3027",
-   "2099-2177@2157"
-  ]
- },
- {
-  "id": "f09",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1136,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 100.32000000000005,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.645,
-  "top": [
-   "851-985@870",
-   "1080-1214@1138",
-   "1271-1329@1271"
-  ]
- },
- {
-  "id": "f10",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 955,
-  "evidence": true,
+  "ctx_words": 606,
+  "evidence": false,
   "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": 30.440000000000055,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.657,
-  "top": [
-   "1835-1912@1835",
-   "1460-1535@1460",
-   "0-95@38"
-  ]
- },
- {
-  "id": "f11",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 991,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 16.200000000000045,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.708,
-  "top": [
-   "1835-1912@1874",
-   "1912-2006@1949",
-   "1080-1214@1138"
-  ]
- },
- {
-  "id": "f12",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.767,
-  "top": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2440-2537@2440"
-  ]
- },
- {
-  "id": "f13",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 866,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.694,
-  "top": [
-   "3441-3516@3441",
-   "3382-3441@3402",
-   "2972-3082@3045"
-  ]
- },
- {
-  "id": "f14",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1170,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.724,
-  "top": [
-   "1912-2006@1949",
-   "1835-1912@1835",
-   "1329-1460@1329"
-  ]
- },
- {
-  "id": "f15",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 869,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
+  "pointer_err_s": 390.74,
   "system": "A3 + moment cards",
   "best_rel": 0.0,
   "best_dense": 0.712,
   "top": [
-   "3082-3138@3100",
-   "3194-3288@3268",
-   "3288-3382@3307"
-  ]
- },
- {
-  "id": "f16",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1328,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 37.11999999999989,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.671,
-  "top": [
-   "1329-1460@1442",
-   "0-95@38",
-   "1535-1666@1535"
-  ]
- },
- {
-  "id": "e01",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 993,
-  "evidence": false,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.738,
-  "top": [
-   "1271-1329@1271",
-   "851-985@908",
-   "2364-2440@2384"
-  ]
- },
- {
-  "id": "e02",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1254,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.4800000000000182,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.673,
-  "top": [
-   "2099-2177@2119",
-   "2177-2288@2177",
-   "2614-2767@2673"
-  ]
- },
- {
-  "id": "e03",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1152,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.729,
-  "top": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
-  ]
- },
- {
-  "id": "e04",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1070,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.786,
-  "top": [
-   "2614-2767@2614",
-   "2537-2614@2557",
-   "95-170@150"
-  ]
- },
- {
-  "id": "e05",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 924,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 183.32000000000016,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.7,
-  "top": [
-   "2972-3082@3063",
-   "2896-2972@2914",
-   "2767-2841@2805"
-  ]
- },
- {
-  "id": "e06",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 874,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 109.55999999999995,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.778,
-  "top": [
-   "3288-3382@3345",
-   "3194-3288@3250",
-   "3082-3138@3120"
-  ]
- },
- {
-  "id": "e07",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.742,
-  "top": [
-   "2364-2440@2364",
-   "2440-2537@2440",
-   "2288-2364@2288"
-  ]
- },
- {
-  "id": "e08",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1258,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 259.3599999999999,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.718,
-  "top": [
-   "1080-1214@1194",
-   "985-1080@985",
-   "851-985@889"
-  ]
- },
- {
-  "id": "e09",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 32.67999999999995,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.749,
-  "top": [
-   "546-679@603",
-   "679-755@679",
-   "95-170@114"
-  ]
- },
- {
-  "id": "e10",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1148,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.792,
-  "top": [
-   "1460-1535@1460",
-   "1329-1460@1442",
-   "0-95@58"
-  ]
- },
- {
-  "id": "l01",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1097,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 798.52,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.608,
-  "top": [
-   "3516-3590@3534",
-   "2614-2767@2748",
-   "2440-2537@2459"
-  ]
- },
- {
-  "id": "l02",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 951,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 17.440000000000055,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.695,
-  "top": [
-   "1741-1835@1797",
-   "2537-2614@2577",
-   "0-95@77"
-  ]
- },
- {
-  "id": "l03",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 913,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 12.599999999999909,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.677,
-  "top": [
-   "2767-2841@2787",
-   "2841-2896@2841",
-   "2972-3082@3063"
-  ]
- },
- {
-  "id": "l04",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1051,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.73,
-  "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
-  ]
- },
- {
-  "id": "u01",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1080,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.67,
-  "top": [
-   "0-95@38",
-   "265-394@303",
-   "170-265@226"
-  ]
- },
- {
-  "id": "u02",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1125,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.604,
-  "top": [
-   "265-394@321",
-   "2440-2537@2459",
-   "0-95@77"
-  ]
- },
- {
-  "id": "u03",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 856,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.633,
-  "top": [
-   "3194-3288@3250",
-   "3441-3516@3461",
-   "2440-2537@2459"
-  ]
- },
- {
-  "id": "u04",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 828,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.637,
-  "top": [
-   "95-170@114",
-   "679-755@717",
-   "2440-2537@2459"
-  ]
- },
- {
-  "id": "u05",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1155,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.552,
-  "top": [
-   "1329-1460@1329",
-   "1912-2006@1949",
-   "0-95@38"
-  ]
- },
- {
-  "id": "u06",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1103,
-  "system": "A3 + moment cards",
-  "best_rel": 0.0,
-  "best_dense": 0.47,
-  "top": [
-   "546-679@565",
-   "0-95@0",
-   "2537-2614@2537"
-  ]
- },
- {
-  "id": "f01",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 892,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 56.76,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.684,
-  "best_dense": 0.748,
-  "top": [
-   "0-95@38",
-   "95-170@114",
-   "170-265@207"
+   "398-453@436",
+   "2111-2183@2130",
+   "2978-3070@2978"
   ]
  },
  {
   "id": "f02",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1018,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.989,
-  "best_dense": 0.853,
-  "top": [
-   "95-170@131",
-   "265-394@303",
-   "170-265@226"
-  ]
- },
- {
-  "id": "f03",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1071,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.885,
-  "best_dense": 0.755,
-  "top": [
-   "265-394@303",
-   "1214-1271@1214",
-   "0-95@77"
-  ]
- },
- {
-  "id": "f04",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1188,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.856,
-  "best_dense": 0.742,
-  "top": [
-   "1080-1214@1080",
-   "851-985@947",
-   "985-1080@1042"
-  ]
- },
- {
-  "id": "f05",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 994,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.97,
-  "best_dense": 0.761,
-  "top": [
-   "265-394@339",
-   "394-490@451",
-   "95-170@114"
-  ]
- },
- {
-  "id": "f06",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.999,
-  "best_dense": 0.811,
-  "top": [
-   "394-490@432",
-   "1535-1666@1573",
-   "490-546@528"
-  ]
- },
- {
-  "id": "f07",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 37.60000000000002,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.781,
-  "best_dense": 0.693,
-  "top": [
-   "490-546@528",
-   "1535-1666@1573",
-   "394-490@432"
-  ]
- },
- {
-  "id": "f08",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1134,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 4.559999999999945,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.067,
-  "best_dense": 0.595,
-  "top": [
-   "755-851@755",
-   "2972-3082@3027",
-   "2099-2177@2157"
-  ]
- },
- {
-  "id": "f09",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1186,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 2.2000000000000455,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.512,
-  "best_dense": 0.645,
-  "top": [
-   "1080-1214@1138",
-   "851-985@966",
-   "1271-1329@1271"
-  ]
- },
- {
-  "id": "f10",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 983,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 87.75999999999999,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.974,
-  "best_dense": 0.657,
-  "top": [
-   "1835-1912@1893",
-   "1741-1835@1778",
-   "1460-1535@1460"
-  ]
- },
- {
-  "id": "f11",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1051,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 2.759999999999991,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.998,
-  "best_dense": 0.708,
-  "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
-  ]
- },
- {
-  "id": "f12",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 1.0,
-  "best_dense": 0.767,
-  "top": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2440-2537@2440"
-  ]
- },
- {
-  "id": "f13",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 926,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.936,
-  "best_dense": 0.694,
-  "top": [
-   "3441-3516@3441",
-   "3382-3441@3421",
-   "2972-3082@3045"
-  ]
- },
- {
-  "id": "f14",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1049,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.993,
-  "best_dense": 0.724,
-  "top": [
-   "1912-2006@1949",
-   "1835-1912@1835",
-   "170-265@170"
-  ]
- },
- {
-  "id": "f15",
   "type": "fact",
   "abstain": false,
   "ctx_words": 816,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.656,
-  "best_dense": 0.712,
-  "top": [
-   "3082-3138@3100",
-   "3194-3288@3211",
-   "2006-2099@2025"
-  ]
- },
- {
-  "id": "f16",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1257,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 17.3599999999999,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.954,
-  "best_dense": 0.671,
-  "top": [
-   "1329-1460@1422",
-   "0-95@38",
-   "1535-1666@1535"
-  ]
- },
- {
-  "id": "e01",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1244,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.973,
-  "best_dense": 0.738,
-  "top": [
-   "1271-1329@1271",
-   "1329-1460@1329",
-   "851-985@947"
-  ]
- },
- {
-  "id": "e02",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1254,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 57.2800000000002,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.927,
-  "best_dense": 0.673,
-  "top": [
-   "2177-2288@2177",
-   "2099-2177@2119",
-   "2614-2767@2673"
-  ]
- },
- {
-  "id": "e03",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1152,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.935,
-  "best_dense": 0.729,
-  "top": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
-  ]
- },
- {
-  "id": "e04",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1002,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.994,
-  "best_dense": 0.786,
-  "top": [
-   "2614-2767@2614",
-   "2537-2614@2557",
-   "95-170@114"
-  ]
- },
- {
-  "id": "e05",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 919,
-  "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 75.0,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.02,
-  "best_dense": 0.7,
-  "top": [
-   "2767-2841@2805",
-   "2972-3082@3008",
-   "2896-2972@2952"
-  ]
- },
- {
-  "id": "e06",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 943,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 128.92000000000007,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.873,
-  "best_dense": 0.778,
-  "top": [
-   "3288-3382@3364",
-   "3194-3288@3250",
-   "3082-3138@3120"
-  ]
- },
- {
-  "id": "e07",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1176,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.979,
-  "best_dense": 0.742,
-  "top": [
-   "2364-2440@2364",
-   "1329-1460@1367",
-   "2440-2537@2517"
-  ]
- },
- {
-  "id": "e08",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1115,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 145.24,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.754,
-  "best_dense": 0.718,
-  "top": [
-   "1080-1214@1080",
-   "985-1080@985",
-   "3441-3516@3497"
-  ]
- },
- {
-  "id": "e09",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1072,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 13.840000000000032,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.975,
-  "best_dense": 0.749,
-  "top": [
-   "546-679@584",
-   "679-755@679",
-   "95-170@114"
-  ]
- },
- {
-  "id": "e10",
-  "type": "explain",
-  "abstain": false,
-  "ctx_words": 1077,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.978,
-  "best_dense": 0.792,
-  "top": [
-   "1460-1535@1460",
-   "1329-1460@1404",
-   "0-95@58"
-  ]
- },
- {
-  "id": "l01",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1165,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 798.52,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.001,
-  "best_dense": 0.608,
-  "top": [
-   "3516-3590@3534",
-   "2614-2767@2748",
-   "2440-2537@2440"
-  ]
- },
- {
-  "id": "l02",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 910,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 245.31999999999994,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.748,
-  "best_dense": 0.695,
-  "top": [
-   "2006-2099@2025",
-   "1741-1835@1797",
-   "2537-2614@2577"
-  ]
- },
- {
-  "id": "l03",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 927,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 66.51999999999998,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.677,
-  "best_dense": 0.677,
-  "top": [
-   "2841-2896@2841",
-   "2767-2841@2805",
-   "2972-3082@2972"
-  ]
- },
- {
-  "id": "l04",
-  "type": "locate",
-  "abstain": false,
-  "ctx_words": 1051,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.975,
-  "best_dense": 0.73,
-  "top": [
-   "1835-1912@1893",
-   "1912-2006@1949",
-   "1080-1214@1138"
-  ]
- },
- {
-  "id": "u01",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1140,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.931,
-  "best_dense": 0.67,
-  "top": [
-   "265-394@303",
-   "0-95@77",
-   "170-265@188"
-  ]
- },
- {
-  "id": "u02",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1069,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.055,
-  "best_dense": 0.604,
-  "top": [
-   "1835-1912@1893",
-   "265-394@321",
-   "2440-2537@2459"
-  ]
- },
- {
-  "id": "u03",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 910,
-  "system": "A4 + rerank/anchor",
+  "pointer_err_s": 4.140000000000001,
+  "system": "A3 + moment cards",
   "best_rel": 0.0,
-  "best_dense": 0.633,
+  "best_dense": 0.656,
   "top": [
-   "3194-3288@3250",
-   "3441-3516@3497",
-   "2440-2537@2499"
-  ]
- },
- {
-  "id": "u04",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 828,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.031,
-  "best_dense": 0.637,
-  "top": [
-   "95-170@114",
-   "679-755@717",
-   "2440-2537@2459"
-  ]
- },
- {
-  "id": "u05",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1077,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.0,
-  "best_dense": 0.552,
-  "top": [
-   "1329-1460@1348",
-   "1912-2006@1949",
-   "0-95@38"
-  ]
- },
- {
-  "id": "u06",
-  "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1101,
-  "system": "A4 + rerank/anchor",
-  "best_rel": 0.0,
-  "best_dense": 0.47,
-  "top": [
-   "546-679@661",
-   "0-95@58",
-   "2537-2614@2557"
-  ]
- },
- {
-  "id": "f01",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1390,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 56.76,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.684,
-  "best_dense": 0.748,
-  "top": [
-   "0-131@38",
-   "131-265@207",
-   "265-394@265"
-  ]
- },
- {
-  "id": "f02",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1377,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.989,
-  "best_dense": 0.853,
-  "top": [
-   "131-265@131",
-   "265-394@303",
-   "0-131@95"
+   "19-133@76",
+   "1780-1897@1839",
+   "2315-2412@2355"
   ]
  },
  {
   "id": "f03",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1338,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.885,
-  "best_dense": 0.755,
+  "ctx_words": 671,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 2193.86,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.597,
   "top": [
-   "265-394@303",
-   "0-131@77",
-   "1194-1329@1214"
+   "2559-2635@2559",
+   "2111-2183@2130",
+   "465-573@518"
   ]
  },
  {
   "id": "f04",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1260,
+  "ctx_words": 590,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.856,
-  "best_dense": 0.742,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.77,
   "top": [
-   "1061-1194@1080",
-   "928-1061@947",
-   "265-394@283"
+   "465-573@553",
+   "2688-2743@2706",
+   "2183-2258@2202"
   ]
  },
  {
   "id": "f05",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1369,
+  "ctx_words": 733,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.97,
-  "best_dense": 0.761,
+  "pointer_err_s": 7.169999999999959,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.752,
   "top": [
-   "265-394@339",
-   "394-528@451",
-   "0-131@114"
+   "625-705@625",
+   "342-398@379",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "f06",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1494,
+  "ctx_words": 714,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.999,
-  "best_dense": 0.811,
+  "pinpoint": false,
+  "pointer_err_s": 39.64999999999998,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.637,
   "top": [
-   "394-528@432",
-   "1460-1591@1573",
-   "528-661@528"
+   "710-801@710",
+   "1461-1518@1498",
+   "465-573@518"
   ]
  },
  {
   "id": "f07",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1554,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 37.60000000000002,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.781,
-  "best_dense": 0.693,
+  "ctx_words": 556,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 159.83000000000004,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.677,
   "top": [
-   "528-661@528",
-   "394-528@509",
-   "1460-1591@1573"
+   "625-705@625",
+   "1726-1780@1744",
+   "1518-1591@1553"
   ]
  },
  {
   "id": "f08",
   "type": "fact",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
-  "mrr": 0.0,
+  "abstain": false,
+  "ctx_words": 733,
+  "evidence": true,
+  "mrr": 0.5,
   "pinpoint": false,
-  "pointer_err_s": null,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.067,
-  "best_dense": 0.595,
+  "pointer_err_s": 96.06999999999994,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.759,
   "top": [
-   "661-794@755",
-   "2914-3045@2952",
-   "3441-3572@3441"
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1041-1106@1070"
   ]
  },
  {
   "id": "f09",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1428,
+  "ctx_words": 566,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 54.3599999999999,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.012,
-  "best_dense": 0.645,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 35.09999999999991,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.519,
   "top": [
-   "1194-1329@1194",
-   "794-928@870",
-   "928-1061@966"
+   "1239-1312@1275",
+   "1312-1457@1382",
+   "2635-2688@2671"
   ]
  },
  {
   "id": "f10",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1443,
+  "ctx_words": 639,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 87.75999999999999,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.974,
-  "best_dense": 0.657,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.774,
   "top": [
-   "1854-1987@1893",
-   "1722-1854@1778",
-   "1460-1591@1460"
+   "1726-1780@1744",
+   "1518-1591@1518",
+   "1969-2057@1969"
   ]
  },
  {
   "id": "f11",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1394,
+  "ctx_words": 707,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.759999999999991,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.998,
-  "best_dense": 0.708,
+  "pointer_err_s": 5.680000000000064,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.772,
   "top": [
-   "1854-1987@1893",
-   "1722-1854@1835",
-   "1061-1194@1138"
+   "1969-2057@2006",
+   "1312-1457@1402",
+   "1647-1726@1647"
   ]
  },
  {
   "id": "f12",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1444,
+  "ctx_words": 617,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
-  "system": "S fixed 120s moments",
-  "best_rel": 1.0,
-  "best_dense": 0.767,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.705,
   "top": [
-   "2250-2384@2364",
-   "2384-2517@2440",
-   "1329-1460@1367"
+   "2688-2743@2688",
+   "2819-2920@2819",
+   "2743-2819@2743"
   ]
  },
  {
   "id": "f13",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1512,
+  "ctx_words": 499,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.936,
-  "best_dense": 0.694,
+  "pointer_err_s": 0.4099999999998545,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.719,
   "top": [
-   "3441-3572@3441",
-   "3307-3441@3421",
-   "3045-3176@3045"
+   "2920-2978@2960",
+   "3720-3786@3720",
+   "3133-3182@3165"
   ]
  },
  {
   "id": "f14",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1465,
+  "ctx_words": 572,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.993,
-  "best_dense": 0.724,
+  "pinpoint": false,
+  "pointer_err_s": 25.409999999999854,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.699,
   "top": [
-   "1854-1987@1949",
-   "1722-1854@1835",
-   "131-265@170"
+   "2978-3070@3035",
+   "3070-3129@3089",
+   "398-453@398"
   ]
  },
  {
   "id": "f15",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1389,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.656,
-  "best_dense": 0.712,
+  "ctx_words": 674,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 1614.09,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.588,
   "top": [
-   "3045-3176@3100",
-   "3176-3307@3211",
-   "3307-3441@3421"
+   "1041-1106@1041",
+   "1647-1726@1647",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "f16",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1311,
+  "ctx_words": 477,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 17.3599999999999,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.954,
-  "best_dense": 0.671,
+  "pointer_err_s": 1.8899999999998727,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.743,
   "top": [
-   "1329-1460@1422",
-   "0-131@38",
-   "1460-1591@1535"
+   "3649-3720@3668",
+   "1239-1312@1275",
+   "3133-3182@3165"
   ]
  },
  {
   "id": "e01",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1432,
+  "ctx_words": 550,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.973,
-  "best_dense": 0.738,
+  "pointer_err_s": 9.470000000000027,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.811,
   "top": [
-   "1194-1329@1271",
-   "1329-1460@1329",
-   "928-1061@947"
+   "265-342@265",
+   "3401-3471@3401",
+   "3474-3528@3474"
   ]
  },
  {
   "id": "e02",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1326,
+  "ctx_words": 572,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 57.2800000000002,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.927,
-  "best_dense": 0.673,
+  "pointer_err_s": 0.9000000000000057,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.626,
   "top": [
-   "2119-2250@2177",
-   "2654-2787@2673",
-   "2517-2654@2614"
+   "192-260@192",
+   "265-342@284",
+   "1461-1518@1498"
   ]
  },
  {
   "id": "e03",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1376,
+  "ctx_words": 632,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.935,
-  "best_dense": 0.729,
+  "pointer_err_s": 24.440000000000055,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.724,
   "top": [
-   "1460-1591@1535",
-   "394-528@432",
-   "661-794@737"
+   "801-889@854",
+   "1312-1457@1421",
+   "966-1041@1003"
   ]
  },
  {
   "id": "e04",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1340,
+  "ctx_words": 851,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.994,
-  "best_dense": 0.786,
+  "pointer_err_s": 67.45000000000005,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.769,
   "top": [
-   "2517-2654@2614",
-   "2654-2787@2673",
-   "265-394@265"
+   "1106-1236@1197",
+   "1312-1457@1421",
+   "1518-1591@1573"
   ]
  },
  {
   "id": "e05",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1295,
+  "ctx_words": 735,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 75.0,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.02,
-  "best_dense": 0.7,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.763,
   "top": [
-   "2787-2914@2805",
-   "2914-3045@3008",
-   "3045-3176@3063"
+   "1312-1457@1345",
+   "801-889@801",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "e06",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1329,
+  "ctx_words": 741,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 128.92000000000007,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.873,
-  "best_dense": 0.778,
+  "pointer_err_s": 47.940000000000055,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.801,
   "top": [
-   "3307-3441@3364",
-   "3176-3307@3250",
-   "3045-3176@3120"
+   "1780-1897@1878",
+   "2111-2183@2111",
+   "1897-1969@1897"
   ]
  },
  {
   "id": "e07",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1444,
+  "ctx_words": 712,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.979,
-  "best_dense": 0.742,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.774,
   "top": [
-   "2250-2384@2364",
-   "2384-2517@2421",
-   "1329-1460@1367"
+   "2183-2258@2222",
+   "2412-2485@2412",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "e08",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1385,
+  "ctx_words": 671,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 259.3599999999999,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.754,
-  "best_dense": 0.718,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 46.690000000000055,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.76,
   "top": [
-   "1194-1329@1194",
-   "1061-1194@1080",
-   "928-1061@985"
+   "2412-2485@2467",
+   "2485-2559@2485",
+   "342-398@379"
   ]
  },
  {
   "id": "e09",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1378,
-  "evidence": true,
+  "ctx_words": 792,
+  "evidence": false,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 13.840000000000032,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.975,
-  "best_dense": 0.749,
+  "pointer_err_s": 5.389999999999873,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.757,
   "top": [
-   "528-661@584",
-   "661-794@679",
-   "0-131@77"
+   "2978-3070@2995",
+   "2819-2920@2901",
+   "1780-1897@1799"
   ]
  },
  {
   "id": "e10",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1381,
+  "ctx_words": 596,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.978,
-  "best_dense": 0.792,
+  "pointer_err_s": 4.0300000000002,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.82,
   "top": [
-   "1460-1591@1460",
-   "1329-1460@1404",
-   "0-131@58"
+   "3474-3528@3474",
+   "3401-3471@3455",
+   "3530-3645@3609"
   ]
  },
  {
   "id": "l01",
   "type": "locate",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
+  "abstain": false,
+  "ctx_words": 614,
+  "evidence": true,
   "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": null,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.001,
-  "best_dense": 0.608,
+  "pointer_err_s": 695.6999999999998,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.679,
   "top": [
-   "2654-2787@2748",
-   "3441-3572@3534",
-   "3572-3590@3572"
+   "2111-2183@2111",
+   "1969-2057@1969",
+   "801-889@818"
   ]
  },
  {
   "id": "l02",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1402,
+  "ctx_words": 861,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 245.31999999999994,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.748,
-  "best_dense": 0.695,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 15.259999999999991,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.652,
   "top": [
-   "1987-2119@2025",
-   "1854-1987@1893",
-   "1722-1854@1797"
+   "1106-1236@1125",
+   "1780-1897@1799",
+   "342-398@379"
   ]
  },
  {
   "id": "l03",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1295,
+  "ctx_words": 463,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 66.51999999999998,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.677,
-  "best_dense": 0.677,
+  "pinpoint": true,
+  "pointer_err_s": 0.13999999999987267,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.658,
   "top": [
-   "2787-2914@2841",
-   "2914-3045@2972",
-   "3045-3176@3063"
+   "2635-2688@2635",
+   "2111-2183@2147",
+   "133-192@153"
   ]
  },
  {
   "id": "l04",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1465,
+  "ctx_words": 585,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.975,
-  "best_dense": 0.73,
+  "pinpoint": true,
+  "pointer_err_s": 2.2600000000002183,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.659,
   "top": [
-   "1854-1987@1893",
-   "1722-1854@1835",
-   "131-265@188"
+   "3530-3645@3567",
+   "3182-3279@3260",
+   "2688-2743@2706"
   ]
  },
  {
   "id": "u01",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1326,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.931,
-  "best_dense": 0.67,
+  "ctx_words": 701,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.579,
   "top": [
-   "265-394@303",
-   "0-131@77",
-   "131-265@188"
+   "265-342@302",
+   "2819-2920@2901",
+   "2315-2412@2374"
   ]
  },
  {
   "id": "u02",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
-  "system": "S fixed 120s moments",
+  "abstain": false,
+  "ctx_words": 675,
+  "system": "A3 + moment cards",
   "best_rel": 0.0,
-  "best_dense": 0.604,
+  "best_dense": 0.763,
   "top": [
-   "2384-2517@2459",
-   "265-394@321",
-   "0-131@77"
+   "1518-1591@1518",
+   "3182-3279@3260",
+   "1726-1780@1726"
   ]
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1314,
-  "system": "S fixed 120s moments",
+  "ctx_words": 512,
+  "system": "A3 + moment cards",
   "best_rel": 0.0,
-  "best_dense": 0.633,
+  "best_dense": 0.647,
   "top": [
-   "2654-2787@2654",
-   "3176-3307@3250",
-   "0-131@58"
+   "801-889@854",
+   "2111-2183@2130",
+   "573-625@573"
   ]
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1429,
-  "system": "S fixed 120s moments",
-  "best_rel": 0.031,
-  "best_dense": 0.637,
+  "ctx_words": 647,
+  "system": "A3 + moment cards",
+  "best_rel": 0.0,
+  "best_dense": 0.615,
   "top": [
-   "0-131@114",
-   "661-794@755",
-   "2384-2517@2459"
+   "342-398@342",
+   "2111-2183@2147",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "u05",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
-  "system": "S fixed 120s moments",
+  "abstain": false,
+  "ctx_words": 653,
+  "system": "A3 + moment cards",
   "best_rel": 0.0,
-  "best_dense": 0.552,
+  "best_dense": 0.504,
   "top": [
-   "131-265@188",
-   "1329-1460@1348",
-   "1854-1987@1949"
+   "465-573@518",
+   "1726-1780@1744",
+   "3530-3645@3549"
   ]
  },
  {
   "id": "u06",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
-  "system": "S fixed 120s moments",
+  "abstain": false,
+  "ctx_words": 620,
+  "system": "A3 + moment cards",
   "best_rel": 0.0,
-  "best_dense": 0.47,
+  "best_dense": 0.592,
   "top": [
-   "0-131@114",
-   "528-661@528",
-   "2787-2914@2896"
+   "2819-2920@2881",
+   "1726-1780@1726",
+   "1591-1647@1591"
   ]
  },
  {
   "id": "f01",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2439,
+  "ctx_words": 656,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 56.76,
-  "system": "S chapters only",
-  "best_rel": 0.684,
-  "best_dense": 0.748,
+  "pinpoint": true,
+  "pointer_err_s": 6.93,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.67,
+  "best_dense": 0.712,
   "top": [
-   "19-265@38",
-   "265-546@265",
-   "1080-1271@1214"
+   "19-133@38",
+   "398-453@436",
+   "2111-2183@2167"
   ]
  },
  {
   "id": "f02",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2245,
+  "ctx_words": 858,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
-  "system": "S chapters only",
-  "best_rel": 0.989,
-  "best_dense": 0.853,
+  "pointer_err_s": 4.140000000000001,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.999,
+  "best_dense": 0.656,
   "top": [
-   "19-265@131",
-   "265-546@303",
-   "546-679@565"
+   "19-133@76",
+   "1780-1897@1878",
+   "2315-2412@2355"
   ]
  },
  {
   "id": "f03",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2375,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
-  "system": "S chapters only",
-  "best_rel": 0.885,
-  "best_dense": 0.755,
+  "ctx_words": 714,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 2193.86,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.003,
+  "best_dense": 0.597,
   "top": [
-   "265-546@303",
-   "1080-1271@1214",
-   "19-265@77"
+   "2559-2635@2559",
+   "2111-2183@2130",
+   "465-573@465"
   ]
  },
  {
   "id": "f04",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2333,
+  "ctx_words": 633,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
-  "system": "S chapters only",
-  "best_rel": 0.856,
-  "best_dense": 0.742,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.987,
+  "best_dense": 0.77,
   "top": [
-   "1080-1271@1080",
-   "851-1080@947",
-   "265-546@283"
+   "465-573@553",
+   "2688-2743@2725",
+   "2183-2258@2202"
   ]
  },
  {
   "id": "f05",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2436,
+  "ctx_words": 733,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
-  "system": "S chapters only",
-  "best_rel": 0.97,
-  "best_dense": 0.761,
+  "pointer_err_s": 7.169999999999959,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.971,
+  "best_dense": 0.752,
   "top": [
-   "265-546@339",
-   "19-265@246",
-   "1080-1271@1099"
+   "625-705@625",
+   "342-398@379",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "f06",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2064,
+  "ctx_words": 678,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
-  "system": "S chapters only",
-  "best_rel": 0.999,
-  "best_dense": 0.811,
+  "pointer_err_s": 3.480000000000018,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.04,
+  "best_dense": 0.637,
   "top": [
-   "265-546@432",
-   "1535-1666@1573",
-   "679-851@679"
+   "710-801@747",
+   "1461-1518@1498",
+   "465-573@502"
   ]
  },
  {
   "id": "f07",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2167,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 37.60000000000002,
-  "system": "S chapters only",
-  "best_rel": 0.781,
-  "best_dense": 0.693,
+  "ctx_words": 502,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 140.33000000000004,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.014,
+  "best_dense": 0.677,
   "top": [
-   "265-546@528",
-   "1535-1666@1573",
-   "851-1080@889"
+   "625-705@645",
+   "1726-1780@1744",
+   "1518-1591@1534"
   ]
  },
  {
   "id": "f08",
   "type": "fact",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
-  "mrr": 0.0,
+  "abstain": false,
+  "ctx_words": 888,
+  "evidence": true,
+  "mrr": 0.5,
   "pinpoint": false,
-  "pointer_err_s": null,
-  "system": "S chapters only",
-  "best_rel": 0.067,
-  "best_dense": 0.595,
+  "pointer_err_s": 96.06999999999994,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.997,
+  "best_dense": 0.759,
   "top": [
-   "679-851@755",
-   "2767-3082@2767",
-   "2099-2288@2157"
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1780-1897@1799"
   ]
  },
  {
   "id": "f09",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2339,
+  "ctx_words": 566,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.2000000000000455,
-  "system": "S chapters only",
-  "best_rel": 0.512,
-  "best_dense": 0.645,
+  "pointer_err_s": 35.09999999999991,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.482,
+  "best_dense": 0.519,
   "top": [
-   "1080-1271@1138",
-   "851-1080@966",
-   "1271-1535@1271"
+   "1239-1312@1275",
+   "1312-1457@1382",
+   "2635-2688@2671"
   ]
  },
  {
   "id": "f10",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2929,
+  "ctx_words": 556,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 87.75999999999999,
-  "system": "S chapters only",
-  "best_rel": 0.974,
-  "best_dense": 0.657,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.903,
+  "best_dense": 0.774,
   "top": [
-   "1666-2006@1893",
-   "19-265@188",
-   "1271-1535@1460"
+   "1726-1780@1744",
+   "1897-1969@1933",
+   "1518-1591@1518"
   ]
  },
  {
   "id": "f11",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2610,
+  "ctx_words": 707,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 2.759999999999991,
-  "system": "S chapters only",
-  "best_rel": 0.998,
-  "best_dense": 0.708,
+  "pointer_err_s": 5.680000000000064,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 1.0,
+  "best_dense": 0.772,
   "top": [
-   "1666-2006@1893",
-   "1080-1271@1138",
-   "2099-2288@2099"
+   "1969-2057@2006",
+   "1312-1457@1402",
+   "1647-1726@1647"
   ]
  },
  {
   "id": "f12",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1844,
+  "ctx_words": 571,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
-  "system": "S chapters only",
-  "best_rel": 1.0,
-  "best_dense": 0.767,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.979,
+  "best_dense": 0.705,
   "top": [
-   "2288-2440@2364",
-   "2440-2537@2440",
-   "1271-1535@1367"
+   "2688-2743@2688",
+   "2743-2819@2743",
+   "2819-2920@2881"
   ]
  },
  {
   "id": "f13",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2551,
+  "ctx_words": 499,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
-  "system": "S chapters only",
-  "best_rel": 0.936,
-  "best_dense": 0.694,
+  "pointer_err_s": 0.4099999999998545,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 1.0,
+  "best_dense": 0.719,
   "top": [
-   "3382-3516@3441",
-   "3082-3382@3364",
-   "2767-3082@3045"
+   "2920-2978@2960",
+   "3720-3786@3720",
+   "3133-3182@3165"
   ]
  },
  {
   "id": "f14",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2635,
+  "ctx_words": 572,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
-  "system": "S chapters only",
-  "best_rel": 0.993,
-  "best_dense": 0.724,
+  "pointer_err_s": 28.860000000000127,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.57,
+  "best_dense": 0.699,
   "top": [
-   "1666-2006@1949",
-   "1080-1271@1138",
-   "19-265@170"
+   "3070-3129@3089",
+   "2978-3070@3035",
+   "398-453@398"
   ]
  },
  {
   "id": "f15",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2425,
+  "ctx_words": 554,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
-  "system": "S chapters only",
-  "best_rel": 0.656,
-  "best_dense": 0.712,
+  "pointer_err_s": 0.7699999999999818,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.994,
+  "best_dense": 0.588,
   "top": [
-   "3082-3382@3100",
-   "2006-2099@2025",
-   "2767-3082@2767"
+   "2635-2688@2654",
+   "1041-1106@1041",
+   "1647-1726@1647"
   ]
  },
  {
   "id": "f16",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 2234,
+  "ctx_words": 433,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 17.3599999999999,
-  "system": "S chapters only",
-  "best_rel": 0.954,
-  "best_dense": 0.671,
+  "pointer_err_s": 1.8899999999998727,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.432,
+  "best_dense": 0.743,
   "top": [
-   "1271-1535@1422",
-   "19-265@38",
-   "1535-1666@1535"
+   "3649-3720@3668",
+   "1239-1312@1275",
+   "3133-3182@3149"
   ]
  },
  {
   "id": "e01",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2256,
+  "ctx_words": 549,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
-  "system": "S chapters only",
-  "best_rel": 0.973,
-  "best_dense": 0.738,
+  "pointer_err_s": 9.470000000000027,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.909,
+  "best_dense": 0.811,
   "top": [
-   "1271-1535@1271",
-   "851-1080@947",
-   "2288-2440@2384"
+   "265-342@265",
+   "3401-3471@3455",
+   "3474-3528@3474"
   ]
  },
  {
   "id": "e02",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2172,
+  "ctx_words": 572,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 57.2800000000002,
-  "system": "S chapters only",
-  "best_rel": 0.927,
-  "best_dense": 0.673,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.255,
+  "best_dense": 0.626,
   "top": [
-   "2099-2288@2177",
-   "2537-2748@2673",
-   "19-265@38"
+   "265-342@284",
+   "192-260@192",
+   "1461-1518@1498"
   ]
  },
  {
   "id": "e03",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2047,
+  "ctx_words": 632,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
-  "system": "S chapters only",
-  "best_rel": 0.935,
-  "best_dense": 0.729,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 591.1400000000001,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.652,
+  "best_dense": 0.724,
   "top": [
-   "1535-1666@1535",
-   "265-546@432",
-   "679-851@737"
+   "1312-1457@1421",
+   "966-1041@1003",
+   "801-889@854"
   ]
  },
  {
   "id": "e04",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1640,
+  "ctx_words": 882,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
-  "system": "S chapters only",
-  "best_rel": 0.994,
-  "best_dense": 0.786,
+  "pointer_err_s": 67.45000000000005,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.853,
+  "best_dense": 0.769,
   "top": [
-   "2537-2748@2614",
-   "2748-2767@2748",
-   "19-265@77"
+   "1106-1236@1197",
+   "1312-1457@1312",
+   "1518-1591@1573"
   ]
  },
  {
   "id": "e05",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2151,
+  "ctx_words": 685,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 75.0,
-  "system": "S chapters only",
-  "best_rel": 0.02,
-  "best_dense": 0.7,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.922,
+  "best_dense": 0.763,
   "top": [
-   "2767-3082@2805",
-   "1080-1271@1214",
-   "3382-3516@3497"
+   "1312-1457@1345",
+   "801-889@801",
+   "966-1041@1003"
   ]
  },
  {
   "id": "e06",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2831,
+  "ctx_words": 741,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 128.92000000000007,
-  "system": "S chapters only",
-  "best_rel": 0.873,
-  "best_dense": 0.778,
+  "pointer_err_s": 47.940000000000055,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.999,
+  "best_dense": 0.801,
   "top": [
-   "3082-3382@3364",
-   "851-1080@985",
-   "2767-3082@2990"
+   "1780-1897@1878",
+   "1897-1969@1897",
+   "2111-2183@2111"
   ]
  },
  {
   "id": "e07",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1843,
+  "ctx_words": 712,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
-  "system": "S chapters only",
-  "best_rel": 0.979,
-  "best_dense": 0.742,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.987,
+  "best_dense": 0.774,
   "top": [
-   "2288-2440@2364",
-   "2440-2537@2517",
-   "1271-1535@1367"
+   "2183-2258@2222",
+   "2412-2485@2412",
+   "2315-2412@2315"
   ]
  },
  {
   "id": "e08",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1891,
+  "ctx_words": 626,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 145.24,
-  "system": "S chapters only",
-  "best_rel": 0.754,
-  "best_dense": 0.718,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.920000000000073,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.997,
+  "best_dense": 0.76,
   "top": [
-   "1080-1271@1080",
-   "851-1080@985",
-   "3382-3516@3497"
+   "2412-2485@2412",
+   "2485-2559@2485",
+   "342-398@361"
   ]
  },
  {
   "id": "e09",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2110,
-  "evidence": true,
+  "ctx_words": 755,
+  "evidence": false,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 13.840000000000032,
-  "system": "S chapters only",
-  "best_rel": 0.975,
-  "best_dense": 0.749,
+  "pointer_err_s": 5.389999999999873,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.898,
+  "best_dense": 0.757,
   "top": [
-   "546-679@584",
-   "679-851@679",
-   "265-546@432"
+   "2978-3070@2995",
+   "2819-2920@2881",
+   "1780-1897@1819"
   ]
  },
  {
   "id": "e10",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 2733,
+  "ctx_words": 596,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
-  "system": "S chapters only",
-  "best_rel": 0.978,
-  "best_dense": 0.792,
+  "pointer_err_s": 4.0300000000002,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.999,
+  "best_dense": 0.82,
   "top": [
-   "1271-1535@1460",
-   "19-265@58",
-   "265-546@265"
+   "3474-3528@3474",
+   "3401-3471@3455",
+   "3530-3645@3609"
   ]
  },
  {
   "id": "l01",
   "type": "locate",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
+  "abstain": false,
+  "ctx_words": 667,
+  "evidence": true,
   "mrr": 0.0,
   "pinpoint": false,
-  "pointer_err_s": null,
-  "system": "S chapters only",
-  "best_rel": 0.001,
-  "best_dense": 0.608,
+  "pointer_err_s": 614.05,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.033,
+  "best_dense": 0.679,
   "top": [
-   "2748-2767@2748",
-   "3516-3572@3534",
-   "3572-3590@3572"
+   "801-889@801",
+   "2111-2183@2111",
+   "1969-2057@1969"
   ]
  },
  {
   "id": "l02",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 2532,
+  "ctx_words": 900,
   "evidence": true,
-  "mrr": 0.5,
+  "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 245.31999999999994,
-  "system": "S chapters only",
-  "best_rel": 0.748,
-  "best_dense": 0.695,
+  "pointer_err_s": 107.03999999999996,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.019,
+  "best_dense": 0.652,
   "top": [
-   "2006-2099@2025",
-   "1666-2006@1893",
-   "3082-3382@3100"
+   "1106-1236@1217",
+   "1780-1897@1799",
+   "342-398@379"
   ]
  },
  {
   "id": "l03",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 2291,
+  "ctx_words": 463,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 66.51999999999998,
-  "system": "S chapters only",
-  "best_rel": 0.677,
-  "best_dense": 0.677,
+  "pinpoint": true,
+  "pointer_err_s": 0.13999999999987267,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.381,
+  "best_dense": 0.658,
   "top": [
-   "2767-3082@2841",
-   "19-265@114",
-   "3382-3516@3421"
+   "2635-2688@2635",
+   "2111-2183@2147",
+   "133-192@153"
   ]
  },
  {
   "id": "l04",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 2785,
+  "ctx_words": 647,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
-  "system": "S chapters only",
-  "best_rel": 0.975,
-  "best_dense": 0.73,
+  "pointer_err_s": 34.76000000000022,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.12,
+  "best_dense": 0.659,
   "top": [
-   "1666-2006@1893",
-   "19-265@188",
-   "2099-2288@2270"
+   "3530-3645@3530",
+   "3182-3279@3241",
+   "2688-2743@2688"
   ]
  },
  {
   "id": "u01",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 2375,
-  "system": "S chapters only",
-  "best_rel": 0.931,
-  "best_dense": 0.67,
+  "ctx_words": 725,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.0,
+  "best_dense": 0.579,
   "top": [
-   "265-546@303",
-   "19-265@77",
-   "1080-1271@1214"
+   "265-342@265",
+   "2819-2920@2901",
+   "2315-2412@2374"
   ]
  },
  {
   "id": "u02",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
-  "system": "S chapters only",
-  "best_rel": 0.0,
-  "best_dense": 0.604,
+  "abstain": false,
+  "ctx_words": 669,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.942,
+  "best_dense": 0.763,
   "top": [
-   "265-546@321",
-   "2440-2537@2459",
-   "0-19@0"
+   "3182-3279@3260",
+   "1518-1591@1518",
+   "1726-1780@1763"
   ]
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 2466,
-  "system": "S chapters only",
-  "best_rel": 0.0,
-  "best_dense": 0.633,
+  "ctx_words": 512,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.049,
+  "best_dense": 0.647,
   "top": [
-   "2537-2748@2654",
-   "3082-3382@3307",
-   "19-265@188"
+   "801-889@854",
+   "2111-2183@2130",
+   "573-625@573"
   ]
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 1742,
-  "system": "S chapters only",
-  "best_rel": 0.031,
-  "best_dense": 0.637,
+  "ctx_words": 604,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.0,
+  "best_dense": 0.615,
   "top": [
-   "19-265@114",
-   "679-851@755",
-   "2440-2537@2459"
+   "342-398@342",
+   "2111-2183@2147",
+   "2315-2412@2355"
   ]
  },
  {
   "id": "u05",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
-  "system": "S chapters only",
-  "best_rel": 0.0,
-  "best_dense": 0.552,
+  "abstain": false,
+  "ctx_words": 696,
+  "system": "A4 + rerank/anchor",
+  "best_rel": 0.073,
+  "best_dense": 0.504,
   "top": [
-   "19-265@188",
-   "1666-2006@1949",
-   "1080-1271@1138"
+   "1726-1780@1763",
+   "3530-3645@3609",
+   "465-573@518"
   ]
  },
  {
   "id": "u06",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
-  "system": "S chapters only",
+  "abstain": false,
+  "ctx_words": 584,
+  "system": "A4 + rerank/anchor",
   "best_rel": 0.0,
-  "best_dense": 0.47,
+  "best_dense": 0.592,
   "top": [
-   "546-679@661",
-   "2006-2099@2044",
-   "2537-2748@2654"
+   "2819-2920@2881",
+   "1726-1780@1744",
+   "1591-1647@1628"
   ]
  },
  {
   "id": "f01",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 953,
+  "ctx_words": 914,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 56.76,
-  "system": "S semantic only",
-  "best_rel": 0.684,
-  "best_dense": 0.748,
+  "pinpoint": true,
+  "pointer_err_s": 6.93,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.67,
+  "best_dense": 0.712,
   "top": [
-   "0-95@38",
-   "95-170@114",
-   "170-283@207"
+   "19-153@38",
+   "418-553@436",
+   "2130-2258@2167"
   ]
  },
  {
   "id": "f02",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1018,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.5200000000000102,
-  "system": "S semantic only",
-  "best_rel": 0.989,
-  "best_dense": 0.853,
-  "top": [
-   "95-170@131",
-   "283-394@303",
-   "170-283@226"
-  ]
- },
- {
-  "id": "f03",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 3.3999999999999773,
-  "system": "S semantic only",
-  "best_rel": 0.885,
-  "best_dense": 0.755,
-  "top": [
-   "283-394@303",
-   "1214-1271@1214",
-   "0-95@77"
-  ]
- },
- {
-  "id": "f04",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 901,
-  "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 795.24,
-  "system": "S semantic only",
-  "best_rel": 0.856,
-  "best_dense": 0.742,
-  "top": [
-   "1042-1099@1080",
-   "908-985@947",
-   "283-394@283"
-  ]
- },
- {
-  "id": "f05",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1156,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 0.6399999999999864,
-  "system": "S semantic only",
-  "best_rel": 0.97,
-  "best_dense": 0.761,
-  "top": [
-   "283-394@339",
-   "394-490@451",
-   "170-283@265"
-  ]
- },
- {
-  "id": "f06",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 7.480000000000018,
-  "system": "S semantic only",
-  "best_rel": 0.999,
-  "best_dense": 0.811,
-  "top": [
-   "394-490@432",
-   "1535-1666@1573",
-   "490-546@528"
-  ]
- },
- {
-  "id": "f07",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1010,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 37.60000000000002,
-  "system": "S semantic only",
-  "best_rel": 0.781,
-  "best_dense": 0.693,
-  "top": [
-   "490-546@528",
-   "1535-1666@1573",
-   "394-490@432"
-  ]
- },
- {
-  "id": "f08",
-  "type": "fact",
-  "abstain": true,
-  "ctx_words": 0,
-  "evidence": false,
-  "mrr": 0.0,
-  "pinpoint": false,
-  "pointer_err_s": null,
-  "system": "S semantic only",
-  "best_rel": 0.067,
-  "best_dense": 0.595,
-  "top": [
-   "2972-3082@3027",
-   "2119-2177@2157",
-   "755-831@755"
-  ]
- },
- {
-  "id": "f09",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 910,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 2.2000000000000455,
-  "system": "S semantic only",
-  "best_rel": 0.512,
-  "best_dense": 0.645,
-  "top": [
-   "1099-1214@1138",
-   "831-908@870",
-   "1271-1329@1271"
-  ]
- },
- {
-  "id": "f10",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 983,
-  "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 87.75999999999999,
-  "system": "S semantic only",
-  "best_rel": 0.974,
-  "best_dense": 0.657,
-  "top": [
-   "1835-1912@1893",
-   "1741-1835@1778",
-   "1460-1535@1460"
-  ]
- },
- {
-  "id": "f11",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 994,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 2.759999999999991,
-  "system": "S semantic only",
-  "best_rel": 0.998,
-  "best_dense": 0.708,
-  "top": [
-   "1835-1912@1893",
-   "1099-1214@1138",
-   "1912-2006@1949"
-  ]
- },
- {
-  "id": "f12",
-  "type": "fact",
-  "abstain": false,
-  "ctx_words": 1004,
-  "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.440000000000055,
-  "system": "S semantic only",
-  "best_rel": 1.0,
-  "best_dense": 0.767,
-  "top": [
-   "2364-2440@2364",
-   "2288-2364@2288",
-   "2440-2517@2440"
-  ]
- },
- {
-  "id": "f13",
   "type": "fact",
   "abstain": false,
   "ctx_words": 926,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.960000000000036,
-  "system": "S semantic only",
-  "best_rel": 0.936,
-  "best_dense": 0.694,
+  "pointer_err_s": 4.140000000000001,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.999,
+  "best_dense": 0.656,
   "top": [
-   "3441-3516@3441",
-   "3382-3441@3421",
-   "2972-3082@3045"
+   "19-153@76",
+   "2258-2391@2355",
+   "2130-2258@2222"
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "abstain": true,
+  "ctx_words": 0,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": null,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.063,
+  "best_dense": 0.597,
+  "top": [
+   "284-418@379",
+   "2521-2654@2559",
+   "2130-2258@2130"
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 966,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.987,
+  "best_dense": 0.77,
+  "top": [
+   "553-689@553",
+   "2130-2258@2130",
+   "2654-2783@2725"
+  ]
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 992,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.169999999999959,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.971,
+  "best_dense": 0.752,
+  "top": [
+   "553-689@625",
+   "284-418@379",
+   "2130-2258@2202"
+  ]
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 976,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 3.480000000000018,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.04,
+  "best_dense": 0.637,
+  "top": [
+   "689-810@747",
+   "2521-2654@2577",
+   "1480-1610@1498"
+  ]
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1022,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 1.0499999999999545,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.014,
+  "best_dense": 0.677,
+  "top": [
+   "689-810@784",
+   "553-689@645",
+   "2521-2654@2635"
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 926,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 96.06999999999994,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.997,
+  "best_dense": 0.759,
+  "top": [
+   "1070-1197@1106",
+   "949-1070@1003",
+   "1744-1878@1799"
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 850,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 35.09999999999991,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.482,
+  "best_dense": 0.519,
+  "top": [
+   "1197-1325@1275",
+   "1345-1480@1382",
+   "2654-2783@2671"
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1065,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.903,
+  "best_dense": 0.774,
+  "top": [
+   "1744-1878@1744",
+   "1878-2006@1933",
+   "1610-1744@1726"
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 931,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 5.680000000000064,
+  "system": "S fixed 120s moments",
+  "best_rel": 1.0,
+  "best_dense": 0.772,
+  "top": [
+   "2006-2130@2006",
+   "1345-1480@1402",
+   "1878-2006@1969"
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 910,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.979,
+  "best_dense": 0.705,
+  "top": [
+   "2654-2783@2688",
+   "2783-2920@2881",
+   "2130-2258@2242"
+  ]
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 1001,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.4099999999998545,
+  "system": "S fixed 120s moments",
+  "best_rel": 1.0,
+  "best_dense": 0.719,
+  "top": [
+   "2920-3052@2960",
+   "2783-2920@2901",
+   "3052-3182@3165"
   ]
  },
  {
   "id": "f14",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1005,
+  "ctx_words": 984,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 15.519999999999982,
-  "system": "S semantic only",
-  "best_rel": 0.993,
-  "best_dense": 0.724,
+  "pointer_err_s": 28.860000000000127,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.57,
+  "best_dense": 0.699,
   "top": [
-   "1912-2006@1949",
-   "1835-1912@1835",
-   "1099-1214@1138"
+   "3052-3182@3089",
+   "2920-3052@3035",
+   "418-553@418"
   ]
  },
  {
   "id": "f15",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 896,
+  "ctx_words": 1016,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 20.40000000000009,
-  "system": "S semantic only",
-  "best_rel": 0.656,
-  "best_dense": 0.712,
+  "pointer_err_s": 0.7699999999999818,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.994,
+  "best_dense": 0.588,
   "top": [
-   "3082-3138@3100",
-   "3194-3288@3211",
-   "2006-2119@2025"
+   "2654-2783@2654",
+   "1480-1610@1498",
+   "284-418@361"
   ]
  },
  {
   "id": "f16",
   "type": "fact",
   "abstain": false,
-  "ctx_words": 1257,
+  "ctx_words": 917,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 17.3599999999999,
-  "system": "S semantic only",
-  "best_rel": 0.954,
-  "best_dense": 0.671,
+  "pointer_err_s": 1.8899999999998727,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.432,
+  "best_dense": 0.743,
   "top": [
-   "1329-1460@1422",
-   "0-95@38",
-   "1535-1666@1535"
+   "3567-3688@3668",
+   "3688-3786@3688",
+   "3052-3182@3052"
   ]
  },
  {
   "id": "e01",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1054,
+  "ctx_words": 996,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 1.3599999999999,
-  "system": "S semantic only",
-  "best_rel": 0.973,
-  "best_dense": 0.738,
+  "pointer_err_s": 9.470000000000027,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.909,
+  "best_dense": 0.811,
   "top": [
-   "1271-1329@1271",
-   "1329-1460@1329",
-   "908-985@947"
+   "153-284@265",
+   "284-418@284",
+   "3439-3567@3455"
   ]
  },
  {
   "id": "e02",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1190,
+  "ctx_words": 1011,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 57.2800000000002,
-  "system": "S semantic only",
-  "best_rel": 0.927,
-  "best_dense": 0.673,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.255,
+  "best_dense": 0.626,
   "top": [
-   "2177-2288@2177",
-   "2119-2177@2119",
-   "2673-2787@2673"
+   "284-418@284",
+   "153-284@192",
+   "1480-1610@1498"
   ]
  },
  {
   "id": "e03",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1152,
+  "ctx_words": 857,
   "evidence": true,
-  "mrr": 1.0,
-  "pinpoint": true,
-  "pointer_err_s": 9.759999999999991,
-  "system": "S semantic only",
-  "best_rel": 0.935,
-  "best_dense": 0.729,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 591.1400000000001,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.652,
+  "best_dense": 0.724,
   "top": [
-   "1535-1666@1535",
-   "394-490@432",
-   "679-755@737"
+   "1345-1480@1421",
+   "949-1070@1003",
+   "818-949@854"
   ]
  },
  {
   "id": "e04",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 948,
+  "ctx_words": 1019,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.5199999999999818,
-  "system": "S semantic only",
-  "best_rel": 0.994,
-  "best_dense": 0.786,
+  "pointer_err_s": 67.45000000000005,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.853,
+  "best_dense": 0.769,
   "top": [
-   "2614-2673@2614",
-   "2673-2787@2673",
-   "2517-2614@2557"
+   "1197-1325@1197",
+   "1070-1197@1179",
+   "1345-1480@1363"
   ]
  },
  {
   "id": "e05",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 849,
+  "ctx_words": 911,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 75.0,
-  "system": "S semantic only",
-  "best_rel": 0.02,
-  "best_dense": 0.7,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.922,
+  "best_dense": 0.763,
   "top": [
-   "2787-2841@2805",
-   "2972-3082@3008",
-   "2896-2972@2952"
+   "1345-1480@1345",
+   "949-1070@1003",
+   "689-810@801"
   ]
  },
  {
   "id": "e06",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 943,
+  "ctx_words": 1072,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 128.92000000000007,
-  "system": "S semantic only",
-  "best_rel": 0.873,
-  "best_dense": 0.778,
+  "pointer_err_s": 47.940000000000055,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.999,
+  "best_dense": 0.801,
   "top": [
-   "3288-3382@3364",
-   "3194-3288@3250",
-   "3082-3138@3120"
+   "1878-2006@1878",
+   "1744-1878@1859",
+   "2006-2130@2111"
   ]
  },
  {
   "id": "e07",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1156,
+  "ctx_words": 943,
   "evidence": true,
   "mrr": 1.0,
-  "pinpoint": false,
-  "pointer_err_s": 30.559999999999945,
-  "system": "S semantic only",
-  "best_rel": 0.979,
-  "best_dense": 0.742,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.987,
+  "best_dense": 0.774,
   "top": [
-   "2364-2440@2364",
-   "1329-1460@1367",
-   "2517-2614@2517"
+   "2130-2258@2222",
+   "1345-1480@1345",
+   "2258-2391@2258"
   ]
  },
  {
   "id": "e08",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 892,
+  "ctx_words": 949,
   "evidence": true,
-  "mrr": 0.3333333333333333,
-  "pinpoint": false,
-  "pointer_err_s": 145.24,
-  "system": "S semantic only",
-  "best_rel": 0.754,
-  "best_dense": 0.718,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.920000000000073,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.997,
+  "best_dense": 0.76,
   "top": [
-   "1042-1099@1080",
-   "1099-1214@1194",
-   "985-1042@985"
+   "2393-2521@2412",
+   "284-418@361",
+   "2654-2783@2725"
   ]
  },
  {
   "id": "e09",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1072,
+  "ctx_words": 964,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 13.840000000000032,
-  "system": "S semantic only",
-  "best_rel": 0.975,
-  "best_dense": 0.749,
+  "pointer_err_s": 5.389999999999873,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.898,
+  "best_dense": 0.757,
   "top": [
-   "546-679@584",
-   "679-755@679",
-   "95-170@114"
+   "2920-3052@2995",
+   "3052-3182@3052",
+   "1744-1878@1819"
   ]
  },
  {
   "id": "e10",
   "type": "explain",
   "abstain": false,
-  "ctx_words": 1077,
+  "ctx_words": 886,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": true,
-  "pointer_err_s": 0.31999999999993634,
-  "system": "S semantic only",
-  "best_rel": 0.978,
-  "best_dense": 0.792,
+  "pointer_err_s": 4.0300000000002,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.999,
+  "best_dense": 0.82,
   "top": [
-   "1460-1535@1460",
-   "1329-1460@1404",
-   "0-95@58"
+   "3439-3567@3474",
+   "3567-3688@3649",
+   "153-284@265"
   ]
  },
  {
   "id": "l01",
   "type": "locate",
+  "abstain": false,
+  "ctx_words": 921,
+  "evidence": true,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 83.34999999999991,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.279,
+  "best_dense": 0.679,
+  "top": [
+   "1480-1610@1498",
+   "3182-3311@3260",
+   "1878-2006@1933"
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 929,
+  "evidence": true,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 107.03999999999996,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.019,
+  "best_dense": 0.652,
+  "top": [
+   "1197-1325@1217",
+   "1070-1197@1125",
+   "1744-1878@1799"
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 1029,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.13999999999987267,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.381,
+  "best_dense": 0.658,
+  "top": [
+   "2521-2654@2635",
+   "1480-1610@1498",
+   "2130-2258@2147"
+  ]
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 876,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 2.2600000000002183,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.12,
+  "best_dense": 0.659,
+  "top": [
+   "3567-3688@3567",
+   "3439-3567@3530",
+   "3315-3439@3358"
+  ]
+ },
+ {
+  "id": "u01",
+  "type": "unanswerable",
+  "abstain": true,
+  "ctx_words": 0,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.0,
+  "best_dense": 0.579,
+  "top": [
+   "284-418@342",
+   "2521-2654@2597",
+   "2258-2391@2374"
+  ]
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "abstain": false,
+  "ctx_words": 931,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.942,
+  "best_dense": 0.763,
+  "top": [
+   "3182-3311@3260",
+   "1480-1610@1498",
+   "1610-1744@1706"
+  ]
+ },
+ {
+  "id": "u03",
+  "type": "unanswerable",
+  "abstain": false,
+  "ctx_words": 926,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.049,
+  "best_dense": 0.647,
+  "top": [
+   "818-949@854",
+   "1744-1878@1799",
+   "2130-2258@2130"
+  ]
+ },
+ {
+  "id": "u04",
+  "type": "unanswerable",
+  "abstain": false,
+  "ctx_words": 975,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.0,
+  "best_dense": 0.615,
+  "top": [
+   "284-418@342",
+   "2130-2258@2183",
+   "1878-2006@1897"
+  ]
+ },
+ {
+  "id": "u05",
+  "type": "unanswerable",
+  "abstain": true,
+  "ctx_words": 0,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.073,
+  "best_dense": 0.504,
+  "top": [
+   "1744-1878@1763",
+   "3567-3688@3609",
+   "418-553@518"
+  ]
+ },
+ {
+  "id": "u06",
+  "type": "unanswerable",
+  "abstain": true,
+  "ctx_words": 0,
+  "system": "S fixed 120s moments",
+  "best_rel": 0.0,
+  "best_dense": 0.592,
+  "top": [
+   "1610-1744@1628",
+   "1480-1610@1553",
+   "1345-1480@1442"
+  ]
+ },
+ {
+  "id": "f01",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 4316,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 6.93,
+  "system": "S chapters only",
+  "best_rel": 0.67,
+  "best_dense": 0.712,
+  "top": [
+   "38-192@38",
+   "342-625@436",
+   "801-2183@854"
+  ]
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5198,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 4.140000000000001,
+  "system": "S chapters only",
+  "best_rel": 0.999,
+  "best_dense": 0.656,
+  "top": [
+   "38-192@76",
+   "801-2183@1363",
+   "2485-3182@2671"
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "abstain": true,
+  "ctx_words": 0,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": null,
+  "system": "S chapters only",
+  "best_rel": 0.063,
+  "best_dense": 0.597,
+  "top": [
+   "342-625@379",
+   "2485-3182@2559",
+   "801-2183@2130"
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 2289,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
+  "system": "S chapters only",
+  "best_rel": 0.987,
+  "best_dense": 0.77,
+  "top": [
+   "342-625@553",
+   "3401-3786@3740",
+   "2183-2485@2374"
+  ]
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 4344,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.169999999999959,
+  "system": "S chapters only",
+  "best_rel": 0.971,
+  "best_dense": 0.752,
+  "top": [
+   "625-801@625",
+   "342-625@379",
+   "801-2183@966"
+  ]
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5216,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 3.480000000000018,
+  "system": "S chapters only",
+  "best_rel": 0.04,
+  "best_dense": 0.637,
+  "top": [
+   "625-801@747",
+   "801-2183@1498",
+   "2485-3182@2577"
+  ]
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 2760,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 1.0499999999999545,
+  "system": "S chapters only",
+  "best_rel": 0.014,
+  "best_dense": 0.677,
+  "top": [
+   "625-801@784",
+   "2485-3182@2635",
+   "342-625@379"
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5523,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 96.06999999999994,
+  "system": "S chapters only",
+  "best_rel": 0.997,
+  "best_dense": 0.759,
+  "top": [
+   "801-2183@1106",
+   "2485-3182@2671",
+   "342-625@573"
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5244,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 35.09999999999991,
+  "system": "S chapters only",
+  "best_rel": 0.482,
+  "best_dense": 0.519,
+  "top": [
+   "801-2183@1275",
+   "38-192@172",
+   "2485-3182@2671"
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5216,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
+  "system": "S chapters only",
+  "best_rel": 0.903,
+  "best_dense": 0.774,
+  "top": [
+   "801-2183@1744",
+   "625-801@689",
+   "2485-3182@2559"
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5312,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 5.680000000000064,
+  "system": "S chapters only",
+  "best_rel": 1.0,
+  "best_dense": 0.772,
+  "top": [
+   "801-2183@2006",
+   "3182-3401@3381",
+   "2485-3182@2559"
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 2823,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
+  "system": "S chapters only",
+  "best_rel": 0.979,
+  "best_dense": 0.705,
+  "top": [
+   "2485-3182@2688",
+   "2183-2485@2374",
+   "3182-3401@3222"
+  ]
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5672,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.4099999999998545,
+  "system": "S chapters only",
+  "best_rel": 1.0,
+  "best_dense": 0.719,
+  "top": [
+   "2485-3182@2960",
+   "3401-3786@3720",
+   "801-2183@1498"
+  ]
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5523,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 28.860000000000127,
+  "system": "S chapters only",
+  "best_rel": 0.57,
+  "best_dense": 0.699,
+  "top": [
+   "2485-3182@3089",
+   "342-625@398",
+   "801-2183@1363"
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5523,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.7699999999999818,
+  "system": "S chapters only",
+  "best_rel": 0.994,
+  "best_dense": 0.588,
+  "top": [
+   "2485-3182@2654",
+   "342-625@361",
+   "801-2183@1041"
+  ]
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 5672,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 1.8899999999998727,
+  "system": "S chapters only",
+  "best_rel": 0.432,
+  "best_dense": 0.743,
+  "top": [
+   "3401-3786@3668",
+   "2485-3182@2960",
+   "801-2183@1217"
+  ]
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 4241,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 9.470000000000027,
+  "system": "S chapters only",
+  "best_rel": 0.909,
+  "best_dense": 0.811,
+  "top": [
+   "265-342@265",
+   "3401-3786@3455",
+   "801-2183@1498"
+  ]
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 3570,
+  "evidence": true,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
+  "system": "S chapters only",
+  "best_rel": 0.255,
+  "best_dense": 0.626,
+  "top": [
+   "265-342@284",
+   "192-260@192",
+   "801-2183@1041"
+  ]
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 5578,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 591.1400000000001,
+  "system": "S chapters only",
+  "best_rel": 0.652,
+  "best_dense": 0.724,
+  "top": [
+   "801-2183@1421",
+   "342-625@587",
+   "2485-3182@2485"
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 4622,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 67.45000000000005,
+  "system": "S chapters only",
+  "best_rel": 0.853,
+  "best_dense": 0.769,
+  "top": [
+   "801-2183@1197",
+   "2183-2485@2374",
+   "342-625@482"
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 5280,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
+  "system": "S chapters only",
+  "best_rel": 0.922,
+  "best_dense": 0.763,
+  "top": [
+   "801-2183@1345",
+   "2485-3182@2559",
+   "3182-3401@3260"
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 3761,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 47.940000000000055,
+  "system": "S chapters only",
+  "best_rel": 0.999,
+  "best_dense": 0.801,
+  "top": [
+   "801-2183@1878",
+   "265-342@302",
+   "625-801@764"
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 5548,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
+  "system": "S chapters only",
+  "best_rel": 0.987,
+  "best_dense": 0.774,
+  "top": [
+   "2183-2485@2222",
+   "801-2183@1345",
+   "2485-3182@2688"
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 3121,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.920000000000073,
+  "system": "S chapters only",
+  "best_rel": 0.997,
+  "best_dense": 0.76,
+  "top": [
+   "2183-2485@2412",
+   "2485-3182@2485",
+   "342-625@361"
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 5672,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 5.389999999999873,
+  "system": "S chapters only",
+  "best_rel": 0.898,
+  "best_dense": 0.757,
+  "top": [
+   "2485-3182@2995",
+   "801-2183@1819",
+   "3401-3786@3609"
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 4217,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 4.0300000000002,
+  "system": "S chapters only",
+  "best_rel": 0.999,
+  "best_dense": 0.82,
+  "top": [
+   "3401-3786@3474",
+   "801-2183@930",
+   "265-342@284"
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 4354,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 347.77,
+  "system": "S chapters only",
+  "best_rel": 0.67,
+  "best_dense": 0.679,
+  "top": [
+   "801-2183@1763",
+   "3182-3401@3260",
+   "342-625@482"
+  ]
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 5280,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 107.03999999999996,
+  "system": "S chapters only",
+  "best_rel": 0.019,
+  "best_dense": 0.652,
+  "top": [
+   "801-2183@1217",
+   "2485-3182@2857",
+   "3182-3401@3358"
+  ]
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 5280,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.13999999999987267,
+  "system": "S chapters only",
+  "best_rel": 0.381,
+  "best_dense": 0.658,
+  "top": [
+   "2485-3182@2635",
+   "801-2183@1498",
+   "3182-3401@3338"
+  ]
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 2947,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 34.76000000000022,
+  "system": "S chapters only",
+  "best_rel": 0.12,
+  "best_dense": 0.659,
+  "top": [
+   "3401-3786@3530",
+   "3182-3401@3241",
+   "2485-3182@2688"
+  ]
+ },
+ {
+  "id": "u01",
+  "type": "unanswerable",
+  "abstain": true,
+  "ctx_words": 0,
+  "system": "S chapters only",
+  "best_rel": 0.0,
+  "best_dense": 0.579,
+  "top": [
+   "265-342@265",
+   "342-625@342",
+   "801-2183@1239"
+  ]
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "abstain": false,
+  "ctx_words": 4354,
+  "system": "S chapters only",
+  "best_rel": 0.942,
+  "best_dense": 0.763,
+  "top": [
+   "3182-3401@3260",
+   "801-2183@1969",
+   "342-625@553"
+  ]
+ },
+ {
+  "id": "u03",
+  "type": "unanswerable",
+  "abstain": false,
+  "ctx_words": 5523,
+  "system": "S chapters only",
+  "best_rel": 0.049,
+  "best_dense": 0.647,
+  "top": [
+   "801-2183@854",
+   "342-625@573",
+   "2485-3182@3015"
+  ]
+ },
+ {
+  "id": "u04",
+  "type": "unanswerable",
+  "abstain": false,
+  "ctx_words": 5586,
+  "system": "S chapters only",
+  "best_rel": 0.0,
+  "best_dense": 0.615,
+  "top": [
+   "342-625@342",
+   "801-2183@1897",
+   "2485-3182@2577"
+  ]
+ },
+ {
+  "id": "u05",
+  "type": "unanswerable",
+  "abstain": true,
+  "ctx_words": 0,
+  "system": "S chapters only",
+  "best_rel": 0.073,
+  "best_dense": 0.504,
+  "top": [
+   "801-2183@1763",
+   "342-625@518",
+   "3401-3786@3609"
+  ]
+ },
+ {
+  "id": "u06",
+  "type": "unanswerable",
+  "abstain": true,
+  "ctx_words": 0,
+  "system": "S chapters only",
+  "best_rel": 0.0,
+  "best_dense": 0.592,
+  "top": [
+   "2485-3182@2881",
+   "801-2183@836",
+   "3182-3401@3182"
+  ]
+ },
+ {
+  "id": "f01",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 504,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 6.93,
+  "system": "S semantic only",
+  "best_rel": 0.67,
+  "best_dense": 0.712,
+  "top": [
+   "19-76@38",
+   "398-453@436",
+   "2111-2202@2167"
+  ]
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 771,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 4.140000000000001,
+  "system": "S semantic only",
+  "best_rel": 0.999,
+  "best_dense": 0.656,
+  "top": [
+   "76-133@76",
+   "1780-1897@1878",
+   "2315-2412@2355"
+  ]
+ },
+ {
+  "id": "f03",
+  "type": "fact",
   "abstain": true,
   "ctx_words": 0,
   "evidence": false,
@@ -6021,122 +5589,554 @@
   "pinpoint": false,
   "pointer_err_s": null,
   "system": "S semantic only",
-  "best_rel": 0.001,
-  "best_dense": 0.608,
+  "best_rel": 0.003,
+  "best_dense": 0.597,
   "top": [
-   "3516-3590@3534",
-   "2673-2787@2748",
-   "2440-2517@2440"
+   "2111-2202@2130",
+   "2503-2635@2559",
+   "465-573@465"
+  ]
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 633,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 13.080000000000041,
+  "system": "S semantic only",
+  "best_rel": 0.987,
+  "best_dense": 0.77,
+  "top": [
+   "465-573@553",
+   "2688-2743@2725",
+   "2202-2258@2202"
+  ]
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 717,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.169999999999959,
+  "system": "S semantic only",
+  "best_rel": 0.971,
+  "best_dense": 0.752,
+  "top": [
+   "625-705@625",
+   "2315-2412@2315",
+   "2202-2258@2202"
+  ]
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 678,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 3.480000000000018,
+  "system": "S semantic only",
+  "best_rel": 0.04,
+  "best_dense": 0.637,
+  "top": [
+   "710-801@747",
+   "1461-1518@1498",
+   "465-573@502"
+  ]
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 502,
+  "evidence": false,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 140.33000000000004,
+  "system": "S semantic only",
+  "best_rel": 0.014,
+  "best_dense": 0.677,
+  "top": [
+   "625-705@645",
+   "1726-1780@1744",
+   "1518-1591@1534"
+  ]
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 888,
+  "evidence": true,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 96.06999999999994,
+  "system": "S semantic only",
+  "best_rel": 0.997,
+  "best_dense": 0.759,
+  "top": [
+   "1106-1236@1106",
+   "966-1041@1003",
+   "1780-1897@1799"
+  ]
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 566,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 35.09999999999991,
+  "system": "S semantic only",
+  "best_rel": 0.482,
+  "best_dense": 0.519,
+  "top": [
+   "1239-1312@1275",
+   "1312-1457@1382",
+   "2635-2688@2671"
+  ]
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 556,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 11.430000000000064,
+  "system": "S semantic only",
+  "best_rel": 0.903,
+  "best_dense": 0.774,
+  "top": [
+   "1726-1780@1744",
+   "1897-1969@1933",
+   "1518-1591@1518"
+  ]
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 707,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 5.680000000000064,
+  "system": "S semantic only",
+  "best_rel": 1.0,
+  "best_dense": 0.772,
+  "top": [
+   "1969-2057@2006",
+   "1312-1457@1402",
+   "1647-1726@1647"
+  ]
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 571,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 27.409999999999854,
+  "system": "S semantic only",
+  "best_rel": 0.979,
+  "best_dense": 0.705,
+  "top": [
+   "2688-2743@2688",
+   "2743-2819@2743",
+   "2819-2920@2881"
+  ]
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 621,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.4099999999998545,
+  "system": "S semantic only",
+  "best_rel": 1.0,
+  "best_dense": 0.719,
+  "top": [
+   "2920-2978@2960",
+   "3720-3786@3720",
+   "2819-2920@2901"
+  ]
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 653,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 28.860000000000127,
+  "system": "S semantic only",
+  "best_rel": 0.57,
+  "best_dense": 0.699,
+  "top": [
+   "3070-3165@3089",
+   "2978-3070@3035",
+   "398-453@398"
+  ]
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 554,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.7699999999999818,
+  "system": "S semantic only",
+  "best_rel": 0.994,
+  "best_dense": 0.588,
+  "top": [
+   "2635-2688@2654",
+   "1041-1106@1041",
+   "1647-1726@1647"
+  ]
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "abstain": false,
+  "ctx_words": 721,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 1.8899999999998727,
+  "system": "S semantic only",
+  "best_rel": 0.432,
+  "best_dense": 0.743,
+  "top": [
+   "3649-3720@3668",
+   "1239-1312@1275",
+   "2503-2635@2615"
+  ]
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 581,
+  "evidence": false,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 9.470000000000027,
+  "system": "S semantic only",
+  "best_rel": 0.909,
+  "best_dense": 0.811,
+  "top": [
+   "192-302@265",
+   "3401-3471@3455",
+   "3474-3528@3474"
+  ]
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 768,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": false,
+  "pointer_err_s": 93.30000000000001,
+  "system": "S semantic only",
+  "best_rel": 0.255,
+  "best_dense": 0.626,
+  "top": [
+   "192-302@284",
+   "1461-1518@1498",
+   "3530-3645@3530"
+  ]
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 632,
+  "evidence": true,
+  "mrr": 0.5,
+  "pinpoint": false,
+  "pointer_err_s": 591.1400000000001,
+  "system": "S semantic only",
+  "best_rel": 0.652,
+  "best_dense": 0.724,
+  "top": [
+   "1312-1457@1421",
+   "966-1041@1003",
+   "801-889@854"
+  ]
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 882,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 67.45000000000005,
+  "system": "S semantic only",
+  "best_rel": 0.853,
+  "best_dense": 0.769,
+  "top": [
+   "1106-1236@1197",
+   "1312-1457@1312",
+   "1518-1591@1573"
+  ]
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 685,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.39000000000010004,
+  "system": "S semantic only",
+  "best_rel": 0.922,
+  "best_dense": 0.763,
+  "top": [
+   "1312-1457@1345",
+   "801-889@801",
+   "966-1041@1003"
+  ]
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 784,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 47.940000000000055,
+  "system": "S semantic only",
+  "best_rel": 0.999,
+  "best_dense": 0.801,
+  "top": [
+   "1780-1897@1878",
+   "1897-1969@1897",
+   "2111-2202@2111"
+  ]
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 713,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.260000000000218,
+  "system": "S semantic only",
+  "best_rel": 0.987,
+  "best_dense": 0.774,
+  "top": [
+   "2202-2258@2222",
+   "2412-2503@2412",
+   "2315-2412@2315"
+  ]
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 680,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 7.920000000000073,
+  "system": "S semantic only",
+  "best_rel": 0.997,
+  "best_dense": 0.76,
+  "top": [
+   "2412-2503@2412",
+   "302-398@361",
+   "2688-2743@2725"
+  ]
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 714,
+  "evidence": false,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 5.389999999999873,
+  "system": "S semantic only",
+  "best_rel": 0.898,
+  "best_dense": 0.757,
+  "top": [
+   "2978-3070@2995",
+   "2819-2920@2881",
+   "3165-3279@3182"
+  ]
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "abstain": false,
+  "ctx_words": 596,
+  "evidence": true,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 4.0300000000002,
+  "system": "S semantic only",
+  "best_rel": 0.999,
+  "best_dense": 0.82,
+  "top": [
+   "3474-3528@3474",
+   "3401-3471@3455",
+   "3530-3645@3609"
+  ]
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "abstain": false,
+  "ctx_words": 728,
+  "evidence": true,
+  "mrr": 0.0,
+  "pinpoint": false,
+  "pointer_err_s": 1844.88,
+  "system": "S semantic only",
+  "best_rel": 0.279,
+  "best_dense": 0.679,
+  "top": [
+   "3165-3279@3260",
+   "801-889@801",
+   "2111-2202@2111"
   ]
  },
  {
   "id": "l02",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 1122,
+  "ctx_words": 819,
   "evidence": true,
-  "mrr": 0.5,
+  "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 245.31999999999994,
+  "pointer_err_s": 107.03999999999996,
   "system": "S semantic only",
-  "best_rel": 0.748,
-  "best_dense": 0.695,
+  "best_rel": 0.019,
+  "best_dense": 0.652,
   "top": [
-   "2006-2119@2025",
-   "1741-1835@1797",
-   "0-95@77"
+   "1106-1236@1217",
+   "1780-1897@1799",
+   "1041-1106@1070"
   ]
  },
  {
   "id": "l03",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 857,
+  "ctx_words": 506,
   "evidence": true,
-  "mrr": 0.5,
-  "pinpoint": false,
-  "pointer_err_s": 66.51999999999998,
+  "mrr": 1.0,
+  "pinpoint": true,
+  "pointer_err_s": 0.13999999999987267,
   "system": "S semantic only",
-  "best_rel": 0.677,
-  "best_dense": 0.677,
+  "best_rel": 0.381,
+  "best_dense": 0.658,
   "top": [
-   "2841-2896@2841",
-   "2787-2841@2805",
-   "2972-3082@2972"
+   "2635-2688@2635",
+   "2111-2202@2147",
+   "133-192@153"
   ]
  },
  {
   "id": "l04",
   "type": "locate",
   "abstain": false,
-  "ctx_words": 994,
+  "ctx_words": 678,
   "evidence": true,
   "mrr": 1.0,
   "pinpoint": false,
-  "pointer_err_s": 62.75999999999999,
+  "pointer_err_s": 34.76000000000022,
   "system": "S semantic only",
-  "best_rel": 0.975,
-  "best_dense": 0.73,
+  "best_rel": 0.12,
+  "best_dense": 0.659,
   "top": [
-   "1835-1912@1893",
-   "1099-1214@1138",
-   "1912-2006@1949"
+   "3530-3645@3530",
+   "3165-3279@3241",
+   "2688-2743@2688"
   ]
  },
  {
   "id": "u01",
   "type": "unanswerable",
-  "abstain": false,
-  "ctx_words": 1210,
+  "abstain": true,
+  "ctx_words": 0,
   "system": "S semantic only",
-  "best_rel": 0.931,
-  "best_dense": 0.67,
+  "best_rel": 0.0,
+  "best_dense": 0.579,
   "top": [
-   "283-394@303",
-   "0-95@77",
-   "170-283@265"
+   "2819-2920@2901",
+   "302-398@342",
+   "2503-2635@2597"
   ]
  },
  {
   "id": "u02",
   "type": "unanswerable",
-  "abstain": true,
-  "ctx_words": 0,
+  "abstain": false,
+  "ctx_words": 700,
   "system": "S semantic only",
-  "best_rel": 0.055,
-  "best_dense": 0.604,
+  "best_rel": 0.942,
+  "best_dense": 0.763,
   "top": [
-   "283-394@321",
-   "1835-1912@1893",
-   "2440-2517@2459"
+   "3165-3279@3260",
+   "1518-1591@1518",
+   "1726-1780@1763"
   ]
  },
  {
   "id": "u03",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 910,
+  "ctx_words": 555,
   "system": "S semantic only",
-  "best_rel": 0.0,
-  "best_dense": 0.633,
+  "best_rel": 0.049,
+  "best_dense": 0.647,
   "top": [
-   "2440-2517@2499",
-   "3194-3288@3250",
-   "3441-3516@3497"
+   "801-889@854",
+   "2111-2202@2130",
+   "573-625@573"
   ]
  },
  {
   "id": "u04",
   "type": "unanswerable",
   "abstain": false,
-  "ctx_words": 760,
+  "ctx_words": 751,
   "system": "S semantic only",
-  "best_rel": 0.031,
-  "best_dense": 0.637,
+  "best_rel": 0.0,
+  "best_dense": 0.615,
   "top": [
-   "95-170@114",
-   "679-755@717",
-   "2440-2517@2459"
+   "302-398@342",
+   "2111-2202@2183",
+   "2315-2412@2355"
   ]
  },
  {
@@ -6145,12 +6145,12 @@
   "abstain": true,
   "ctx_words": 0,
   "system": "S semantic only",
-  "best_rel": 0.0,
-  "best_dense": 0.552,
+  "best_rel": 0.073,
+  "best_dense": 0.504,
   "top": [
-   "1099-1214@1138",
-   "1329-1460@1348",
-   "1912-2006@1949"
+   "1726-1780@1763",
+   "3530-3645@3609",
+   "465-573@518"
   ]
  },
  {
@@ -6160,11 +6160,11 @@
   "ctx_words": 0,
   "system": "S semantic only",
   "best_rel": 0.0,
-  "best_dense": 0.47,
+  "best_dense": 0.592,
   "top": [
-   "546-679@661",
-   "0-95@58",
-   "2787-2841@2805"
+   "2819-2920@2881",
+   "1726-1780@1744",
+   "1591-1647@1628"
   ]
  }
 ]

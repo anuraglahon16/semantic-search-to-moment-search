@@ -1,21 +1,21 @@
 {
-  "notes": "Held-out questions used ONLY to set the Moment RAG abstention threshold (GATE_REL). None of them appear in questions.json.",
+  "notes": "Held-out questions used ONLY to set the Moment RAG abstention thresholds (GATE_REL, DENSE_GATE). None of them appear in questions.json.",
   "answerable": [
-    "What two files make up a large language model?",
-    "What happens when you add the carefully designed noise pattern on the panda image to a harmful prompt?",
-    "What did the website sketched with a pencil do once ChatGPT wrote its code?",
-    "What changes about the model after fine-tuning on Q&A documents?",
-    "How can you talk to ChatGPT by voice in the iOS app?",
-    "What does the GPTs app store let you customize?",
-    "How did Bing end up showing a fraudulent Amazon gift card link?",
-    "Why is the base model not directly usable as an assistant?"
+    "Why should you visit the room before you give a talk there?",
+    "What happened with his hands in the convent in Serbia?",
+    "What did he notice the second time he watched Seymour Papert lecture?",
+    "What did his student's experiment on slides versus speaking find?",
+    "Why is a final slide listing all your collaborators a bad idea?",
+    "Why is your faculty supervisor a poor person to help debug your talk?",
+    "What map-coloring example does he use to show a slow program made fast?",
+    "How did Chris Christie end his keynote address?"
   ],
   "unanswerable": [
     "What is the capital of Australia?",
+    "How do vaccines train the immune system?",
+    "What stocks does he recommend buying?",
     "What does he say about Tesla Autopilot?",
     "What is his favorite programming language?",
-    "How do vaccines train the immune system?",
-    "What stocks does he recommend?",
-    "How many employees does Meta have?"
+    "How many employees does Google have?"
   ]
 }

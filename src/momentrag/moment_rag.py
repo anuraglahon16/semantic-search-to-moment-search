@@ -18,7 +18,8 @@ Read path (mirrors Moment Search's src/rag/search.py, transcript-only):
   4 · Gate — abstain with no LLM call only when NEITHER signal is confident: the best
         reranked window is below GATE_REL AND the best dense cosine is below DENSE_GATE
         (Moment Search abstains only when neither the visual nor the text branch clears
-        its bar). Both thresholds come from eval/calibration.json, never the test set.
+        its bar). Dense cosine levels differ per corpus, so DENSE_GATE is re-derived from
+        held-out calibration questions (calibrate_dense_gate), never the test set.
   5 · Read + answer — the LLM reads each whole moment (the complete thought), cites
         [n], invalid citations are stripped, and timestamps/deep links come from the
         retrieved payload — the LLM never invents a time. When the anchor sits in a
@@ -43,7 +44,7 @@ AGREE_BOOST = 1.25     # >= 2 branches landing on the same moment
 RERANK_POOL = 8        # fused moments whose windows the cross-encoder re-reads
 RERANK_WEIGHT = 0.7    # blend: cross-encoder relevance vs normalized RRF
 GATE_REL = 0.10        # cross-encoder relevance (0-1) below which the reranker "sees nothing"
-DENSE_GATE = 0.62      # bge cosine: calibration answerable min 0.648, unanswerable max 0.596
+DENSE_GATE = 0.60      # bge cosine; default = calibrate_dense_gate() on the default video
 _TOKEN = re.compile(r"[a-z0-9]+")
 _STOP = {"the", "a", "an", "of", "to", "and", "in", "is", "it", "that", "what", "how",
          "does", "do", "he", "is", "for", "on", "with", "about", "which", "why", "when",
@@ -65,6 +66,7 @@ class MomentRAG:
     use_rerank: bool = True
     use_gate: bool = True
     name: str = "moment"
+    dense_gate: float = DENSE_GATE
     _w2m: dict[int, int] = field(init=False, repr=False)
 
     def __post_init__(self) -> None:
@@ -166,7 +168,7 @@ class MomentRAG:
                          "branches": sorted(c["best"])})
         best_rel = max((c.get("rel", 0.0) for c in fused[:RERANK_POOL]), default=0.0)
         abstain = bool(self.use_gate and self.use_rerank
-                       and best_rel < GATE_REL and best_dense < DENSE_GATE)
+                       and best_rel < GATE_REL and best_dense < self.dense_gate)
         return {"hits": hits, "best_rel": best_rel, "best_dense": best_dense,
                 "abstain": abstain,
                 "candidates": len(fused)}
@@ -187,3 +189,16 @@ class MomentRAG:
             raw = llm.complete(SYSTEM_MOMENT, format_moment_context(question, hits))
             out["answer"] = validate_citations(raw, len(hits))
         return out
+
+
+def calibrate_dense_gate(rag: MomentRAG, answerable: list[str],
+                         unanswerable: list[str]) -> dict:
+    """DENSE_GATE for this corpus from held-out questions: the midpoint between the lowest
+    best-window cosine of an answerable question and the highest of an unanswerable one.
+    If the two groups overlap, the default is kept (and the overlap is reported)."""
+    best = lambda q: rag._branches(q)["dense"][0][1]
+    lo = min(best(q) for q in answerable)
+    hi = max(best(q) for q in unanswerable)
+    gate = round((lo + hi) / 2, 3) if lo > hi else DENSE_GATE
+    return {"dense_gate": gate, "answerable_min": round(lo, 4),
+            "unanswerable_max": round(hi, 4), "separated": lo > hi}

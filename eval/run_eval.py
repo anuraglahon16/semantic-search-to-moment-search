@@ -123,9 +123,12 @@ def run_moment(name: str, rag: MomentRAG, questions: list[dict], k: int):
 
 
 def calibrate_gate(rag: MomentRAG) -> dict:
-    """Best-window relevance on the held-out calibration questions (never the test set)."""
+    """Set rag.dense_gate from the held-out calibration questions (never the test set) and
+    record every calibration question's scores and gate outcome."""
     cal = json.loads((ROOT / "eval" / "calibration.json").read_text())
-    out = {"GATE_REL": mr.GATE_REL, "DENSE_GATE": mr.DENSE_GATE}
+    fit = mr.calibrate_dense_gate(rag, cal["answerable"], cal["unanswerable"])
+    rag.dense_gate = fit["dense_gate"]
+    out = {"GATE_REL": mr.GATE_REL, **fit}
     for grp in ("answerable", "unanswerable"):
         rs = [rag.retrieve(q, 3) for q in cal[grp]]
         out[grp] = [{"q": q, "rel": round(r["best_rel"], 4), "dense": round(r["best_dense"], 4),
@@ -160,6 +163,9 @@ def main() -> None:
 
     windows, moments = build_moments(vid, cues, chapters, llm=enrich_llm)
     full = MomentRAG(vid, windows, moments, name="Moment RAG (full)")
+    cal = calibrate_gate(full)
+    print(f"dense gate calibrated to {cal['dense_gate']} (answerable min "
+          f"{cal['answerable_min']}, unanswerable max {cal['unanswerable_max']})")
     base = BaselineRAG(cues)
 
     systems = [
@@ -183,7 +189,7 @@ def main() -> None:
             ("S semantic only", dict(use_chapters=False))]
     for name, kw in segs:
         w, m = build_moments(vid, cues, chapters, llm=enrich_llm, **kw)
-        rag = MomentRAG(vid, w, m, name=name)
+        rag = MomentRAG(vid, w, m, name=name, dense_gate=full.dense_gate)
         systems.append((name, lambda n=name, g=rag: run_moment(n, g, questions, 3)))
 
     summary, per_q = [], []
@@ -196,7 +202,6 @@ def main() -> None:
               f"ctx={summary[-1]['avg ctx words']}w "
               f"unans-abstain={summary[-1]['unanswerable abstain %']}%")
 
-    cal = calibrate_gate(full)
     print("gate calibration: answerable abstained",
           sum(x["abstain"] for x in cal["answerable"]), "/", len(cal["answerable"]),
           "· unanswerable abstained", sum(x["abstain"] for x in cal["unanswerable"]),
