@@ -88,7 +88,7 @@ questions ("what share of the audience is fogged out?").
 The baseline's retrieval is identical in both runs, yet its score moved from 23 to 21: LLM
 run-to-run variance is about ±2 questions, so the answer-level gap is suggestive, not proven.
 An earlier run of the same pipeline on a second video (Karpathy's *Intro to LLMs*, commit
-`6bacdcb`) gave 26/30 vs 22/30 in Moment RAG's favour.
+`74e0162`) gave 26/30 vs 22/30 in Moment RAG's favour.
 
 **Ablations** (Moment RAG with LLM cards, adding one component at a time)
 
