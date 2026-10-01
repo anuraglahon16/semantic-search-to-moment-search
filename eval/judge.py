@@ -42,6 +42,32 @@ _SYSTEM = (
 )
 
 
+def grading_prompt(q: dict, answer: str) -> str:
+    """The judge sees only these three things: no system name, scores or sources."""
+    return (f"Question: {q['question']}\nReference answer: {q['reference']}\n"
+            f"Answer to grade: {answer or '(empty)'}")
+
+
+def summarize(judged: list[dict]) -> tuple[list[dict], str]:
+    """Per-system counts of correct verdicts by question type, as a table."""
+    score = {"correct": 1.0, "partial": 0.5, "incorrect": 0.0}
+    rows = []
+    for sysname in ("baseline", "moment"):
+        js = [j for j in judged if j["system"] == sysname]
+        row = {"system": sysname}
+        for t in ("fact", "explain", "locate", "unanswerable"):
+            sub = [j for j in js if j["type"] == t]
+            row[f"{t} correct"] = f"{sum(j['verdict'] == 'correct' for j in sub)}/{len(sub)}"
+        ans = [j for j in js if j["type"] != "unanswerable"]
+        row["answerable correct %"] = round(100 * sum(j["verdict"] == "correct" for j in ans) / len(ans), 1)
+        row["answerable score %"] = round(100 * statistics.mean(score[j["verdict"]] for j in ans), 1)
+        rows.append(row)
+    cols = list(rows[0])
+    md = "\n".join(["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)] +
+                   ["| " + " | ".join(str(r[c]) for c in cols) + " |" for r in rows])
+    return rows, md
+
+
 def judge_dir(d: Path, llm) -> dict:
     answers = json.loads((d / "answers.json").read_text())
     qs = {q["id"]: q for q in json.loads((ROOT / "eval/questions.json").read_text())["questions"]}
@@ -51,10 +77,7 @@ def judge_dir(d: Path, llm) -> dict:
     todo = [a for a in answers if (a["id"], a["system"]) not in cache]
     random.Random(0).shuffle(todo)                      # blind: order carries no system signal
     for a in todo:
-        q = qs[a["id"]]
-        user = (f"Question: {q['question']}\nReference answer: {q['reference']}\n"
-                f"Answer to grade: {a['answer'] or '(empty)'}")
-        raw = llm.complete(_SYSTEM, user, max_tokens=200)
+        raw = llm.complete(_SYSTEM, grading_prompt(qs[a["id"]], a["answer"]), max_tokens=200)
         m = re.search(r"\{.*\}", raw, re.S)
         try:
             v = json.loads(m.group(0)) if m else {}
@@ -65,22 +88,8 @@ def judge_dir(d: Path, llm) -> dict:
                                          "verdict": verdict, "reason": v.get("reason", raw[:200])}
         cache_path.write_text(json.dumps(list(cache.values()), indent=1))
 
-    rows = []
-    for sysname in ("baseline", "moment"):
-        js = [j for j in cache.values() if j["system"] == sysname]
-        score = {"correct": 1.0, "partial": 0.5, "incorrect": 0.0}
-        row = {"system": sysname}
-        for t in ("fact", "explain", "locate", "unanswerable"):
-            sub = [j for j in js if j["type"] == t]
-            row[f"{t} correct"] = f"{sum(j['verdict'] == 'correct' for j in sub)}/{len(sub)}"
-        ans = [j for j in js if j["type"] != "unanswerable"]
-        row["answerable correct %"] = round(100 * sum(j["verdict"] == "correct" for j in ans) / len(ans), 1)
-        row["answerable score %"] = round(100 * statistics.mean(score[j["verdict"]] for j in ans), 1)
-        rows.append(row)
+    rows, md = summarize(list(cache.values()))
     (d / "judge_summary.json").write_text(json.dumps(rows, indent=1))
-    cols = list(rows[0])
-    md = "\n".join(["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)] +
-                   ["| " + " | ".join(str(r[c]) for c in cols) + " |" for r in rows])
     (d / "judge_summary.md").write_text(md + "\n")
     return {"dir": d.name, "table": md}
 

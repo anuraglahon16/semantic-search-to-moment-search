@@ -1,0 +1,20 @@
+[
+ {
+  "system": "baseline",
+  "fact correct": "13/16",
+  "explain correct": "6/10",
+  "locate correct": "0/4",
+  "unanswerable correct": "6/6",
+  "answerable correct %": 63.3,
+  "answerable score %": 71.7
+ },
+ {
+  "system": "moment",
+  "fact correct": "15/16",
+  "explain correct": "6/10",
+  "locate correct": "3/4",
+  "unanswerable correct": "6/6",
+  "answerable correct %": 80.0,
+  "answerable score %": 86.7
+ }
+]

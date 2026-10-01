@@ -90,6 +90,26 @@ run-to-run variance is about ±2 questions, so the answer-level gap is suggestiv
 An earlier run of the same pipeline on a second video (Karpathy's *Intro to LLMs*, commit
 `74e0162`) gave 26/30 vs 22/30 in Moment RAG's favour.
 
+**Independent judge.** The answers above were written and graded by gpt-5.6-luna. The same
+saved answers were re-graded by claude-opus-5-5 with the identical rubric and blinding
+([eval/claude_judge.py](eval/claude_judge.py); nothing regenerated). It sees only the question,
+the reference and one answer, in shuffled order: no system name, scores or sources.
+Full verdicts and every disagreement are in [results/claude-judge/](results/claude-judge/).
+
+| Moment cards | System | GPT judge (correct / partial / incorrect) | Claude judge | Agreement (κ) |
+|---|---|---|---|---|
+| LLM-written | Baseline | 21 / 6 / 3 | 19 / 5 / 6 | 88.9% (0.70) |
+| LLM-written | **Moment RAG** | **24** / 5 / 1 | **24** / 4 / 2 | |
+| Extractive | Baseline | 23 / 3 / 4 | 20 / 6 / 4 | 93.1% (0.82) |
+| Extractive | Moment RAG | 22 / 4 / 4 | 21 / 4 / 5 | |
+
+Claude is stricter, mostly on the 30-second "where" rule and on explain answers that miss a
+secondary point. With LLM-written cards the conclusion holds and widens (24 vs 19). With
+extractive cards the one-question lead flips from baseline to Moment RAG, but both judges
+put the two within one question (answerable score 76.7% each under Claude), so that
+comparison stays a tie, not a win for either. Both judges agree that all 6 unanswerable
+questions were declined by both systems.
+
 **Ablations** (Moment RAG with LLM cards, adding one component at a time)
 
 | Configuration | Evidence | Span MRR | Jump lands | Latency (warm) |
@@ -119,7 +139,8 @@ cards are near-duplicates and the branch boosts the wrong moment in that chapter
 2. **Moments win on retrieval at an equal word budget:** 93.3% vs 83.3% evidence with 635 vs
    600 words, and the jump point lands a median 8s from the answer instead of 30s.
 3. **Enrichment is not optional.** LLM-written cards are what make the card branch help; the
-   keyless extractive fallback made retrieval and answers worse on this video.
+   keyless extractive fallback made retrieval worse on this video, and the answer-level lead
+   disappeared (a tie under both judges).
 4. **Short moments split long lists.** "Winston's star" (five elements over three minutes) and
    the three survey findings on inspiration span two or three moments, so Moment RAG returns
    only part of the list. Longer blocks (fixed 120s, chapters) find more, at 1.5–6.7× the context.
@@ -130,14 +151,17 @@ cards are near-duplicates and the branch boosts the wrong moment in that chapter
    here too, but it gives the calibrated score that lets 3/6 off-topic questions stop with no LLM call.
 
 **Limitations:** one video in this run; 36 questions labeled by one person (one question =
-3.3 points); judge and generator are the same model family; LLM variance of about ±2 questions;
+3.3 points); answer quality is still evaluated by an LLM judge rather than human raters, so
+evaluator subjectivity remains even though the judge uses a different model family from the
+generator; the answers' own wording can hint at their source (only Moment RAG answers give
+timestamps, and 11 of 30 baseline answers mention "excerpts"); LLM variance of about ±2 questions;
 the dense gate threshold is fit on 14 calibration questions per video and the two groups were
 only 0.014 apart here; boundaries snap to 20s windows; no visual branch.
 
 **Improvements:** read the neighbouring moment when the anchor is near an edge or the moment
 ends mid-list; make the answer cite the anchor time directly; punctuation-aware boundaries;
 Moment Search's CLIP frame branch for the slides he shows; split multi-part questions; a
-multi-video eval with several labelers and an independent judge.
+multi-video eval with several labelers and human spot-checks of the judge's verdicts.
 
 ## Run it
 

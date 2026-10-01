@@ -1,0 +1,136 @@
+{
+ "answers": "llm-cards",
+ "judges": [
+  "gpt-5.6-luna",
+  "claude-opus-5-5"
+ ],
+ "n": 72,
+ "answerable_counts": {
+  "gpt-5.6-luna": {
+   "baseline": {
+    "correct": 21,
+    "partial": 6,
+    "incorrect": 3
+   },
+   "moment": {
+    "correct": 24,
+    "partial": 5,
+    "incorrect": 1
+   }
+  },
+  "claude-opus-5-5": {
+   "baseline": {
+    "correct": 19,
+    "partial": 5,
+    "incorrect": 6
+   },
+   "moment": {
+    "correct": 24,
+    "partial": 4,
+    "incorrect": 2
+   }
+  }
+ },
+ "unanswerable_declined_correct": {
+  "gpt-5.6-luna": {
+   "baseline": 6,
+   "moment": 6
+  },
+  "claude-opus-5-5": {
+   "baseline": 6,
+   "moment": 6
+  }
+ },
+ "agreement_pct": 88.9,
+ "cohen_kappa": 0.7,
+ "judge_errors": 0,
+ "headline_winner": {
+  "gpt-5.6-luna": "moment",
+  "claude-opus-5-5": "moment"
+ },
+ "headline_changes": false,
+ "disagreements": [
+  {
+   "id": "e04",
+   "system": "baseline",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "The answer correctly focuses on the small taped section and notes that each piece behaves the same way, but it misstates the mechanism: the reference says blowing on the piece as it comes over the top pushes it sideways, not that it keeps moving downward."
+  },
+  {
+   "id": "e10",
+   "system": "baseline",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "It captures the politeness/wanting-to-be-elsewhere point but omits that you can mouth thank you once applause starts rather than making it your last move."
+  },
+  {
+   "id": "e10",
+   "system": "moment",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "The answer gets the main point that it implies the audience stayed only out of politeness, but it leaves out that you can mouth thank you once the applause starts, just not as your final move."
+  },
+  {
+   "id": "l01",
+   "system": "baseline",
+   "type": "locate",
+   "gpt": "partial",
+   "claude": "incorrect",
+   "claude_reason": "The answer gives no timestamp, while the reference places the start at about 23:35-24:15."
+  },
+  {
+   "id": "l01",
+   "system": "moment",
+   "type": "locate",
+   "gpt": "partial",
+   "claude": "incorrect",
+   "claude_reason": "The answer gives 24:58, which is more than 30 seconds past the reference start of about 23:35-24:15."
+  },
+  {
+   "id": "l02",
+   "system": "baseline",
+   "type": "locate",
+   "gpt": "partial",
+   "claude": "incorrect",
+   "claude_reason": "The answer gives no timestamp, while the reference places the demonstration at about 18:30-19:40, and it adds an unsupported claim that the audience can try the prop afterward."
+  },
+  {
+   "id": "l02",
+   "system": "moment",
+   "type": "locate",
+   "gpt": "partial",
+   "claude": "correct",
+   "claude_reason": "The given start time of 18:26 is within 30 seconds of the reference's 18:30, though the stated end time runs about a minute past the reference range."
+  },
+  {
+   "id": "l03",
+   "system": "baseline",
+   "type": "locate",
+   "gpt": "partial",
+   "claude": "incorrect",
+   "claude_reason": "The answer declines to give a location, but the reference places the job talks discussion at about 43:55-45:00."
+  }
+ ],
+ "leakage_audit": {
+  "timestamp (mm:ss)": {
+   "baseline": 0,
+   "moment": 4
+  },
+  "Moment RAG gate refusal text": {
+   "baseline": 0,
+   "moment": 4
+  },
+  "mentions 'excerpts'": {
+   "baseline": 11,
+   "moment": 0
+  },
+  "mentions 'moment(s)'": {
+   "baseline": 1,
+   "moment": 4
+  }
+ }
+}

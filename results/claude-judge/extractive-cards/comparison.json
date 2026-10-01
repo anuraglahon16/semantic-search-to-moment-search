@@ -1,0 +1,112 @@
+{
+ "answers": "extractive-cards",
+ "judges": [
+  "gpt-5.6-luna",
+  "claude-opus-5-5"
+ ],
+ "n": 72,
+ "answerable_counts": {
+  "gpt-5.6-luna": {
+   "baseline": {
+    "correct": 23,
+    "partial": 3,
+    "incorrect": 4
+   },
+   "moment": {
+    "correct": 22,
+    "partial": 4,
+    "incorrect": 4
+   }
+  },
+  "claude-opus-5-5": {
+   "baseline": {
+    "correct": 20,
+    "partial": 6,
+    "incorrect": 4
+   },
+   "moment": {
+    "correct": 21,
+    "partial": 4,
+    "incorrect": 5
+   }
+  }
+ },
+ "unanswerable_declined_correct": {
+  "gpt-5.6-luna": {
+   "baseline": 6,
+   "moment": 6
+  },
+  "claude-opus-5-5": {
+   "baseline": 6,
+   "moment": 6
+  }
+ },
+ "agreement_pct": 93.1,
+ "cohen_kappa": 0.822,
+ "judge_errors": 0,
+ "headline_winner": {
+  "gpt-5.6-luna": "baseline",
+  "claude-opus-5-5": "moment"
+ },
+ "headline_changes": true,
+ "disagreements": [
+  {
+   "id": "e02",
+   "system": "baseline",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "The answer covers distracting the user, the people nearby and the speaker, but it omits the key point that humans have only one language processor."
+  },
+  {
+   "id": "e04",
+   "system": "baseline",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "It captures the idea of following one small taped piece and having each piece behave the same way, but it says the push is downward rather than sideways and omits that this is the right way to think about the problem."
+  },
+  {
+   "id": "e10",
+   "system": "baseline",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "It gives the main reason (it implies the audience stayed only out of politeness), but it leaves out the advice to mouth thank you during the applause rather than making it the last move."
+  },
+  {
+   "id": "e10",
+   "system": "moment",
+   "type": "explain",
+   "gpt": "correct",
+   "claude": "partial",
+   "claude_reason": "The answer gets the politeness point but leaves out that you can still mouth thank you once the applause starts."
+  },
+  {
+   "id": "l04",
+   "system": "moment",
+   "type": "locate",
+   "gpt": "partial",
+   "claude": "incorrect",
+   "claude_reason": "The answer's 58:50 is about 35 seconds before the reference start of 59:25, which falls outside the roughly 30-second tolerance."
+  }
+ ],
+ "leakage_audit": {
+  "timestamp (mm:ss)": {
+   "baseline": 0,
+   "moment": 5
+  },
+  "Moment RAG gate refusal text": {
+   "baseline": 0,
+   "moment": 4
+  },
+  "mentions 'excerpts'": {
+   "baseline": 11,
+   "moment": 1
+  },
+  "mentions 'moment(s)'": {
+   "baseline": 1,
+   "moment": 5
+  }
+ }
+}

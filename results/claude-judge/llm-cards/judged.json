@@ -1,0 +1,578 @@
+[
+ {
+  "id": "u04",
+  "type": "unanswerable",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer correctly declines, matching the reference that the video does not cover this."
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer gives all the reference's key reasons: one language processor, distraction of oneself and of others, and the speaker doing a worse job."
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer gets the main point that it implies the audience stayed only out of politeness, but it leaves out that you can mouth thank you once the applause starts, just not as your final move."
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches both parts of the reference quote: you get used to fame, and you never get used to being ignored."
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer declines to answer, while the reference gives about 20%."
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer correctly names Alan Lazarus, which is the key fact; omitting the 8.01 course and energy-conservation context contradicts nothing."
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names Mary Lou Retton, the Olympic gymnast, which matches the reference."
+ },
+ {
+  "id": "u05",
+  "type": "unanswerable",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, consistent with the reference saying the video does not cover it."
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference exactly: disinterested farm animals."
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer covers the freshmen and faculty findings but omits the common thread that everyone was inspired by someone showing passion for their work."
+ },
+ {
+  "id": "u06",
+  "type": "unanswerable",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer correctly declines, saying the video does not cover resume formatting."
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: the room should be more than half full but need not be packed."
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer states five minutes, which matches the reference."
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: about 40\u201350, with 35 starting to get too small."
+ },
+ {
+  "id": "u05",
+  "type": "unanswerable",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, matching the reference that the video does not cover this."
+ },
+ {
+  "id": "f10",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: a minimum of about 40 or 50, with 35 being too small."
+ },
+ {
+  "id": "f12",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer states five minutes, which matches the reference."
+ },
+ {
+  "id": "f03",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer declines to respond, whereas the reference gives about 20%."
+ },
+ {
+  "id": "f02",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names Mary Lou Retton, the Olympic gymnast, which matches the reference."
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names \"ite missa est\" and gives the same meaning as the reference: the mass is over, you can go home now."
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer gives no timestamp, while the reference places the demonstration at about 18:30-19:40, and it adds an unsupported claim that the audience can try the prop afterward."
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer correctly isolates the taped piece and notes each piece gets the same push, but it says the push is downward when the reference says sideways."
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer states 11 AM, which matches the reference."
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names empathetic mirroring, where watching the writing or the prop lets you feel yourself doing it, and says slides can't do that, which matches the reference."
+ },
+ {
+  "id": "l02",
+  "type": "locate",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The given start time of 18:26 is within 30 seconds of the reference's 18:30, though the stated end time runs about a minute past the reference range."
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer covers all three key advantages: graphic quality, writing speed matched to absorption, and a target for the hands to point at. The extra detail about mirroring does not contradict the reference."
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer captures the key idea of a complex slide usable only once per presentation; omitting the Afghanistan example is acceptable."
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer gives both counts from the reference: 21 books for her and 17 for him."
+ },
+ {
+  "id": "f06",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference exactly: disinterested farm animals."
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer says about seven seconds, which matches the reference."
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer describes the context of the clip but gives no timestamp, while the reference places it at about 59:25-1:00:45."
+ },
+ {
+  "id": "u01",
+  "type": "unanswerable",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, consistent with the reference saying the video does not cover it."
+ },
+ {
+  "id": "e10",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "It captures the politeness/wanting-to-be-elsewhere point but omits that you can mouth thank you once applause starts rather than making it your last move."
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer covers the reference's key points: people think through stories, so you give them stories, questions to ask, ways to analyze and combine them, and ways to evaluate them."
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches both key facts: the audience is still settling in and adjusting to the speaker's voice, so jokes fall flat, and the talk should open with an empowerment promise."
+ },
+ {
+  "id": "e05",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names the audience empathetically mirroring the speaker's writing or prop handling, which slides can't do; its extra detail doesn't contradict the reference."
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer declines to give a location, but the reference places the job talks discussion at about 43:55-45:00."
+ },
+ {
+  "id": "f07",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: the room should be more than half full but need not be packed."
+ },
+ {
+  "id": "l04",
+  "type": "locate",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The given 59:45 lies within the reference range of 59:25-1:00:45 and is about 20 seconds from its start."
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer gives no timestamp, while the reference places the start at about 23:35-24:15."
+ },
+ {
+  "id": "e02",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer covers the distraction to the user, to people nearby and to the speaker, but it omits the single-language-processor rationale."
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: turning away loses eye contact and engagement, so put an arrow on the slide and refer to it; omitting 'numbered' is minor."
+ },
+ {
+  "id": "e06",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer captures both points: turning away loses eye contact and engagement, and you should use an arrow on the slide instead (the numbering detail is minor)."
+ },
+ {
+  "id": "u03",
+  "type": "unanswerable",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, saying it couldn't find a recommendation, which matches the reference that the video does not cover this."
+ },
+ {
+  "id": "f11",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer captures the key fact that it is a very complex slide usable only once per presentation; omitting the Afghanistan example is fine."
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, saying the video excerpts do not give the number, which matches the reference that the video does not cover it."
+ },
+ {
+  "id": "e03",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer covers all three reference points: graphic quality, a speed that matches absorption, and a target to point at; the extra mirroring detail does not contradict the reference."
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The play (Hedda Gabler) is correct, but it names the potbellied stove as the prop, whereas the reference identifies the manuscript that ends up in the stove's fire."
+ },
+ {
+  "id": "e08",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: storytelling animals, stories, questions about them, and ways to analyze, construct/combine and evaluate them."
+ },
+ {
+  "id": "u06",
+  "type": "unanswerable",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer correctly declines, matching the reference that the video does not cover this."
+ },
+ {
+  "id": "f15",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: 21 books for her and 17 for him."
+ },
+ {
+  "id": "e07",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches all three key findings: students inspired by a teacher saying they could succeed, senior faculty by seeing a problem in a new way, and everyone by passion for one's work."
+ },
+ {
+  "id": "f01",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer declines to respond, while the reference names knowledge, practice and talent, with talent mattering least."
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer names symbol and slogan but omits surprise, salient idea and story."
+ },
+ {
+  "id": "u03",
+  "type": "unanswerable",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, matching the reference that the video does not cover this."
+ },
+ {
+  "id": "e04",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "partial",
+  "reason": "The answer correctly focuses on the small taped section and notes that each piece behaves the same way, but it misstates the mechanism: the reference says blowing on the piece as it comes over the top pushes it sideways, not that it keeps moving downward."
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer gives the reference slogan, \"one-shot learning,\" and its added explanation does not contradict the reference."
+ },
+ {
+  "id": "f13",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference: 'you get used to it' and that you never get used to being ignored."
+ },
+ {
+  "id": "l01",
+  "type": "locate",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer gives 24:58, which is more than 30 seconds past the reference start of about 23:35-24:15."
+ },
+ {
+  "id": "u04",
+  "type": "unanswerable",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, saying the video has no Zoom-specific advice, which matches the reference that the topic is not covered."
+ },
+ {
+  "id": "f01",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names knowledge, practice and talent as the factors, says talent matters least, and says knowledge matters most, matching the reference."
+ },
+ {
+  "id": "f16",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer gives \"ite missa est\" with the same meaning as the reference: the mass is over, you can go home now."
+ },
+ {
+  "id": "f04",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer gives seven seconds, which matches the reference."
+ },
+ {
+  "id": "f14",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference, naming \"one-shot learning\" as the slogan."
+ },
+ {
+  "id": "e09",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "incorrect",
+  "reason": "The answer declines to list the elements, which are symbol, slogan, surprise, salient idea and story."
+ },
+ {
+  "id": "u01",
+  "type": "unanswerable",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines to name an exercise, which matches the reference's statement that the video does not cover this."
+ },
+ {
+  "id": "l03",
+  "type": "locate",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer gives 43:55, which matches the start of the reference range."
+ },
+ {
+  "id": "u02",
+  "type": "unanswerable",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer declines, saying the video gives no exact slide count, which matches the reference."
+ },
+ {
+  "id": "f08",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer names Hedda Gabler and the manuscript burned in the fire, matching the reference; omitting the stove is a minor detail."
+ },
+ {
+  "id": "e01",
+  "type": "explain",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer matches the reference on both points: the audience is still settling in and adjusting to the speaker's voice, so jokes fall flat, and the talk should open with an empowerment promise."
+ },
+ {
+  "id": "f05",
+  "type": "fact",
+  "system": "baseline",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer states 11 AM, which matches the reference."
+ },
+ {
+  "id": "f09",
+  "type": "fact",
+  "system": "moment",
+  "judge": "claude-opus-5-5",
+  "verdict": "correct",
+  "reason": "The answer correctly names Alan Lazarus, which is the key fact asked for; it omits the 8.01 course and the conservation-of-energy context but contradicts nothing."
+ }
+]
