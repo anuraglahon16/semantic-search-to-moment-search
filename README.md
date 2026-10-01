@@ -14,8 +14,7 @@ not the reference repo's sample video (3Blue1Brown's 8-minute *LLMs explained br
 
 ## What Moment Search does (codebase review)
 
-The reference codebase ([traversaal-ai/momentsearch](https://github.com/traversaal-ai/momentsearch))
-indexes videos as **moments**: points on a video's timeline that an answer can cite and jump to.
+
 
 | Moment Search (video) | This project (transcript only) |
 |---|---|
